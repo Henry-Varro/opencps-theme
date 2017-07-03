@@ -264,7 +264,7 @@
     white-space: nowrap;
 }
 .opencps-theme.ux .process-order-detail-container .remove-dossier-file:after {
-    content: "Xóa file";
+    content: "Xï¿½a file";
 }
 .opencps-theme.ux .process-order-detail-container .remove-dossier-file-has-file {
 	opacity: 1;
@@ -305,7 +305,7 @@
 	margin: 0;
 }
 
-/*----- Show hide + Xý ly button -----*/
+/*----- Show hide + Xu ly button -----*/
 
 #_16_WAR_opencpsportlet_processDossier {
 	margin-top: 5px;
