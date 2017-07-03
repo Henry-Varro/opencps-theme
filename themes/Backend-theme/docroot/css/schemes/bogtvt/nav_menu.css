@@ -1,0 +1,150 @@
+.opencps-theme.ux .nav-container {
+	background: #05253e url("../../../images/custom/bg_menu.png") 0 center repeat-x;
+	min-height: 50px;
+}
+.opencps-theme.ux .nav-container .top-menu {
+	margin: 0 auto;
+	width: 1170px;
+	display: table;
+}
+.opencps-theme.ux .nav-container .top-menu ul li, 
+.opencps-theme.ux .nav-container-small .top-menu ul li {
+	float: left;
+}
+.opencps-theme.ux .nav-container .top-menu ul li a, 
+.opencps-theme.ux .nav-container-small .top-menu ul li a {
+	color: #fff;
+	font-family: 'Roboto-Bold';
+	line-height: 51px;
+	display: block;
+	padding: 0 30px;
+	text-transform: uppercase;
+}
+.opencps-theme.ux .nav-container .top-menu.private ul li a {
+	text-transform: none;
+	font-size: 13px;
+	padding: 0 20px;
+}
+
+
+
+.opencps-theme.ux .nav-container-small {
+	display: inline-block;
+    float: right;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: url("../../../images/schemes/bogtvt/bg_menu.png") 0 0 repeat;
+    background-size: auto 100%;
+    padding: 5px 10px;
+    border-radius: 0 0 8px 8px;
+}
+.account-info {
+	float: right;
+	font-size: 13px;
+	color: #333;
+	font-family: 'Roboto-Bold';
+}
+.account-info span {
+	display: inline-block;
+}
+.account-info .logout a {
+	padding: 0 0 0 20px;
+	line-height: normal;
+	display: block;
+}
+.opencps-theme.ux .account-info .logout a:hover {
+	color: #09f;
+}
+.account-info .logout a:before {
+	content: "\f08b";
+	font-family: FontAwesome;
+	margin-right: 5px;
+}
+.account-info .account-name {
+    position: relative;
+    z-index: 10;
+    padding: 0 0 0 20px;
+    background: url("../../../images/custom/welcome_h.png") 0 center no-repeat;
+    line-height: normal;
+}
+.account-info .account-name .tooltiptext {
+    visibility: hidden;
+    background-color: #0090ff;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 7px 10px;
+    position: absolute;
+    z-index: 11;
+    bottom: -40px;
+    left: 50%;
+    line-height: normal;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    white-space: nowrap;
+}
+.account-info .account-name .tooltiptext:after {
+    content: " ";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -8px;
+    border-width: 8px;
+    border-style: solid;
+    border-color: transparent transparent #0090ff transparent;
+}
+.account-info .account-name:hover {
+	background: url("../../../images/custom/welcome_h.png") 0 center no-repeat;
+}
+.account-info .account-name:hover .tooltiptext {
+    visibility: visible;
+}
+
+/*--- Notification ---*/
+.account-info > div {
+	display: inline-block;
+}
+.account-info > div > span {
+	display: inline;
+}
+.opencps-theme .account-info .dockbar-user-notifications {
+	list-style: none;
+}
+.opencps-theme .account-info .dockbar-user-notifications .dropdown-toggle .user-notifications-count {
+	background-color: transparent;
+    margin: 0px 0 0 20px;
+    line-height: normal;
+    border: 0;
+    padding: 0;
+}
+.opencps-theme .account-info .dockbar-user-notifications .user-notifications-count:before {
+	content: "\f086";
+	font-family: FontAwesome;
+	margin-right: 5px;
+}
+.opencps-theme .account-info .user-notifications-header {
+	color: #444;
+}
+.opencps-theme .account-info .mark-all-as-read {
+	margin: 0;
+}
+.opencps-theme .account-info .user-notifications {
+	overflow: hidden;
+	margin-bottom: 15px;
+	color: #444;
+}
+.opencps-theme.ux .account-info .user-notification {
+	float: none;
+	margin: 0;
+    padding: 5px 10px;
+}
+.timestamp > .portlet-icon > span:first-child img {
+	display: none;
+}
+.timestamp > .portlet-icon > span:first-child:before {
+	content: "\f017";
+	font-family: FontAwesome;
+	font-size: 14px;
+	color: #5594e0;
+}

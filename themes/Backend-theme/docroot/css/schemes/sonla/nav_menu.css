@@ -1,0 +1,45 @@
+.opencps-theme.ux .sonla-theme .portlet-boundary_85_ {
+	margin-top: -27px;
+	border-top: 2px solid #ebebeb;
+}
+.opencps-theme.ux .portlet-boundary_85_:before {
+	background: white;
+}
+.opencps-theme.ux .portlet-boundary_85_ ul li {
+	margin: 0 13px;
+}
+.opencps-theme.ux .portlet-boundary_85_ ul li:first-child {
+    margin-left: 0;
+}
+.opencps-theme.ux .portlet-boundary_85_ ul li:last-child {
+    margin-right: 0;
+}
+.opencps-theme.ux .portlet-boundary_85_ ul li a {
+	padding: 0;
+}
+.opencps-theme.ux .portlet-boundary_85_ ul > li > a:after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    background: #021c31;
+    height: 4px;
+    -webkit-transition-property: left, right;
+    transition-property: left, right;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+.opencps-theme.ux .portlet-boundary_85_ ul:hover li.selected > a:after {
+    left: 50%;
+    right: 50%;
+}
+.opencps-theme.ux .portlet-boundary_85_ ul li:hover > a:after, 
+.opencps-theme.ux .portlet-boundary_85_ ul li:focus > a:after, 
+.opencps-theme.ux .portlet-boundary_85_ ul li.selected > a:after, 
+.opencps-theme.ux .portlet-boundary_85_ ul li.selected:hover > a:after {
+    left: 0;
+    right: 0;
+}

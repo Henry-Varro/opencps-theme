@@ -1,0 +1,677 @@
+.opencps-theme.ux .opcs-serviceinfo-list-label ~ .alert-info {
+    margin: 60px 10px 10px !important;
+}
+.opencps-form-navigator-container .form-navigator .des-sub-button {
+	width: 88%;
+	width: -webkit-calc(100% - 30px);
+	width: calc(100% - 30px);
+	text-align: left;
+	margin-top: 10px;
+}
+.opencps-form-navigator-container .form-navigator .des-sub-button:before {
+	content: "\f0c7";
+	font-family: FontAwesome;
+	margin: 0 1px 0 7px;
+}
+
+
+
+.lfr-search-container{
+	overflow: inherit;
+}
+
+/*--- Images Lua chon thu tuc - Portlet 13 ---*/
+.portlet-boundary_13_WAR_opencpsportlet_ ul li .img-lv-cnn {
+	background: url("../images/img-lvtt/congnghiepnhe00.png") 0 0 no-repeat;
+	background-size: 100% 100%;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.portlet-boundary_13_WAR_opencpsportlet_ ul li .img-lv-dvtm {
+	background: url("../images/img-lvtt/dichvuthuongmai00.png") 0 0 no-repeat;
+	background-size: 100% 100%;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.portlet-boundary_13_WAR_opencpsportlet_ ul li .img-lv-dtdl {
+	background: url("../images/img-lvtt/dieutietdienluc00.png") 0 0 no-repeat;
+	background-size: 100% 100%;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.portlet-boundary_13_WAR_opencpsportlet_ ul li .img-lv-lthhtn {
+	background: url("../images/img-lvtt/luuthonghanghoa00.png") 0 0 no-repeat;
+	background-size: 100% 100%;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.portlet-boundary_13_WAR_opencpsportlet_ ul li .img-lv-nl {
+	background: url("../images/img-lvtt/nangluong00.png") 0 0 no-repeat;
+	background-size: 100% 100%;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.portlet-boundary_13_WAR_opencpsportlet_ ul li .img-lv-vlncn {
+	background: url("../images/img-lvtt/nocongnghiep00.png") 0 0 no-repeat;
+	background-size: 100% 100%;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.portlet-boundary_13_WAR_opencpsportlet_ ul li .img-LV-QLCT {
+	background: url("../images/img-lvtt/quanlycanhtranh00.png") 0 0 no-repeat;
+	background-size: 100% 100%;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.portlet-boundary_13_WAR_opencpsportlet_ ul li .img-lv-tmdt {
+	background: url("../images/img-lvtt/thuongmaidientu00.png") 0 0 no-repeat;
+	background-size: 100% 100%;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.portlet-boundary_13_WAR_opencpsportlet_ ul li .img-lv-xnk {
+	background: url("../images/img-lvtt/xuatnhaukhau00.png") 0 0 no-repeat;
+	background-size: 100% 100%;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.opencps-theme .opencps-form-navigator-container .form-navigator-content .dossier-part-title-left, 
+.opencps-theme .opencps-form-navigator-container .form-navigator-content .dossier-part-title-right {
+	display: block;
+	max-width: 100%;
+    width: 100% !important;
+	line-height: normal;
+	margin: 0 -15px 10px;
+	overflow: hidden;
+	padding: 0;
+	border: 0;
+}
+.opencps-theme .opencps-form-navigator-container .form-navigator-content .dossier-part-title-right [class*="span"] {
+	min-height: 25px;
+}
+
+.opencps-theme.ux .form-navigator .search-container-action {
+	width: 88%;
+    width: -webkit-calc(100% - 30px);
+    width: calc(100% - 30px);
+	margin: 10px 0 0 15px;
+}
+.opencps-theme.ux .form-navigator .search-container-action a {
+	font-family: 'Roboto-Regular';	
+}
+
+.nav-content-row > .row-fluid {
+	margin: 0;
+}
+
+.form-navigator-content > div:nth-child(3) .span9 {
+	width: 65%;
+	padding-left: 0;
+}
+.form-navigator-content > div:nth-child(3) .span4,
+.form-navigator-content > div:nth-child(3) .span3,  
+.form-navigator-content > div:nth-child(3) .span5, 
+.form-navigator-content > div:nth-child(3) .span8, 
+.form-navigator-content > div:nth-child(3) .span10, 
+.form-navigator-content > div:nth-child(3) .span6 .span6, 
+.form-navigator-content > div:nth-child(3) > div:first-child .span2 {
+    padding: 0;
+}
+
+.opencps-form-navigator-container .tabbable-content {
+    display: -webkit-box;
+    display: flex;
+}
+
+.portlet-boundary_16_WAR_opencpsportlet_ .opencps-form-navigator-container .tab-content .dossier-actions-wraper {
+    max-width: 350px;
+    float: right;
+}
+
+
+/*--- Pop-up Portlet 13 ---*/
+
+.opencps-theme.ux .portlet-boundary_13_WAR_opencpsportlet_ .nav-tabs, 
+.opencps-theme.ux .portlet-boundary_16_WAR_opencpsportlet_ .nav-tabs, 
+.opencps-theme.ux .portlet-boundary_18_WAR_opencpsportlet_ .nav-tabs {
+	border-bottom: 5px solid #0191C6;
+    margin: 25px 0 0;
+}
+.opencps-theme.ux .portlet-boundary_13_WAR_opencpsportlet_ .nav-tabs li, 
+.opencps-theme.ux .portlet-boundary_16_WAR_opencpsportlet_ .nav-tabs li, 
+.opencps-theme.ux .portlet-boundary_18_WAR_opencpsportlet_ .nav-tabs li {
+	margin-bottom: 0;
+}
+.opencps-theme.ux .portlet-boundary_13_WAR_opencpsportlet_ .nav-tabs li a, 
+.opencps-theme.ux .portlet-boundary_16_WAR_opencpsportlet_ .nav-tabs li a, 
+.opencps-theme.ux .portlet-boundary_18_WAR_opencpsportlet_ .nav-tabs li a {
+	background: url("../images/bg_nav_normal.png") center center repeat;
+	border: 0;
+	padding: 10px 25px;
+	background-size: 100% 100%;
+	color: #444;
+}
+.opencps-theme.ux .portlet-boundary_13_WAR_opencpsportlet_ .nav-tabs li:hover a, 
+.opencps-theme.ux .portlet-boundary_16_WAR_opencpsportlet_ .nav-tabs li:hover a, 
+.opencps-theme.ux .portlet-boundary_18_WAR_opencpsportlet_ .nav-tabs li:hover a {
+	border: 0;
+	color: inherit;
+	background-color: transparent;
+}
+.opencps-theme.ux .portlet-boundary_13_WAR_opencpsportlet_ .nav-tabs li:not(:first-child), 
+.opencps-theme.ux .portlet-boundary_16_WAR_opencpsportlet_ .nav-tabs li:not(:first-child), 
+.opencps-theme.ux .portlet-boundary_18_WAR_opencpsportlet_ .nav-tabs li:not(:first-child) {
+	margin-left: -10px;
+}
+.opencps-theme.ux .portlet-boundary_13_WAR_opencpsportlet_ .nav-tabs li.active a, 
+.opencps-theme.ux .portlet-boundary_13_WAR_opencpsportlet_ .nav-tabs li.active a:hover, 
+.opencps-theme.ux .portlet-boundary_16_WAR_opencpsportlet_ .nav-tabs li.active a, 
+.opencps-theme.ux .portlet-boundary_16_WAR_opencpsportlet_ .nav-tabs li.active a:hover, 
+.opencps-theme.ux .portlet-boundary_18_WAR_opencpsportlet_ .nav-tabs li.active a, 
+.opencps-theme.ux .portlet-boundary_18_WAR_opencpsportlet_ .nav-tabs li.active a:hover {
+	background: transparent url("../images/bg_nav_active.png") center center no-repeat;
+	color: white !important;
+	background-size: 100% 100%;
+	border: 0;
+	position: relative;
+    z-index: 1;
+}
+
+/*- Pop-up -*/
+.modal-header {
+	text-align: center;
+}
+.page-theme .modal .modal-body {
+	overflow: hidden;
+}
+
+.dialog-iframe-root-node .portlet-boundary_13_WAR_opencpsportlet_ .nav-tabs, 
+.dialog-iframe-root-node .portlet-boundary_16_WAR_opencpsportlet_ .nav-tabs {
+	border-bottom: 5px solid #0191C6;
+    margin: 25px 0 0;
+}
+.dialog-iframe-root-node .portlet-boundary_13_WAR_opencpsportlet_ .nav-tabs li, 
+.dialog-iframe-root-node .portlet-boundary_16_WAR_opencpsportlet_ .nav-tabs li {
+	margin-bottom: 0;
+}
+.dialog-iframe-root-node .portlet-boundary_13_WAR_opencpsportlet_ .nav-tabs li a, 
+.dialog-iframe-root-node .portlet-boundary_16_WAR_opencpsportlet_ .nav-tabs li a {
+	background: url("../images/bg_nav_normal.png") center center repeat;
+	border: 0;
+	padding: 10px 25px;
+	background-size: 100% 100%;
+}
+.dialog-iframe-root-node .portlet-boundary_13_WAR_opencpsportlet_ .nav-tabs li:not(:first-child), 
+.dialog-iframe-root-node .portlet-boundary_16_WAR_opencpsportlet_ .nav-tabs li:not(:first-child) {
+	margin-left: -10px;
+}
+.dialog-iframe-root-node .portlet-boundary_13_WAR_opencpsportlet_ .nav-tabs li.active a, 
+.dialog-iframe-root-node .portlet-boundary_13_WAR_opencpsportlet_ .nav-tabs li.active a:hover, 
+.dialog-iframe-root-node .portlet-boundary_16_WAR_opencpsportlet_ .nav-tabs li.active a, 
+.dialog-iframe-root-node .portlet-boundary_16_WAR_opencpsportlet_ .nav-tabs li.active a:hover {
+	background: transparent url("../images/bg_nav_active.png") center center no-repeat;
+	color: white !important;
+	background-size: 100% 100%;
+	border: 0;
+	position: relative;
+    z-index: 1;
+}
+.dialog-iframe-root-node .portlet-boundary_13_WAR_opencpsportlet_ .portlet-body > div, 
+.dialog-iframe-root-node .portlet-boundary_16_WAR_opencpsportlet_ .portlet-body > div {
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.75);
+	box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.75);
+	padding: 30px 20px;
+}
+.dialog-iframe-root-node .portlet-boundary_13_WAR_opencpsportlet_ label, 
+.dialog-iframe-root-node .portlet-boundary_16_WAR_opencpsportlet_ label {
+	display: block;
+	float: left;
+	margin-bottom: 0;
+}
+.dialog-iframe-root-node .portlet-boundary_13_WAR_opencpsportlet_ .control-group, 
+.dialog-iframe-root-node .portlet-boundary_16_WAR_opencpsportlet_ .control-group {
+	overflow: hidden;
+}
+.dialog-iframe-root-node .portlet-boundary_13_WAR_opencpsportlet_ .span12 .control-label, 
+.dialog-iframe-root-node .portlet-boundary_16_WAR_opencpsportlet_ .span12 .control-label {
+	width: 15%;
+} 
+.dialog-iframe-root-node .portlet-boundary_13_WAR_opencpsportlet_ .span12 textarea, 
+.dialog-iframe-root-node .portlet-boundary_16_WAR_opencpsportlet_ .span12 textarea {
+	width: 85%;
+}
+.dialog-iframe-root-node .portlet-boundary_13_WAR_opencpsportlet_ .span6 .control-label, 
+.dialog-iframe-root-node .portlet-boundary_16_WAR_opencpsportlet_ .span6 .control-label {
+	width: 30%;
+} 
+.dialog-iframe-root-node .portlet-boundary_13_WAR_opencpsportlet_ div.span6:first-child, 
+.dialog-iframe-root-node .portlet-boundary_16_WAR_opencpsportlet_ div.span6:first-child {
+	padding-right: 0;
+}
+.dialog-iframe-root-node .portlet-boundary_13_WAR_opencpsportlet_ .span6 input[type="text"], 
+.dialog-iframe-root-node .portlet-boundary_16_WAR_opencpsportlet_ .span6 input[type="text"] {
+	width: 70%;
+}
+.dialog-iframe-root-node .portlet-boundary_13_WAR_opencpsportlet_ .span6 .lfr-input-date input[type="text"], 
+.dialog-iframe-root-node .portlet-boundary_16_WAR_opencpsportlet_ .span6 .lfr-input-date input[type="text"] {
+	width: 100%;
+}
+.dialog-iframe-root-node .portlet-boundary_13_WAR_opencpsportlet_ .portlet-body > div .row-fluid:last-child, 
+.dialog-iframe-root-node .portlet-boundary_16_WAR_opencpsportlet_ .portlet-body > div .row-fluid:last-child {
+	text-align: center;
+}
+.dialog-iframe-root-node .portlet-boundary_13_WAR_opencpsportlet_ .portlet-body .custom-toolbar, 
+.dialog-iframe-root-node .portlet-boundary_16_WAR_opencpsportlet_ .portlet-body .custom-toolbar {
+	background: transparent url("../images/bg_gradient.png") 0 center repeat;
+	border-color: #777777;
+	padding-bottom: 10px;
+	background-size: 100% 100%;
+}
+.dialog-iframe-root-node .portlet-boundary_13_WAR_opencpsportlet_ .portlet-body .custom-toolbar .form-search, 
+.dialog-iframe-root-node .portlet-boundary_16_WAR_opencpsportlet_ .portlet-body .custom-toolbar .form-search {
+	margin-top: 10px;
+}
+.dialog-iframe-root-node .portlet-boundary_13_WAR_opencpsportlet_ .portlet-body .custom-toolbar .form-search .control-group, 
+.dialog-iframe-root-node .portlet-boundary_16_WAR_opencpsportlet_ .portlet-body .custom-toolbar .form-search .control-group {
+	margin-bottom: 0;
+}
+.dialog-iframe-root-node .portlet-boundary_13_WAR_opencpsportlet_ .portlet-body .custom-toolbar .form-search .checkbox.inline, 
+.dialog-iframe-root-node .portlet-boundary_16_WAR_opencpsportlet_ .portlet-body .custom-toolbar .form-search .checkbox.inline {
+	margin-top: 4px;
+}
+.dialog-iframe-root-node .portlet-boundary_13_WAR_opencpsportlet_ .portlet-body .custom-toolbar .form-search .input-append, 
+.dialog-iframe-root-node .portlet-boundary_16_WAR_opencpsportlet_ .portlet-body .custom-toolbar .form-search .input-append {
+	display: -webkit-box;
+	display: flex;
+}
+.dialog-iframe-root-node .portlet-boundary_13_WAR_opencpsportlet_ .portlet-body .custom-toolbar .form-search .input-append input[type="text"], 
+.dialog-iframe-root-node .portlet-boundary_16_WAR_opencpsportlet_ .portlet-body .custom-toolbar .form-search .input-append input[type="text"] {
+	width: 100%;
+	border: 1px solid #ccc;
+    border-radius: 10px 0 0 10px;
+}
+.dialog-iframe-root-node .portlet-boundary_13_WAR_opencpsportlet_ .portlet-body .custom-toolbar .form-search .input-append button, 
+.dialog-iframe-root-node .portlet-boundary_16_WAR_opencpsportlet_ .portlet-body .custom-toolbar .form-search .input-append button {
+	border: 0;
+    border-radius: 0 10px 10px 0;
+    margin-left: -1px;
+    background-color: #0191c6;
+    color: white;
+}
+.dialog-iframe-root-node .portlet-boundary_13_WAR_opencpsportlet_ .portlet-body .searchcontainer-content table th, 
+.dialog-iframe-root-node .portlet-boundary_16_WAR_opencpsportlet_ .portlet-body .searchcontainer-content table th {
+	background-color: #0191c6;
+	color: white;
+}
+.dialog-iframe-root-node .portlet-boundary_13_WAR_opencpsportlet_ .portlet-body .searchcontainer-content table td:not(:first-child):not(:nth-child(2)) {
+	min-width: 230px;
+	width: 31%;
+}
+
+.dialog-iframe-root-node .portlet-boundary_13_WAR_opencpsportlet_ .lfr-pagination-config {
+	line-height: normal;
+}
+.dialog-iframe-root-node .portlet-boundary_13_WAR_opencpsportlet_ #_13_WAR_opencpsportlet_dossiersSearchContainer table {
+	margin-top: 15px;
+}
+.dialog-iframe-root-node .portlet-boundary_13_WAR_opencpsportlet_ #_13_WAR_opencpsportlet_dossiersSearchContainer table .row-fluid {
+	margin: 0;
+}
+.dialog-iframe-root-node .portlet-boundary_13_WAR_opencpsportlet_ #_13_WAR_opencpsportlet_dossiersSearchContainer table [class*="span"] {
+	padding: 0;
+}
+.dialog-iframe-root-node .portlet-boundary_13_WAR_opencpsportlet_ #_13_WAR_opencpsportlet_dossiersSearchContainer table td {
+	border: 0;
+	border-bottom: 1px solid #ccc;
+	position: relative;
+}
+.dialog-iframe-root-node .portlet-boundary_13_WAR_opencpsportlet_ #_13_WAR_opencpsportlet_dossiersSearchContainer table td:after {
+	content: "";
+	position: absolute;
+	width: 1px;
+	background-color: #ccc;
+	height: 70%;
+	top: 15%;
+	right: 0;
+}
+.dialog-iframe-root-node .portlet-boundary_13_WAR_opencpsportlet_ #_13_WAR_opencpsportlet_dossiersSearchContainer table td:last-child:after {
+	width: 0;
+}
+.dialog-iframe-root-node .portlet-boundary_13_WAR_opencpsportlet_ .portlet-body > div table .row-fluid:last-child {
+	text-align: left;
+}
+.dialog-iframe-root-node .portlet-boundary_13_WAR_opencpsportlet_ #_13_WAR_opencpsportlet_dossiersSearchContainer table tr:last-child td {
+	border-bottom: 0;
+} 
+.dialog-iframe-root-node .portlet-boundary_13_WAR_opencpsportlet_ #_13_WAR_opencpsportlet_dossiersSearchContainer table td:not(:first-child):not(:last-child) {
+	min-width: 240px;
+	max-width: 300px;
+}
+.dialog-iframe-root-node .portlet-boundary_13_WAR_opencpsportlet_ #_13_WAR_opencpsportlet_dossiersSearchContainer table td:last-child {
+	min-width: 1px;
+}
+.dialog-iframe-root-node .portlet-boundary_13_WAR_opencpsportlet_ #_13_WAR_opencpsportlet_dossiersSearchContainer table td .opens-new-window-accessible {
+	display: none;
+}
+.dialog-iframe-root-node .portlet-boundary_13_WAR_opencpsportlet_ #_13_WAR_opencpsportlet_dossiersSearchContainer table td a.btn {
+	padding: 5px 12px;
+    background-color: #0f97ff;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    display: block;
+    text-align: center;
+}
+.dialog-iframe-root-node .portlet-boundary_13_WAR_opencpsportlet_ #_13_WAR_opencpsportlet_dossiersSearchContainer table td a:hover, 
+.dialog-iframe-root-node .portlet-boundary_13_WAR_opencpsportlet_ #_13_WAR_opencpsportlet_dossiersSearchContainer table td a:focus {
+	text-decoration: none;
+}
+
+#_13_WAR_opencpsportlet_dossier_info > .row-fluid > [class*="span"] {
+	padding: 0
+}
+
+/*--- Portlet 16 ---*/
+
+.dialog-iframe-root-node .portlet-boundary_13_WAR_opencpsportlet_ .export-report, 
+.dialog-iframe-root-node .portlet-boundary_13_WAR_opencpsportlet_ #_16_WAR_opencpsportlet_save, 
+.dialog-iframe-root-node .portlet-boundary_13_WAR_opencpsportlet_ #_16_WAR_opencpsportlet_preview, 
+.dialog-iframe-root-node .portlet-boundary_16_WAR_opencpsportlet_ .export-report, 
+.dialog-iframe-root-node .portlet-boundary_16_WAR_opencpsportlet_ #_16_WAR_opencpsportlet_save, 
+.dialog-iframe-root-node .portlet-boundary_16_WAR_opencpsportlet_ #_16_WAR_opencpsportlet_preview {
+	margin: 0 5px;
+}
+.dialog-iframe-root-node .portlet-boundary_13_WAR_opencpsportlet_ .export-report:first-child, 
+.dialog-iframe-root-node .portlet-boundary_13_WAR_opencpsportlet_ #_16_WAR_opencpsportlet_save, 
+.dialog-iframe-root-node .portlet-boundary_16_WAR_opencpsportlet_ .export-report:first-child, 
+.dialog-iframe-root-node .portlet-boundary_16_WAR_opencpsportlet_ #_16_WAR_opencpsportlet_save {
+	margin-left: 0;
+}
+.dialog-iframe-root-node .portlet-boundary_13_WAR_opencpsportlet_ .export-report, 
+.dialog-iframe-root-node .portlet-boundary_13_WAR_opencpsportlet_ .export-report a, 
+.dialog-iframe-root-node .portlet-boundary_13_WAR_opencpsportlet_ .btn, 
+.dialog-iframe-root-node .portlet-boundary_16_WAR_opencpsportlet_ .export-report, 
+.dialog-iframe-root-node .portlet-boundary_16_WAR_opencpsportlet_ .export-report a, 
+.dialog-iframe-root-node .portlet-boundary_16_WAR_opencpsportlet_ .btn {
+	background-color: #0271c7;
+	color: white;
+	border: 0;
+}
+.dialog-iframe-root-node .portlet-boundary_13_WAR_opencpsportlet_ .export-report a:hover, 
+.dialog-iframe-root-node .portlet-boundary_16_WAR_opencpsportlet_ .export-report a:hover {
+	color: white !important;
+	background-color: #0271c7;
+}
+.dialog-iframe-root-node .portlet-boundary_13_WAR_opencpsportlet_ .fieldset > .row-fluid, 
+.dialog-iframe-root-node .portlet-boundary_16_WAR_opencpsportlet_ .fieldset > .row-fluid {
+	margin: 0;
+}
+.dialog-iframe-root-node .portlet-boundary_13_WAR_opencpsportlet_ .export-report, 
+.dialog-iframe-root-node .portlet-boundary_16_WAR_opencpsportlet_ .export-report {
+	padding: 6px 12px 5px 0;
+}
+.dialog-iframe-root-node .portlet-boundary_13_WAR_opencpsportlet_ .dropdown-toggle, 
+.dialog-iframe-root-node .portlet-boundary_16_WAR_opencpsportlet_ .dropdown-toggle {
+	padding: 0 0 0 10px;
+} 
+
+
+
+#_16_WAR_opencpsportlet_assignTaskContainer {
+	padding: 10px 20px 0;
+}
+
+/* Xu ly ho so */
+.opencps-theme.ux .portlet-boundary_16_WAR_opencpsportlet_ .opencps-form-navigator-container .taglib-form-navigator .tabbable-content .form-navigator-content .tab-pane {
+    padding: 20px 0 10px;
+}
+.portlet-boundary_16_WAR_opencpsportlet_ .opencps-form-navigator-container .tab-content table, 
+.portlet-boundary_16_WAR_opencpsportlet_ .opencps-form-navigator-container .tab-content table tr, 
+.portlet-boundary_16_WAR_opencpsportlet_ .opencps-form-navigator-container .tab-content table th, 
+.portlet-boundary_16_WAR_opencpsportlet_ .opencps-form-navigator-container .tab-content table td {
+	border: 0;
+}
+.portlet-boundary_16_WAR_opencpsportlet_ .opencps-form-navigator-container .tab-content table:not(.dossier-actions-wraper) td {
+    border-bottom: 1px solid #ccc;
+    padding: 8px 20px;
+}
+.portlet-boundary_16_WAR_opencpsportlet_ .opencps-form-navigator-container .tab-pane > div > table td:first-child, 
+.portlet-boundary_16_WAR_opencpsportlet_ .opencps-form-navigator-container .tab-pane > div > table td:nth-child(3) {
+    font-family: 'Roboto-Bold';
+    width: 205px;
+}
+.portlet-boundary_16_WAR_opencpsportlet_ .opencps-form-navigator-container .tab-content table tr:last-child td {
+    border-bottom: 0;
+}
+
+/* Noi dung ho so */
+.opencps-theme.ux .portlet-boundary_16_WAR_opencpsportlet_ .opencps-form-navigator-container .taglib-form-navigator .tabbable-content .form-navigator-content #_16_WAR_opencpsportlet_dossier_content {
+	padding: 20px 30px;
+}
+.portlet-boundary_16_WAR_opencpsportlet_ #_16_WAR_opencpsportlet_dossier_content .opencps.dossiermgt.dossier-part-control {
+	width: 240px;
+	vertical-align: middle;
+}
+
+/* Quy trinh xu ly*/
+#_16_WAR_opencpsportlet_process .opencps.dossiermgt.dossier-part-tree {
+	padding: 0 30px;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.portlet-boundary_16_WAR_opencpsportlet_ div.tab-pane:not(#_16_WAR_opencpsportlet_dossier_content) .opencps.dossiermgt.dossier-part-control {
+	width: auto;
+	max-width: none;
+}
+.portlet-boundary_16_WAR_opencpsportlet_ .process-workflow-action {
+	margin: 0;
+}
+.portlet-boundary_16_WAR_opencpsportlet_ .process-workflow-action button.btn {
+	margin-left: 15px;
+}
+
+/* Qua trinh xu ly */
+.portlet-boundary_16_WAR_opencpsportlet_ .ocps-title-detail {
+	padding: 0 30px;
+	border-bottom: 1px solid #ccc;
+}
+.portlet-boundary_16_WAR_opencpsportlet_ .ocps-title-detail label {
+	display: inline-block;
+	width: 100px;
+	margin-right: 10px;
+	vertical-align: top;
+	font-family: 'Roboto-Bold'
+}
+.portlet-boundary_16_WAR_opencpsportlet_ .ocps-title-detail p {
+	display: inline-block;
+	width: -webkit-calc(100% - 114px);
+	width: calc(100% - 114px);
+}
+.portlet-boundary_16_WAR_opencpsportlet_ .bound-search-container-history {
+	padding: 0 30px;
+}
+.portlet-boundary_16_WAR_opencpsportlet_ .bound-search-container-history .top-line:first-child {
+	border: 0;
+}
+.portlet-boundary_16_WAR_opencpsportlet_ .span8 {
+	padding: 0;
+}
+.portlet-boundary_16_WAR_opencpsportlet_ [class*="span"] {
+	line-height: 20px;
+	margin-bottom: 10px;
+}
+.portlet-boundary_16_WAR_opencpsportlet_ .bound-search-container-history > .row-fluid > [class*="span"], 
+.portlet-boundary_16_WAR_opencpsportlet_ .bound-search-container-history .row-fluid:last-child [class*="span"] {
+	margin-bottom: 0;
+}
+
+/*----- Search Container -----*/
+.opencps-theme.ux .opencps-searchcontainer-wrapper.mrb25 {
+	margin-bottom: 40px;
+}
+
+.opencps-theme.ux .opencps-searchcontainer-wrapper {
+    background-color: #fff;
+    border: 1px solid #e1e1e1;
+    border-radius: 8px;
+    padding: 10px 0;
+}
+.opencps-theme.ux .opencps-searchcontainer-wrapper .searchcontainer-content table {
+	border-top: none;
+	border-right: none;
+}
+.opencps-theme.ux .opencps-searchcontainer-wrapper .searchcontainer-content table thead {
+	display: none;
+}
+.opencps-theme.ux .opencps-searchcontainer-wrapper .searchcontainer-content table tr:hover {
+	background-color: #f6f6f6;
+}
+.opencps-theme.ux .opencps-searchcontainer-wrapper .searchcontainer-content table tr td {
+	background: transparent none;
+	border: 0;
+	border-top: 1px solid #e1e1e1;
+	position: relative;
+	padding: 15px;
+}
+.opencps-theme.ux .opencps-searchcontainer-wrapper .searchcontainer-content table tr td:after {
+	content: "";
+	border-right: 1px solid #e1e1e1;
+	width: 1px;
+	height: calc(100% - 30px);
+	position: absolute;
+	right: 0;
+	top: 15px;
+} 
+.opencps-theme.ux .opencps-searchcontainer-wrapper .searchcontainer-content table tr td:last-child:after {
+	border-right: none;
+}
+.opencps-theme.ux .opencps-searchcontainer-wrapper .searchcontainer-content table tr td .row-fluid {
+	min-width: 270px;
+}
+/* .opencps-theme.ux .opencps-searchcontainer-wrapper .searchcontainer-content table tr .last {
+	width: 1%;
+} */
+.opencps-theme.ux .opencps-searchcontainer-wrapper .searchcontainer-content table tr td.width80 {
+	width: 80px;
+}
+.opencps-theme.ux .opencps-searchcontainer-wrapper .searchcontainer-content table tr td .min-width10 {
+	min-width: 10px;
+	text-align: center;
+}
+.opencps-theme.ux .opencps-searchcontainer-wrapper .searchcontainer-content table tr td .bold, 
+.opencps-theme.ux .opencps-searchcontainer-wrapper .searchcontainer-content table tr td .bold-label {
+	color: #333;
+	font-size: 13px;
+	font-weight: bold;
+	white-space: nowrap !important;
+	/* width: 120px; */
+}
+.opencps-theme.ux .opencps-searchcontainer-wrapper .taglib-search-iterator-page-iterator-bottom .lfr-pagination-config {
+	display: none;
+}
+.opencps-theme.ux .opencps-searchcontainer-wrapper .taglib-search-iterator-page-iterator-bottom .pager {
+	float: none;
+	box-shadow: none;
+}
+.opencps-theme.ux .opencps-searchcontainer-wrapper [class*="span"] {
+	min-height: 20px;
+	margin: 0 0 10px;
+}
+.opencps-theme.ux .opencps-searchcontainer-wrapper .row-fluid > .span1 {
+	width: 25px;
+}
+/* .opencps-theme.ux .opencps-searchcontainer-wrapper [class*="span"]:last-child {
+	padding-left: 0;
+	width: calc(100% - 150px);
+} */
+.opencps-theme.ux .opencps-searchcontainer-wrapper .span9:last-child {
+	padding-left: 15px;
+}
+
+.opencps-theme.ux .opencps-searchcontainer-wrapper .span2 {
+    width: 23%;
+}
+.opencps-theme.ux .opencps-searchcontainer-wrapper .span9 {
+    width: 65%;
+    margin: 0;
+}
+
+
+
+
+.lfr-search-container > .searchcontainer:first-child {
+    margin-top: 60px;
+}
+
+
+
+.opencps-theme.ux  .ocps-submit-online > div > .row-fluid {
+	margin: 0;
+}
+
+
+
+.opencps-theme.ux .portlet-boundary_16_WAR_opencpsportlet_ .opencps-toptabs {
+	margin-top: -25px;
+}
+
+.opencps-theme.ux #column-1.span3, 
+.opencps-theme.ux #column-1.span4 {
+	width: 270px;
+	float: left;
+}
+.opencps-theme.ux #column-2.span8, 
+.opencps-theme.ux #column-2.span9 {
+	width: 870px;
+	margin-left: 30px;
+	float: left;
+}
+
+.opencps-theme.ux .signature-file-list {
+	width: 100%;
+	height: auto;
+	overflow: auto;
+}
+
+
+
+.opencps-theme #_13_WAR_opencpsportlet_result > .row-fluid:nth-child(2) > .span6 .row-fluid, 
+.opencps-theme #_16_WAR_opencpsportlet_result > .row-fluid:nth-child(2) > .span6 .row-fluid {
+	margin-bottom: 5px;
+}
+.opencps-theme #_13_WAR_opencpsportlet_result > .row-fluid:nth-child(2) > .span6 .row-fluid:last-child, 
+.opencps-theme #_16_WAR_opencpsportlet_result > .row-fluid:nth-child(2) > .span6 .row-fluid:last-child {
+	margin-bottom: 0;
+}
+.opencps-theme #_13_WAR_opencpsportlet_result > .pd_t20:nth-child(3), 
+.opencps-theme #_16_WAR_opencpsportlet_result > .pd_t20:nth-child(3) {
+	padding-top: 0;
+} 
+
+
+
+.required, .help-inline {
+	color: #a94442;
+}
+
+
+
+.opencps-theme div[id*="_20_WAR_opencpsportlet_paymentFilesSearchContainer"] table td:first-child, 
+.opencps-theme div[id*="_20_WAR_opencpsportlet_paymentFilesSearchContainer"] table td:nth-child(4) {
+    width: 1%;
+    padding: 15px !important;
+}
+.opencps-theme div[id*="_20_WAR_opencpsportlet_paymentFilesSearchContainer"] table td:nth-child(2) {
+    width: 42%;
+}

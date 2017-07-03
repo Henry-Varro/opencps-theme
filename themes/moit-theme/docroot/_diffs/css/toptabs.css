@@ -1,0 +1,132 @@
+.opencps-theme.ux .portlet-boundary_13_WAR_opencpsportlet_ .nav-tabs, 
+.opencps-theme.ux .portlet-boundary_16_WAR_opencpsportlet_ .nav-tabs, 
+.opencps-theme.ux .portlet-boundary_18_WAR_opencpsportlet_ .nav-tabs {
+	border-bottom: 5px solid #0191C6;
+    margin: 0 0 25px;
+}
+.opencps-theme.ux .portlet-boundary_13_WAR_opencpsportlet_ .nav-tabs li, 
+.opencps-theme.ux .portlet-boundary_16_WAR_opencpsportlet_ .nav-tabs li, 
+.opencps-theme.ux .portlet-boundary_18_WAR_opencpsportlet_ .nav-tabs li {
+	margin-bottom: 0;
+}
+.opencps-theme.ux .portlet-boundary_13_WAR_opencpsportlet_ .nav-tabs li a, 
+.opencps-theme.ux .portlet-boundary_16_WAR_opencpsportlet_ .nav-tabs li a, 
+.opencps-theme.ux .portlet-boundary_18_WAR_opencpsportlet_ .nav-tabs li a {
+	background: url("../images/bg_nav_normal.png") center center repeat;
+	border: 0;
+	padding: 10px 25px;
+	background-size: 100% 100%;
+	color: #444;
+}
+.opencps-theme.ux .portlet-boundary_13_WAR_opencpsportlet_ .nav-tabs li:hover a, 
+.opencps-theme.ux .portlet-boundary_16_WAR_opencpsportlet_ .nav-tabs li:hover a, 
+.opencps-theme.ux .portlet-boundary_18_WAR_opencpsportlet_ .nav-tabs li:hover a {
+	border: 0;
+	color: inherit;
+	background-color: transparent;
+}
+.opencps-theme.ux .portlet-boundary_13_WAR_opencpsportlet_ .nav-tabs li:not(:first-child), 
+.opencps-theme.ux .portlet-boundary_16_WAR_opencpsportlet_ .nav-tabs li:not(:first-child), 
+.opencps-theme.ux .portlet-boundary_18_WAR_opencpsportlet_ .nav-tabs li:not(:first-child) {
+	margin-left: -10px;
+}
+.opencps-theme.ux .portlet-boundary_13_WAR_opencpsportlet_ .nav-tabs li.active a, 
+.opencps-theme.ux .portlet-boundary_13_WAR_opencpsportlet_ .nav-tabs li.active a:hover, 
+.opencps-theme.ux .portlet-boundary_16_WAR_opencpsportlet_ .nav-tabs li.active a, 
+.opencps-theme.ux .portlet-boundary_16_WAR_opencpsportlet_ .nav-tabs li.active a:hover, 
+.opencps-theme.ux .portlet-boundary_18_WAR_opencpsportlet_ .nav-tabs li.active a, 
+.opencps-theme.ux .portlet-boundary_18_WAR_opencpsportlet_ .nav-tabs li.active a:hover {
+	background: transparent url("../images/bg_nav_active.png") center center no-repeat;
+	color: white !important;
+	background-size: 100% 100%;
+	border: 0;
+	position: relative;
+    z-index: 1;
+}
+
+/* .opencps-theme.ux  .portlet-boundary_13_WAR_opencpsportlet_ .opencps-toptabs,
+.opencps-theme.ux  .portlet-boundary_16_WAR_opencpsportlet_ .opencps-toptabs, 
+.opencps-theme.ux  .portlet-boundary_18_WAR_opencpsportlet_ .opencps-toptabs {
+	background-color: #2ea4ff;
+	height: 44px;
+	color: white;
+	font-family: 'Roboto-Bold';
+	margin-bottom: 20px;
+	margin-top: -30px;
+	position: relative;
+}
+.opencps-theme.ux  .portlet-boundary_13_WAR_opencpsportlet_ .opencps-toptabs:before,
+.opencps-theme.ux  .portlet-boundary_16_WAR_opencpsportlet_ .opencps-toptabs:before, 
+.opencps-theme.ux  .portlet-boundary_18_WAR_opencpsportlet_ .opencps-toptabs:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: -400%;
+	width: 900%;
+	height: 100%;
+	background-color: #2ea4ff;
+}
+.opencps-theme.ux  .portlet-boundary_13_WAR_opencpsportlet_ .opencps-toptabs ul, 
+.opencps-theme.ux  .portlet-boundary_16_WAR_opencpsportlet_ .opencps-toptabs ul, 
+.opencps-theme.ux  .portlet-boundary_18_WAR_opencpsportlet_ .opencps-toptabs ul {
+	margin: 0;
+	border-bottom: 0;
+}
+.opencps-theme.ux  .portlet-boundary_13_WAR_opencpsportlet_ .opencps-toptabs ul li, 
+.opencps-theme.ux  .portlet-boundary_16_WAR_opencpsportlet_ .opencps-toptabs ul li, 
+.opencps-theme.ux  .portlet-boundary_18_WAR_opencpsportlet_ .opencps-toptabs ul li {
+	float: left
+}
+.opencps-theme.ux  .portlet-boundary_13_WAR_opencpsportlet_ .opencps-toptabs ul li a, 
+.opencps-theme.ux  .portlet-boundary_16_WAR_opencpsportlet_ .opencps-toptabs ul li a, 
+.opencps-theme.ux  .portlet-boundary_18_WAR_opencpsportlet_ .opencps-toptabs ul li a {
+	padding: 0 30px;
+	line-height: 42px;
+	display: block;
+	opacity: 0.9;
+	position: relative;
+	background: transparent none;
+}
+.opencps-theme.ux  .portlet-boundary_13_WAR_opencpsportlet_ .opencps-toptabs ul li a:before, 
+.opencps-theme.ux  .portlet-boundary_16_WAR_opencpsportlet_ .opencps-toptabs ul li a:before, 
+.opencps-theme.ux  .portlet-boundary_18_WAR_opencpsportlet_ .opencps-toptabs ul li a:before {
+	content: "";
+	pointer-events: none;
+	position: absolute;
+	z-index: -1;
+	border-style: solid;
+	left: calc(50% - 10px);
+	bottom: 0px;
+	border-width: 10px 10px 0 10px;
+	border-color: #2ea4ff transparent transparent transparent;
+	opacity: 0;
+}
+.opencps-theme.ux  .portlet-boundary_13_WAR_opencpsportlet_ .nav-tabs .active a:before, 
+.opencps-theme.ux  .portlet-boundary_16_WAR_opencpsportlet_ .nav-tabs .active a:before, 
+.opencps-theme.ux  .portlet-boundary_18_WAR_opencpsportlet_ .nav-tabs .active a:before {
+	-webkit-transform: translateY(10px);
+	transform: translateY(10px);
+	opacity: 1
+}
+.opencps-theme.ux  .portlet-boundary_13_WAR_opencpsportlet_ .nav-tabs .tab a:hover, 
+.opencps-theme.ux  .portlet-boundary_16_WAR_opencpsportlet_ .nav-tabs .tab a:hover, 
+.opencps-theme.ux  .portlet-boundary_18_WAR_opencpsportlet_ .nav-tabs .tab a:hover {
+	background-color: rgba(255, 0, 0, 0);
+	border-color: rgba(255, 0, 0, 0);
+}
+.opencps-theme.ux  .portlet-boundary_13_WAR_opencpsportlet_ .nav-tabs .tab a, 
+.opencps-theme.ux  .portlet-boundary_16_WAR_opencpsportlet_ .nav-tabs .tab a, 
+.opencps-theme.ux  .portlet-boundary_18_WAR_opencpsportlet_ .nav-tabs .tab a {
+    color: #DAE7E1;
+	text-decoration: none;
+}
+.opencps-theme.ux  .portlet-boundary_13_WAR_opencpsportlet_ .nav-tabs .active a, 
+.opencps-theme.ux  .portlet-boundary_13_WAR_opencpsportlet_ .nav-tabs .active a:hover, 
+.opencps-theme.ux  .portlet-boundary_16_WAR_opencpsportlet_ .nav-tabs .active a, 
+.opencps-theme.ux  .portlet-boundary_16_WAR_opencpsportlet_ .nav-tabs .active a:hover, 
+.opencps-theme.ux  .portlet-boundary_18_WAR_opencpsportlet_ .nav-tabs .active a, 
+.opencps-theme.ux  .portlet-boundary_18_WAR_opencpsportlet_ .nav-tabs .active a:hover {
+	color: #fff !important;
+	background-color: rgba(255, 0, 0, 0);
+	border-color: rgba(255, 0, 0, 0);
+} */

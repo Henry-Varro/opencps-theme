@@ -1,0 +1,55 @@
+#banner {
+  position: relative;
+  background-color: #195db2; }
+
+#banner .header {
+  height: 80px;
+  background: url("../../../images/schemes/moit/trongdong-head.png") center 0 no-repeat;
+  background-size: cover; }
+
+#banner .logo img {
+  max-width: 480px;
+  width: 100%;
+  height: auto;
+  margin-top: 5px;
+  display: block; }
+
+#banner .side-head {
+  position: relative;
+  width: 55%;
+  float: right;
+  height: 100%; }
+
+#banner .side-head .sub-menu {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  padding: 0 5px;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%); }
+
+#banner .header ul li {
+  list-style: none;
+  position: relative;
+  float: left;
+  padding: 0 10px; }
+
+#banner .header ul li:before {
+  content: "";
+  position: absolute;
+  top: 35%;
+  height: 30%;
+  right: 0;
+  width: 1px;
+  background-color: white; }
+
+#banner .header ul li:last-child:before {
+  width: 0; }
+
+#banner .header .sub-menu a {
+  padding: 10px 0;
+  color: white;
+  font-size: 13px;
+  font-family: 'Roboto-Medium';
+  display: block; }
+

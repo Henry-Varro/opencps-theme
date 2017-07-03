@@ -1,0 +1,706 @@
+@media (max-width: 1365px) {
+	
+	/*----- Nav -----*/
+	#banner > .navbar .navbar-brand {
+		margin-right: 80px;
+	}
+	#banner > .navbar .navbar-brand img {
+		width: 75%;
+	}
+	#banner > .navbar ul li a {
+	    padding: 0 37px 0 22px;
+	    line-height: 60px;
+	}
+	#banner > .navbar ul li i {
+		top: 22px;
+	}
+	#banner > .navbar ul li i:after {
+		content: "";
+	    height: 425%;
+	    top: -155%;
+	}
+	
+	/*----------------------------------------
+					Pages
+	----------------------------------------*/
+	
+	/*----- Products -----*/
+	[class$="-page-menu"] {
+		background-size: 190px;
+	}
+	[class$="-page-menu"] li, .news-page-menu .responsive-tabs.nav-tabs > li > a {
+		font-size: 14px;
+	}
+	.responsive-tabs.nav-tabs > li > a {
+		line-height: 51px;
+	}
+	
+	/*----- Services -----*/
+	.services-control {
+		min-height: 52px;
+	}
+	
+	/*----- About -----*/
+	.about-page-content .about-us-big p {
+		font-size: 18px;
+	}
+	.about-page-content .about-us-big p:first-of-type {
+		font-size: 22px;
+	}
+	.about-page-content .about-us-big span {
+		font-size: 16px;
+	}
+	
+}
+
+@media (max-width: 1200px) {
+	
+	.mBody .container {
+		width: 100%;
+	}
+	
+	/*----- Nav -----*/
+	#banner > .navbar .navbar-brand {
+		margin-right: 20px;
+	}
+	#banner > .navbar ul li a {
+		padding: 0 28px 0 13px;
+	}
+	#banner > .navbar ul li i {
+		right: 15px;
+	}
+	
+	/*----- Row 2 -----*/
+	#products .carousel-control.right {
+		right: 15px;
+	}
+	
+	/*----- Row 5 & 7 -----*/
+	.FDS_Homepage>div:nth-child(5):before, .FDS_Homepage>div:nth-child(7):before {
+		font-size: 22px;
+		left: 15px;
+	}
+	
+	
+	
+	/*----------------------------------------
+					Pages
+	----------------------------------------*/
+	
+	/*----- News -----*/
+	.news-page-menu .responsive-tabs.nav-tabs > li > a {
+		padding: 0 70px;
+	}
+	
+	/*----- About -----*/
+	.news-page-menu .responsive-tabs.nav-tabs > li > a {
+		padding: 0 70px;
+	}
+	
+}
+
+@media (min-width: 1025px) {
+	
+	/*----- Row 3 -----*/
+	.slogan img, .slogan p {
+		float: left;
+	}
+	.mBody .slogan a {
+		float: right;
+	}
+	
+	
+	
+	/*----------------------------------------
+					Pages
+	----------------------------------------*/
+	
+	/*----- Products -----*/
+	[class$="-page-menu"] > div {
+		 width: 1170px;
+	}
+	
+}
+
+@media (max-width: 1024px) {	
+	
+	/*----- Row 2 -----*/
+	.products .carousel-indicators > li, .products .carousel-indicators > li.active {
+		font-size: 14px;
+		height: 20px;
+	}
+	#products .item > div span {
+		font-size: 18px;
+		margin-bottom: 10px;
+	}
+	#products .item > div p {
+		font-size: 14px;
+	}
+	#products .item > div button {
+		margin-top: 10px;
+	    width: auto;
+	    height: auto;
+	    padding: 5px 15px;
+	}
+	
+	/*----- Row 3 -----*/
+	.slogan {
+		text-align: center;
+	}
+	.slogan img {
+	    margin: 0;
+	}
+	.slogan p:before {
+		width: 0;
+	}
+	
+	/*----- Row 4 -----*/
+	.services .service-item p {
+		font-size: 14px;
+	}
+	
+	
+	
+	/*----------------------------------------
+					Pages
+	----------------------------------------*/
+}
+
+@media (min-width: 993px) {
+	
+	/*----- Nav -----*/
+	.dropdown:hover .dropdown-menu {
+        display: block;
+        border-color: #e7e7e7;
+    }
+	#banner > .navbar ul li i:after {
+	    content: "";
+	    position: absolute;
+	    width: 390%;
+	    height: 550%;
+	    top: -215%;
+	    left: -100%;
+	    cursor: pointer;
+	}
+	#banner > .navbar ul li ul a {
+		color: #333;
+	}	
+	#banner .affix {
+		position: static;
+	}
+	
+	/*----------------------------------------
+					Pages
+	----------------------------------------*/
+	
+	/*----- Products -----*/
+	[class$="-page-menu"] > div {
+		 padding-left: 190px;
+	}
+	.responsive-tabs.nav-tabs span.glyphicon {
+		display: none;
+	}
+	.responsive-tabs.nav-tabs > li, .responsive-tabs.nav-tabs > li.active {
+	    display: inline-block;
+	}
+	.about-page-menu .responsive-tabs.nav-tabs > li, .about-page-menu .responsive-tabs.nav-tabs > li.active {
+		padding: 0 20px;
+	}
+	.responsive-tabs.nav-tabs.open span.glyphicon.glyphicon-triangle-top {
+	    display: none;
+	}
+	.responsive-tabs.nav-tabs > li > a {
+		text-indent: 0;
+	}
+	
+	/*----- About -----*/
+	.about-us-big span {
+		display: block;
+	}
+		
+	/*----- Services -----*/
+	.services-control {
+		display: none;
+	}
+	
+}
+
+@media (max-width: 992px) {
+	
+	/*----- Navbar -----*/
+	#banner .navbar-left,
+    #banner .navbar-right, 
+    #banner .navbar-header {
+        float: none !important;
+    }
+    #banner .navbar-toggle {
+        display: block;
+    }
+    #banner .navbar-collapse {
+        border-top: 1px solid #e7e7e7;
+        box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+    }
+    #banner .navbar-collapse.collapse {
+        display: none!important;
+    }
+    #banner .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    #banner .navbar-nav > li {
+        float: none;
+    }
+    #banner .collapse.in {
+        display: block !important;
+        max-height: 380px;
+        overflow-y: auto !important;
+    }
+    
+    .topbar {
+		position: fixed;
+	    top: 11px;
+	    width: 100%;
+	    z-index: 30;
+	    background: transparent;
+	    pointer-events: none;
+	}
+    .topbar > .container {
+        padding: 0;
+    }
+	.fds-theme .topbar .navbar-collapse {
+	    background-color: #f9f9f9;
+	    z-index: 10;
+	    border: 1px solid #ccc;
+	    border-width: 1px 0;
+	    padding-bottom: 10px;
+	    position: relative;
+	    clear: both;
+	}
+	.topbar .navbar-toggle {
+		position: relative;
+	    top: -5px;
+	    pointer-events: all;
+	    color: #333;
+	}
+	.fds-theme .topbar .navbar-left li {
+		margin: 10px 15px;
+		line-height: normal;
+		color: #333;
+	}
+	.fds-theme .topbar .navbar-right a {
+	    float: left;
+	    background-color: #00557f;
+	    color: white;
+	    margin-top: 0;
+	}
+	
+	#banner .affix, 
+	#banner .affix-top {
+		position: fixed;
+		width: 100%;
+		z-index: 20;
+	}
+	#banner > .navbar .navbar-brand {
+		position: absolute;
+	    left: 50%;
+	    -webkit-transform: translateX(-50%);
+	    transform: translateX(-50%);
+	}
+	#banner > .navbar .navbar-brand img {
+		height: 35px;
+		width: auto;
+	}
+	.navbar .navbar-toggle {
+		float: left;
+		margin-left: 15px;
+	}
+	#banner > .navbar ul li a {
+		line-height: 45px;
+		padding: 0 20px;
+		white-space: normal;
+	}
+	#banner > .navbar ul li i {
+		top: 15px;
+		right: 30px;
+	}
+	#banner > .navbar ul li i:after {
+	    content: "";
+	    position: absolute;
+	    width: 1280%;
+	    height: 315%;
+	    top: -105%;
+	    left: -1000%;
+	    cursor: pointer;
+	}
+	#banner > .navbar ul li ul {
+		margin-left: 20px;
+		position: static;
+	    float: none;
+	    background: transparent none;
+	    box-shadow: none;
+	    border: 0;
+	}
+	
+	#content {
+		padding-top: 50px;
+	}
+	
+	/*----- Row 3 -----*/
+	.slogan img {
+		width: 150px;
+	}
+	.slogan p {
+    	font-size: 18px;
+	}
+	
+	/*----- Row 5, Row 7 -----*/
+	.partner .col-xs-12, .member .col-xs-12 {
+		padding: 0;
+		margin-top: 84px;
+	}
+	
+	
+	
+	/*----------------------------------------
+					Pages
+	----------------------------------------*/
+	
+	/*----- Products -----*/
+	.responsive-tabs.nav-tabs.open > li {
+		display: block;
+		border-bottom: 1px solid #ccc;
+	}
+	.fds-theme .download-demo {
+		margin: 20px 0;
+	}
+	
+	/*----- Lesson -----*/
+	.news-abstract .news-line {
+		padding: 20px 0;
+	}
+	.news-abstract .first .news-title {
+	    font-size: 20px;
+	}
+	.news-abstract .news-title {
+	    font-size: 18px;
+	}
+	#layout-column_column-3 .columns-2 {
+		margin-bottom: 20px;
+	}
+	#layout-column_column-3 .columns-2 .news-abstract .news-title {
+		font-size: 16px;
+	}
+	
+	/*----- Services -----*/
+	#owl-services-menu {
+		display: none !important;
+	}
+	.services-control {
+		display: block;
+	}
+	
+	/*----- About -----*/
+	.responsive-tabs.nav-tabs span.glyphicon:after {
+		content: "";
+		position: absolute;
+		width: 48px;
+	    height: 48px;
+	    top: -18px;
+	    left: -18px;
+	}
+	
+	/*----- News -----*/
+	#news-menu ul {
+		min-height: 55px;
+	}
+	
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+	
+	/*----- Row 2 -----*/
+	#products {
+		padding: 0 60px;
+    	margin-top: 40px;
+	}
+	#products .item > img {
+		margin: 0 30px 0 0;
+		width: 50%;
+	}
+	#products .item > div {
+		float: left;
+		width: -webkit-calc(50% - 30px);
+		width: calc(50% - 30px);
+	}
+	#products .item > div img {
+		margin: 15% 0 20px;
+	    width: 50%;
+	    max-width: 247px;
+	}
+	#products .carousel-control.left {
+		left: 10px;
+	}
+	#products .carousel-control.right {
+		right: 25px;
+	}
+	
+	/*----- Row 3 -----*/
+	.slogan p {
+		width: 100%;
+    	padding-left: 0;
+    	text-align: justify;
+	}
+	.slogan span {
+		text-align: center;
+	}
+	.mBody .slogan a {
+		margin-top: 20px;
+	}
+	
+	
+	
+	/*----------------------------------------
+					Pages
+	----------------------------------------*/
+	
+	/*----- Products -----*/
+	#content > div > div:not(.FDS_Homepage)  .portlet-body .title, 
+	.FDS_Pages > div:not(:last-child) .portlet-title {
+		background-size: 250px auto;
+	    font-size: 16px;
+	    padding-left: 30px;
+	    line-height: 40px;
+	}
+	
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+	
+	/*----- Nav -----*/
+	.navbar-default > .container {
+		padding: 0;
+	}
+	#banner .navbar-nav {
+	    margin: 7.5px -15px;
+	}
+	
+}
+
+@media (min-width: 768px) {
+	
+	/*----- Row 3 -----*/
+	.slogan span {
+		display: block;
+	}
+	
+	/*----- Row 6 -----*/
+	.FDS_Homepage > div:nth-child(6) > div > div > div:first-child {
+		padding-right: 20px;
+	}
+	.FDS_Homepage > div:nth-child(6) > div > div > div:last-child {
+		padding-left: 20px;
+	}
+	
+	/*----- Row 7 -----*/
+	.FDS_Homepage #column-7 {
+		float: right;
+		width: 40%;
+	}
+	
+	/*----- Pre-Footer -----*/
+	.pre-footer .col-sm-6 {
+		padding-right: 0;
+	}
+
+}
+
+@media (max-width: 767px) {
+	
+	/*----- Nav -----*/
+	.topbar > .container {
+		padding: 0 15px;
+	}
+	
+	.topbar .navbar-toggle {
+		margin-right: 5px;
+	}
+	
+	/*----- Row 2 -----*/
+	.slider-products p span {
+		margin-top: 10px;
+    	display: block;
+	}
+	
+	/*----- Row 3 -----*/
+	.slogan p {
+		width: auto;
+		padding: 0;
+		text-align: justify;
+	}
+	.mBody .slogan a {
+		margin-top: 20px;
+	}
+	
+	/*----- Row 4 -----*/
+	.services .service-item {
+		width: 100%;
+	}
+	
+	/*----- Row 5 & 7 -----*/
+	.FDS_Homepage > div:nth-child(5):before, .FDS_Homepage > div:nth-child(7):before {
+		left: 50%;
+		transform: translateX(-50%);
+	}
+	.partner img, .member img {
+		-webkit-animation: animateImgMobile 10s infinite;
+		animation: animateImgMobile 10s infinite;
+	}
+	.partner .col-xs-12, .member .col-xs-12 {
+		display: inherit;
+		margin-top: 74px;
+	}
+	
+	/*----- Row 6 -----*/
+	.FDS_Homepage > div:nth-child(6) .portlet-title {
+		margin-bottom: 20px;
+		border-bottom: 1px dotted #999;
+    	padding-bottom: 5px;
+    	text-align: center;
+	}
+	
+	.FDS_Homepage #column-6 {
+		margin-bottom: 20px;
+	}
+	.FDS_Homepage #column-6 .news-mt.first h3 {
+		margin: 15px 0 10px;
+	}
+	.FDS_Homepage #column-6 .news-mt.first .news-summary {
+		font-size: 14px;
+	}
+	
+	/*----- Row 9 -----*/
+	#content > div > div > div:last-of-type div[id*="column"]:not(:last-child) {
+		margin-bottom: 25px;
+	}
+	
+	/*----- Pre-Footer -----*/
+	.pre-footer .col-sm-6 {
+		margin: 20px 0;
+	}
+	
+	
+	
+	/*----------------------------------------
+					Pages
+	----------------------------------------*/
+	
+	/*----- Products -----*/
+	.products-page-content .download-demo {
+		margin: 20px 0;
+	}
+	.demo-area {
+		margin-bottom: 20px;
+	}
+	.journal-content-article img {
+		width: 100% !important;
+		height: auto !important;
+	}
+	
+	/*----- About -----*/
+	.about-page-content {
+		padding-bottom: 0;
+	}
+	.about-page-content .about-us-big p {
+		font-size: 16px;
+	}
+	.about-page-content .about-us-big p:first-of-type {
+		font-size: 18px;
+	}
+	.about-page-content .about-us-big span {
+	    font-size: 14px;
+	}
+	
+	.fds-theme .album-news button {
+		display: none !important;
+	}
+	.fds-theme .album-news {
+		width: 100%;
+	}
+	
+	.tuyendung-area.news-wrapper .news-abstract > li {
+		width: 100%;
+		margin-right: 0;
+	}
+	
+	/*----- Contact -----*/
+	.contact-page-content .contact-us-big > div > p {
+		display: block;
+	}
+	.contact-page-content .contact-us-big > div > p > span:first-child {
+		margin-right: 0;
+	}
+	.contact-page-content .iframe-wrapper {
+		margin: 20px 0;
+	}
+	.mBody .fds-theme .portlet-boundary_3_WAR_portalhoidapportlet_ input, 
+	.mBody .fds-theme .portlet-boundary_3_WAR_portalhoidapportlet_ textarea {
+		width: 100% !important;
+	}
+	.portlet-boundary_3_WAR_portalhoidapportlet_ .button-holder button {
+		margin: 0;
+		padding: 5px 12px;
+	}
+	.portlet-boundary_3_WAR_portalhoidapportlet_ {
+		margin-top: -20px;
+	}
+	
+	/*----- Lesson -----*/
+	.news-abstract .news-simage {
+		width: 100% !important;
+		margin: 0 0 10px;
+		max-width: 100% !important;
+	}
+	.news-abstract .news-title {
+	    font: 16px 'Roboto-Medium' !important;
+	    margin-bottom: 10px;
+	}
+	#layout-column_column-3 .taglib-header {
+	    margin: 30px 0 20px;
+	}
+	
+	/*----- News -----*/
+	.cols2-1 > div:last-child .news-abstract li {
+		width: 100%;
+		margin: 0 0 20px;
+	}
+	.cols2-1 > div:last-child .news-abstract .news-simage {
+		padding-bottom: 0;
+	}
+	.cols2-1 > div:last-child .news-abstract .news-simage img {
+		position: relative;
+	}
+	
+	#___plus_0 {
+		margin-top: 5px;
+	}
+	
+}
+
+@media (max-width: 479px) {
+	
+	/*----------------------------------------
+					Pages
+	----------------------------------------*/
+	
+	/*----- Products -----*/
+	[class$="-page-menu"] {
+		padding-top: 50px;
+	}
+	.contact-page-menu {
+		padding-top: 0;
+	}
+	.responsive-tabs.nav-tabs > li > a {
+		text-indent: 0;
+	}
+	
+}

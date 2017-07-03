@@ -1,0 +1,116 @@
+.mBody .ux-sign-in-wrapper {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: center;
+	justify-content: center;
+	margin: 0;
+}
+.mBody .ux-sign-in-wrapper button {
+	height: 34px;
+	border-radius: 2px;
+	width: 100%;
+	text-transform: uppercase;
+}
+.mBody .ux-sign-in-wrapper button:before {
+	content: "\f090";
+	font-family: FontAwesome;
+}
+.mBody .default-sign-in, 
+.mBody .advance-signin {
+	background-color: white;
+    border-radius: 2px;
+    border: 1px solid #e1e1e1;
+    min-height: 261px;
+    padding: 35px 25px;
+    width: 370px;
+}
+.mBody .advance-signin {
+	margin-left: 30px;
+	display: none;
+}
+.mBody .ux-sign-in-wrapper .input-prepend {
+    width: 100%;
+    position: relative;
+}
+.mBody .ux-sign-in-wrapper input[type="text"], 
+.mBody .ux-sign-in-wrapper input[type="password"] {
+	height: 41px;
+    border-radius: 2px;
+    width: 100%;
+    padding-left: 55px;
+    max-width: 370px;
+}
+.mBody .ux-sign-in-wrapper .add-on {
+    border: 0;
+    color: #0090ff;
+    height: 39px;
+    line-height: 32px;
+    width: 40px;
+    float: left;
+    position: absolute;
+    z-index: 5;
+    left: 1px;
+    top: 1px;
+    background-color: white;
+    border-radius: 2px 0 0 2px;
+}
+.mBody .ux-sign-in-wrapper .control-group {
+	margin-bottom: 5px;
+}
+.mBody .ux-sign-in-wrapper .button-holder {
+	margin: 5px 0px 20px;
+}
+.mBody .ux-sign-in-wrapper .sign-in-label {
+	font-size: 16px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin: 0 0 15px;
+	text-align: center;
+}
+.mBody .ux-sign-in-wrapper .default-sign-in .title {
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+	float: left;
+	margin: 0 0 20px
+}
+.mBody .ux-sign-in-wrapper .default-sign-in .sign-in-header {
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+.mBody .ux-sign-in-wrapper .default-sign-in .create-account a {
+	float: right;
+	color: #0090ff;
+}
+.mBody .ux-sign-in-wrapper .default-sign-in .forgot-password a {
+	color: #0090ff;
+}
+.mBody .ux-sign-in-wrapper .default-sign-in a:hover {
+	font-weight: 700;
+}
+.mBody .ux-sign-in-wrapper .text-label {
+	background: white;
+	position: relative;
+	padding: 0 20px;
+	bottom: 10px;
+}
+.mBody .ux-sign-in-wrapper .split {
+	text-align: center;
+	height: 1px;
+	background-color: #e1e1e1;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+.ux-sign-in-wrapper .add-on .fa.fa-key {
+	-webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.mBody .ux-sign-in-wrapper .fb {
+	position: relative;
+}
+.mBody .ux-sign-in-wrapper .fa-facebook {
+	position: absolute;
+	top: 13px;
+	left: 55px;
+	color: white;
+}

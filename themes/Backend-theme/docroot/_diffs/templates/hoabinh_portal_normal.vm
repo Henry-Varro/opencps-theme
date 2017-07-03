@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+#parse ($init)
+
+
+<html class="$root_css_class" dir="#language ("lang.dir")" lang="$w3c_language_id">
+
+<head>
+	<title>$the_title - $company_name</title>
+
+	#*<meta content="initial-scale=1.0, width=device-width" name="viewport" />*#
+
+	$theme.include($top_head_include)
+	
+	<link rel="shortcut icon" type="image/png" href="$images_folder/custom/favicon.png"/>
+	#css("$css_folder/$theme_style")
+	<script type="text/javascript" src="$javascript_folder/bootstrap.min.js" ></script>
+
+	<script type="text/javascript">
+        function handleChange() {
+            var arr = document.getElementById('menu1') ;
+            window.location = arr.value ;
+        } 
+    </script>
+</head>
+
+<body class="$css_class opencps-theme ux page-theme">
+
+	$theme.include($body_top_include)
+	
+	#if ($is_signed_in && $permissionChecker.isOmniadmin())
+		#dockbar()
+	#end
+	
+	<header id="banner" role="banner" class="opencps-header-wrapper member mHeader_1">
+		<div class="header container align-middle">
+            <a href="" class="logo"><img src="$images_folder/schemes/hoabinh/logo.png"></a>
+		
+			<div class="nav-container-small">
+				<span class="account-info">
+			    	<span class="account-name">
+			    		<span style="padding-left: 10px;">$user_email_address</span>
+						<span class="tooltiptext">#language ("welcome-key") $user_name</span>
+					</span>
+					<span class="logout"><a href="$sign_out_url" class="btn-dn">#language ("logout-key")</a></span>
+				</span>
+			</div>            
+		</div>
+	</header>
+	
+	<article id="wrapper">	
+		<div id="content" class="container">
+	
+			#if ($selectable)
+				$theme.include($content_include)
+			#else
+				$portletDisplay.recycle()
+	
+				$portletDisplay.setTitle($the_title)
+	
+				$theme.wrapPortlet("portlet.vm", $content_include)
+			#end
+		</div>
+	</article>
+	
+	<footer>
+	    <div class="footer">
+	        <div class="container">
+	            <p>CỔNG DỊCH VỤ CÔNG TRỰC TUYẾN TỈNH HÒA BÌNH</p>
+	            <p><i class="fa fa-building-o"></i> Đường Trần Hưng Đạo - TP. Hòa Bình - Tỉnh Hòa Bình</p>
+	            <p><i class="fa fa-phone-square"></i><a href="tel://021833555996"> (02183) 3555 996</a> - <i class="fa fa-phone-square"></i><a href="tel://021833543888"> (02183) 3543 888</a></p>
+	            <p><i class="fa fa-phone-square"></i><a href="tel://02183898678"> (02183) 898 678</a> - <i class="fa fa-fax"></i><a href="tel://021833897780"> (02183)3897 780</a></p>
+	            <p><i class="fa fa-envelope"></i> <a href="mailto:sothongtintruyenthong@hoabinh.gov.vn">sothongtintruyenthong@hoabinh.gov.vn</a></p>
+	        </div>
+	    </div>
+	</footer>
+
+
+	$theme.include($body_bottom_include)
+	
+	$theme.include($bottom_include)
+
+</body>
+
+</html>

@@ -1,0 +1,309 @@
+/*----- Modal -----*/
+.modal-content .modal-header {
+  padding-top: 5px; }
+
+.modal-content .modal-header .close,
+.modal-content .modal-header .close:hover {
+  font-size: 0;
+  opacity: 1;
+  margin-top: 8px; }
+
+.modal-content .modal-header .close:before {
+  content: "Đóng";
+  font-size: 14px;
+  border: 1px solid #0090ff;
+  padding: 4px 10px;
+  border-radius: 2px;
+  font-weight: normal; }
+
+.modal-content .modal-header .close:hover:before {
+  background-color: #0090ff;
+  color: white;
+  opacity: 1; }
+
+/*----- Buttons -----*/
+.dialog-iframe-root-node .btn, .dialog-iframe-root-node input[type="button"] {
+  color: #2a2a2a;
+  text-shadow: none;
+  font-weight: normal;
+  border: 1px solid #0090ff;
+  background: white none;
+  border-radius: 2px;
+  padding: 3px 12px; }
+
+.dialog-iframe-root-node .btn:hover, .dialog-iframe-root-node .btn:focus,
+.dialog-iframe-root-node input[type="button"]:hover, .dialog-iframe-root-node input[type="button"]:focus {
+  color: white;
+  background-color: #0090ff; }
+
+.dialog-iframe-root-node table .dsf-select-btn, .dialog-iframe-root-node table .dsf-view-btn {
+  color: #2a2a2a;
+  border: 1px solid #0090ff;
+  border-radius: 2px;
+  padding: 2px 8px;
+  display: inline-block; }
+
+.dialog-iframe-root-node table .dsf-select-btn {
+  margin-right: 5px; }
+
+.dialog-iframe-root-node table .dsf-select-btn:hover, .dialog-iframe-root-node table .dsf-view-btn:hover {
+  color: white;
+  background-color: #0090ff;
+  text-decoration: none; }
+
+.dialog-iframe-root-node table .dsf-select-btn:before {
+  content: "\f046";
+  font-family: FontAwesome; }
+
+.dialog-iframe-root-node table .dsf-view-btn:before {
+  content: "\f06e";
+  font-family: FontAwesome; }
+
+/*----- Pagination -----*/
+.dialog-iframe-root-node .pagination {
+  text-align: center;
+  margin: 0; }
+
+.dialog-iframe-root-node .pager li > a,
+.dialog-iframe-root-node .pager li > span {
+  border-radius: 0;
+  color: #2a2a2a; }
+
+.dialog-iframe-root-node .pagination ul > li > a:hover,
+.dialog-iframe-root-node .pagination ul > li > a:focus,
+.dialog-iframe-root-node .pagination ul > .active > a,
+.dialog-iframe-root-node .pagination ul > .active > span {
+  background-color: #0090ff;
+  color: white;
+  border-color: #0090ff; }
+
+/*----- Table -----*/
+#_13_WAR_opencpsportlet_dossierFilesSearchContainerSearchContainer table td:first-child,
+#_13_WAR_opencpsportlet_dossierFilesSearchContainerSearchContainer table td:last-child,
+#_13_WAR_opencpsportlet_dossierFilesSearchContainerSearchContainer table th:nth-child(2),
+#_13_WAR_opencpsportlet_dossierFilesSearchContainerSearchContainer table th:nth-child(4),
+#_13_WAR_opencpsportlet_dossierFilesSearchContainerSearchContainer table th:nth-child(5) {
+  width: 1%;
+  text-align: center;
+  white-space: nowrap; }
+
+/*----- Xem-lich-su Portlet 13 -----*/
+.dialog-iframe-root-node .portlet-boundary_13_WAR_opencpsportlet_ i {
+  font-size: 12px; }
+
+.dialog-iframe-root-node .portlet-boundary_13_WAR_opencpsportlet_ .bold + * {
+  font-weight: 700; }
+
+.dialog-iframe-root-node .portlet-boundary_13_WAR_opencpsportlet_ .span11 {
+  text-align: right; }
+
+/*----- Tai giay to -----*/
+/*- Tai giay to len -*/
+.dialog-iframe-root-node .portlet-boundary_13_WAR_opencpsportlet_ .nav-tabs,
+.dialog-iframe-root-node .portlet-boundary_16_WAR_opencpsportlet_ .nav-tabs {
+  margin: 15px 0 0; }
+
+.dialog-iframe-root-node .portlet-boundary_13_WAR_opencpsportlet_ .nav-tabs li a,
+.dialog-iframe-root-node .portlet-boundary_16_WAR_opencpsportlet_ .nav-tabs li a {
+  padding: 10px 25px;
+  color: #2a2a2a; }
+
+.dialog-iframe-root-node .portlet-boundary_13_WAR_opencpsportlet_ .nav-tabs li.active a,
+.dialog-iframe-root-node .portlet-boundary_13_WAR_opencpsportlet_ .nav-tabs li.active a:hover,
+.dialog-iframe-root-node .portlet-boundary_16_WAR_opencpsportlet_ .nav-tabs li.active a,
+.dialog-iframe-root-node .portlet-boundary_16_WAR_opencpsportlet_ .nav-tabs li.active a:hover {
+  font-weight: 700; }
+
+.dialog-iframe-root-node .portlet-boundary_13_WAR_opencpsportlet_ .portlet-body > div[id$="TabsSection"],
+.dialog-iframe-root-node .portlet-boundary_16_WAR_opencpsportlet_ .portlet-body > div[id$="TabsSection"] {
+  padding: 25px 15px 0; }
+
+.dialog-iframe-root-node .portlet-boundary_13_WAR_opencpsportlet_ div[id$="TabsSection"] label,
+.dialog-iframe-root-node .portlet-boundary_16_WAR_opencpsportlet_ div[id$="TabsSection"] label {
+  display: block;
+  float: left;
+  margin-bottom: 0;
+  font-weight: 700; }
+
+.dialog-iframe-root-node .portlet-boundary_13_WAR_opencpsportlet_ div[id$="TabsSection"] .control-group,
+.dialog-iframe-root-node .portlet-boundary_16_WAR_opencpsportlet_ div[id$="TabsSection"] .control-group {
+  overflow: hidden; }
+
+.dialog-iframe-root-node .portlet-boundary_13_WAR_opencpsportlet_ div[id$="TabsSection"] .span12 .control-label,
+.dialog-iframe-root-node .portlet-boundary_16_WAR_opencpsportlet_ div[id$="TabsSection"] .span12 .control-label,
+.dialog-iframe-root-node .portlet-boundary_13_WAR_opencpsportlet_ div[id$="TabsSection"] .span6 .control-label,
+.dialog-iframe-root-node .portlet-boundary_16_WAR_opencpsportlet_ div[id$="TabsSection"] .span6 .control-label {
+  width: 150px; }
+
+.dialog-iframe-root-node .portlet-boundary_13_WAR_opencpsportlet_ div[id$="TabsSection"] .span12 textarea,
+.dialog-iframe-root-node .portlet-boundary_16_WAR_opencpsportlet_ div[id$="TabsSection"] .span12 textarea {
+  width: -webkit-calc(100% - 150px);
+  width: calc(100% - 150px);
+  border: 1px solid #e1e1e1; }
+
+.dialog-iframe-root-node .portlet-boundary_13_WAR_opencpsportlet_ div[id$="TabsSection"] div.span6:first-child,
+.dialog-iframe-root-node .portlet-boundary_16_WAR_opencpsportlet_ div[id$="TabsSection"] div.span6:first-child {
+  padding-right: 0; }
+
+.dialog-iframe-root-node .portlet-boundary_13_WAR_opencpsportlet_ div[id$="TabsSection"] .span6 input[type="text"],
+.dialog-iframe-root-node .portlet-boundary_16_WAR_opencpsportlet_ div[id$="TabsSection"] .span6 input[type="text"] {
+  width: -webkit-calc(100% - 150px);
+  width: calc(100% - 150px);
+  border: 1px solid #e1e1e1;
+  height: 30px;
+  -webkit-box-shadow: none;
+  box-shadow: none; }
+
+.dialog-iframe-root-node .portlet-boundary_13_WAR_opencpsportlet_ div[id$="TabsSection"] .span6 .lfr-input-date input[type="text"],
+.dialog-iframe-root-node .portlet-boundary_16_WAR_opencpsportlet_ div[id$="TabsSection"] .span6 .lfr-input-date input[type="text"] {
+  width: 100%;
+  position: relative; }
+
+.dialog-iframe-root-node .portlet-boundary_13_WAR_opencpsportlet_ div[id$="TabsSection"] input[type="file"],
+.dialog-iframe-root-node .portlet-boundary_16_WAR_opencpsportlet_ div[id$="TabsSection"] input[type="file"] {
+  line-height: normal; }
+
+.dialog-iframe-root-node .portlet-boundary_13_WAR_opencpsportlet_ form > .row-fluid:last-child,
+.dialog-iframe-root-node .portlet-boundary_16_WAR_opencpsportlet_ form > .row-fluid:last-child,
+.dialog-iframe-root-node .portlet-boundary_13_WAR_opencpsportlet_ .lfr-search-container > div > .row-fluid:last-child,
+.dialog-iframe-root-node .portlet-boundary_16_WAR_opencpsportlet_ .lfr-search-container > div > .row-fluid:last-child {
+  text-align: center;
+  margin-top: 25px; }
+
+/*- Kho luu tru -*/
+.dialog-iframe-root-node .portlet-boundary_13_WAR_opencpsportlet_ .navbar-inner,
+.dialog-iframe-root-node .portlet-boundary_16_WAR_opencpsportlet_ .navbar-inner {
+  background: transparent none;
+  border: 0;
+  box-shadow: none;
+  padding: 0; }
+
+.dialog-iframe-root-node .portlet-boundary_13_WAR_opencpsportlet_ .navbar-search,
+.dialog-iframe-root-node .portlet-boundary_16_WAR_opencpsportlet_ .navbar-search {
+  float: none; }
+
+.dialog-iframe-root-node .portlet-boundary_13_WAR_opencpsportlet_ .custom-toolbar .form-search .input-append,
+.dialog-iframe-root-node .portlet-boundary_16_WAR_opencpsportlet_ .custom-toolbar .form-search .input-append {
+  display: -webkit-box;
+  display: flex;
+  margin-bottom: 10px; }
+
+.dialog-iframe-root-node .portlet-boundary_13_WAR_opencpsportlet_ .custom-toolbar .form-search .input-append input[type="text"],
+.dialog-iframe-root-node .portlet-boundary_16_WAR_opencpsportlet_ .custom-toolbar .form-search .input-append input[type="text"] {
+  width: 100%;
+  border: 1px solid #e1e1e1;
+  border-radius: 5px 0 0 5px; }
+
+.dialog-iframe-root-node .portlet-boundary_13_WAR_opencpsportlet_ .custom-toolbar .form-search .input-append button,
+.dialog-iframe-root-node .portlet-boundary_16_WAR_opencpsportlet_ .custom-toolbar .form-search .input-append button {
+  border: 0;
+  border-radius: 0 5px 5px 0;
+  margin-left: -1px;
+  background: #0090ff none;
+  color: white; }
+
+.dialog-iframe-root-node .portlet-boundary_13_WAR_opencpsportlet_ .lfr-search-container > div > .taglib-page-iterator,
+.dialog-iframe-root-node .portlet-boundary_16_WAR_opencpsportlet_ .lfr-search-container > div > .taglib-page-iterator,
+.dialog-iframe-root-node .portlet-boundary_13_WAR_opencpsportlet_ .lfr-pagination-config,
+.dialog-iframe-root-node .portlet-boundary_16_WAR_opencpsportlet_ .lfr-pagination-config {
+  display: none; }
+
+/*- Chon tu ho so cu -*/
+.dialog-iframe-root-node #_13_WAR_opencpsportlet_dossiersSearchContainer table td:not(:first-child):not(:last-child) {
+  min-width: 240px;
+  max-width: 300px; }
+
+.dialog-iframe-root-node #_13_WAR_opencpsportlet_dossiersSearchContainer table td:last-child {
+  min-width: 1px; }
+
+.dialog-iframe-root-node #_13_WAR_opencpsportlet_dossiersSearchContainer table td a.btn {
+  padding: 5px 12px;
+  background-color: #0f97ff;
+  color: white;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  display: block;
+  text-align: center; }
+
+.dialog-iframe-root-node #_13_WAR_opencpsportlet_dossiersSearchContainer table td a.btn i:before {
+  margin-right: 5px; }
+
+/*- Chon thu muc -*/
+.dialog-iframe-root-node #_16_WAR_opencpsportlet_dossierFilesSearchContainerSearchContainer td:last-child {
+  width: 1%; }
+
+.dialog-iframe-root-node #_16_WAR_opencpsportlet_dossierFilesSearchContainerSearchContainer input[type="button"] {
+  padding: 5px 15px;
+  border-radius: 20px; }
+
+/*----- Portlet 16 -----*/
+.dialog-iframe-root-node .portlet-boundary_16_WAR_opencpsportlet_ .control-group {
+  margin-bottom: 5px;
+  overflow: hidden; }
+
+.dialog-iframe-root-node .portlet-boundary_16_WAR_opencpsportlet_ .control-group label,
+.dialog-iframe-root-node .portlet-boundary_16_WAR_opencpsportlet_ .custom-lebel {
+  width: 220px;
+  float: left;
+  line-height: 30px;
+  font-weight: 700; }
+
+.dialog-iframe-root-node .portlet-boundary_16_WAR_opencpsportlet_ input:not[type="button"],
+.dialog-iframe-root-node .portlet-boundary_16_WAR_opencpsportlet_ select,
+.dialog-iframe-root-node .portlet-boundary_16_WAR_opencpsportlet_ textarea,
+.dialog-iframe-root-node .portlet-boundary_16_WAR_opencpsportlet_ .signature-file-list {
+  width: -webkit-calc(100% - 220px);
+  width: calc(100% - 220px);
+  float: right;
+  min-height: 30px; }
+
+.dialog-iframe-root-node .portlet-boundary_16_WAR_opencpsportlet_ .lfr-input-time input {
+  width: 100%; }
+
+.dialog-iframe-root-node .portlet-boundary_16_WAR_opencpsportlet_ [class*="lfr-input"] .control-group {
+  overflow: visible; }
+
+.dialog-iframe-root-node .portlet-boundary_16_WAR_opencpsportlet_ [class*="lfr-input"] input {
+  margin-top: -30px; }
+
+.dialog-iframe-root-node .portlet-boundary_16_WAR_opencpsportlet_ .lfr-input-date input {
+  margin-top: -5px; }
+
+.dialog-iframe-root-node .portlet-boundary_16_WAR_opencpsportlet_ .button-holder button {
+  background: #0090ff;
+  border: none;
+  color: #fff;
+  text-shadow: none;
+  padding: 5px 15px; }
+
+.dialog-iframe-root-node .portlet-boundary_16_WAR_opencpsportlet_ .file-name:before {
+  content: "\f0f6";
+  font-family: FontAwesome;
+  margin-left: 5px; }
+
+.dialog-iframe-root-node .portlet-boundary_16_WAR_opencpsportlet_ .signature-status {
+  display: none; }
+
+.dialog-iframe-root-node .portlet-boundary_16_WAR_opencpsportlet_ .signature-verify i:before {
+  content: "Đ? k?";
+  font-weight: normal; }
+
+.dialog-iframe-root-node .portlet-boundary_16_WAR_opencpsportlet_ .button-holder {
+  text-align: center; }
+
+/*--- Nav Menu ---*/
+.dialog-iframe-root-node .opencps-form-navigator-container .form-navigator .button-holder {
+  text-align: center; }
+
+.dialog-iframe-root-node .opencps-form-navigator-container ul li i {
+  display: none; }
+
+/*--- Content ---*/
+.dialog-iframe-root-node .opencps-form-navigator-container .form-navigator-content {
+  width: -webkit-calc(100% - 270px);
+  width: calc(100% - 270px);
+  padding: 20px 30px; }
+
+.dialog-iframe-root-node .portlet-boundary_2_WAR_opencpsportlet_ .control-label {
+  font-weight: 700; }
+

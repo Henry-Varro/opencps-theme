@@ -1,0 +1,12 @@
+/*---------- Portlet 85 - Menu ----------*/
+.opencps-theme.ux .portlet-boundary_85_:before {
+  background: url("../../../images/schemes/opencps/bg_menu.png") 0 0 repeat;
+  background-size: auto 100%; }
+
+.opencps-theme.ux .portlet-boundary_85_ ul li a {
+  color: white; }
+
+.opencps-theme.ux .portlet-boundary_85_ ul li a.current, .opencps-theme.ux .portlet-boundary_85_ ul li a:hover {
+  background-color: #09f;
+  color: white; }
+

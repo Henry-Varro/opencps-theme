@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!DOCTYPE layout-templates PUBLIC "-//Liferay//DTD Layout Templates 6.2.0//EN" "http://www.liferay.com/dtd/liferay-layout-templates_6_2_0.dtd">
+
+<layout-templates>
+	<custom>
+		<layout-template id="bo_vhttdl" name="Bo Vhttdl">
+			<template-path>/bo_vhttdl.tpl</template-path>
+			<wap-template-path>/bo_vhttdl.wap.tpl</wap-template-path>
+			<thumbnail-path>/bo_vhttdl.png</thumbnail-path>
+		</layout-template>
+	</custom>
+</layout-templates>

@@ -1,0 +1,137 @@
+.portlet-boundary_16_WAR_opencpsportlet_ input[type="button"] {
+  padding: 4px 10px; }
+
+/*----- Detail -----*/
+.portlet-boundary_16_WAR_opencpsportlet_ .opencps-form-navigator-container .tabbable-content {
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap; }
+
+.portlet-boundary_16_WAR_opencpsportlet_ .opencps-form-navigator-container .tabbable-content > ul,
+.portlet-boundary_16_WAR_opencpsportlet_ .opencps-form-navigator-container .tabbable-content > .form-navigator-content {
+  width: 100%; }
+
+/*-- Menu --*/
+.mBody .portlet-boundary_16_WAR_opencpsportlet_ .form-navigator {
+  padding: 0;
+  border: 0;
+  border-bottom: 1px solid #e1e1e1;
+  margin-bottom: 15px; }
+
+.portlet-boundary_16_WAR_opencpsportlet_ .form-navigator li {
+  width: 25%;
+  float: left;
+  text-align: center; }
+
+.mBody .portlet-boundary_16_WAR_opencpsportlet_ .form-navigator li a:before {
+  content: "";
+  font-family: FontAwesome;
+  font-weight: normal;
+  margin-right: 5px; }
+
+.mBody .portlet-boundary_16_WAR_opencpsportlet_ .form-navigator li:nth-child(3) a:before {
+  content: "\f129"; }
+
+.mBody .portlet-boundary_16_WAR_opencpsportlet_ .form-navigator li:nth-child(4) a:before {
+  content: "\f0f6"; }
+
+.mBody .portlet-boundary_16_WAR_opencpsportlet_ .form-navigator li:nth-child(5) a:before {
+  content: "\f0ae"; }
+
+.mBody .portlet-boundary_16_WAR_opencpsportlet_ .form-navigator li:nth-child(6) a:before {
+  content: "\f1da"; }
+
+.mBody .portlet-boundary_16_WAR_opencpsportlet_ .form-navigator a:hover {
+  color: #0090ff !important; }
+
+.mBody .portlet-boundary_16_WAR_opencpsportlet_ .form-navigator li.active a:hover,
+.mBody .portlet-boundary_16_WAR_opencpsportlet_ .form-navigator li.active a:focus {
+  color: white !important; }
+
+/*-- Content --*/
+.portlet-boundary_16_WAR_opencpsportlet_ .tab-pane {
+  padding: 0 15px; }
+
+/* Tab 1 */
+.portlet-boundary_16_WAR_opencpsportlet_ .ocps-dossier-info td:last-child {
+  font-weight: 700; }
+
+.mBody .ocps-dossier-info table td {
+  padding: 8px 0;
+  border-bottom: 1px dashed #e1e1e1; }
+
+.mBody .ocps-dossier-info table tr:last-child td {
+  border-bottom: 0; }
+
+/* Tab 2 */
+.ocps-dossier-content {
+  padding-bottom: 15px; }
+
+.ocps-dossier-content > .row-fluid {
+  border-bottom: 1px solid #e1e1e1;
+  padding-bottom: 5px;
+  margin-bottom: 10px; }
+
+.ocps-dossier-content > .row-fluid .span8 {
+  font-weight: 700; }
+
+.ocps-dossier-content .dossiermgt.dossier-part-control {
+  vertical-align: middle; }
+
+/* Tab 3 */
+#_16_WAR_opencpsportlet_process table * {
+  border: 0; }
+
+#_16_WAR_opencpsportlet_process .process-workflow-info td:nth-child(odd) {
+  width: 130px;
+  white-space: nowrap;
+  text-align: left;
+  padding-right: 15px; }
+
+#_16_WAR_opencpsportlet_process .process-workflow-info td:nth-child(even) {
+  width: calc((100% - 260px) / 2);
+  text-align: left;
+  font-weight: 700; }
+
+.mBody .dossiermgt.dossier-part-tree:first-of-type {
+  margin-top: 5px;
+  border-top: 1px solid #e1e1e1;
+  padding-top: 10px; }
+
+.mBody .dossier-actions-wraper td {
+  padding: 0 5px; }
+
+.ocps-dossier-process .opencps.dossiermgt.dossier-part {
+  vertical-align: middle; }
+
+.dossier-actions-wraper .counter-value {
+  font-size: 13px; }
+
+.mBody .process-workflow-action {
+  margin-top: 10px; }
+
+.assign-task-container {
+  margin-top: 20px; }
+
+/* Tab 4 */
+.mBody .portlet-boundary_16_WAR_opencpsportlet_ [class*="span"] {
+  min-height: 24px; }
+
+.mBody .ocps-title-detail {
+  overflow: hidden;
+  border-bottom: 1px solid #e1e1e1; }
+
+.mBody #_16_WAR_opencpsportlet_history .span4, .ocps-title-detail .service-name-label {
+  width: 110px;
+  float: left; }
+
+.mBody #_16_WAR_opencpsportlet_history .span8, .ocps-title-detail .service-service-name {
+  margin-left: 0;
+  width: -webkit-calc(100% - 115px);
+  width: calc(100% - 115px);
+  float: right;
+  font-weight: bold; }
+
+.bound-search-container-history > div {
+  border-bottom: 1px dashed #e1e1e1;
+  padding: 10px 0 5px; }
+

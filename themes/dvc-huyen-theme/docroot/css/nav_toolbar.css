@@ -1,0 +1,48 @@
+.mBody .custom-toolbar {
+	margin: 0 0 15px;
+}
+.mBody .custom-toolbar .control-group {
+	margin-bottom: 0;
+}
+.mBody .custom-toolbar .container > span:last-child {
+	display: -webkit-flex;
+	display: flex;
+}
+.mBody .opencps-toolbar .container > span:last-child > div:last-child {
+	margin-left: auto;
+	-webkit-flex-grow: 1;
+	flex-grow: 1;
+}
+.mBody .custom-toolbar .navbar-search {
+	margin-top: 0;
+	width: 100%;
+}
+.mBody .custom-toolbar .btn {
+	height: 34px;
+	white-space: nowrap;
+	margin: 0;
+}
+.mBody .custom-toolbar .navbar-inner {
+	background: transparent none;
+	border: none;
+	box-shadow: none;
+	padding: 0;
+}
+.mBody .input-keyword {
+	position: relative;
+	width: 100%;
+}
+.mBody .custom-toolbar .input-keyword input {
+	border-radius: 2px;
+	width: 100%;
+}
+.mBody .custom-toolbar .input-keyword button {
+	position: absolute; 
+	top: 0;
+	right: 0;
+	background: #0090ff none;
+    border: 1px solid #0090ff;
+    box-shadow: none;
+    text-shadow: none;
+    color: #fff;
+}

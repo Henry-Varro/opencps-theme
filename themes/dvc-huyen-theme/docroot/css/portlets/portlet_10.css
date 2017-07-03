@@ -1,0 +1,70 @@
+.ocps-service-detal-bound-all {
+	background-color: white;
+	border-radius: 2px;
+	border: 1px solid #e1e1e1;
+}
+
+/*--- Head ---*/
+.ocps-service-detal-bound-all .ocps-custom-header {
+	padding: 25px 0;
+	position: relative;
+}
+.ocps-service-detal-bound-all .ocps-hide-header {
+	display: none;
+}
+.ocps-service-detal-bound-all .ocps-custom-header .opcps-label {
+	text-transform: uppercase;
+    font-size: 18px;
+    line-height: normal;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+}
+.ocps-service-detal-bound-all .ocps-custom-header .ocps-span {
+	position: absolute;
+    top: 25px;
+    left: 0;
+    z-index: 10;
+    width: auto;
+    line-height: 26px;
+}
+.ocps-service-detal-bound-all .ocps-custom-header .ocps-span a:before {
+	content: "\f177";
+	font-family: FontAwesome;
+	margin-right: 5px;
+}
+
+/*--- Content ---*/
+.ocps-service-detal-bound-all .service-detail-wrapper > div {
+    padding: 0 15px;
+    margin-top: 15px;
+}
+.ocps-service-detal-bound-all .service-detail-wrapper > div label {
+	width: 150px;
+	float: left;
+	line-height: 34px;
+}
+.ocps-service-detal-bound-all .service-detail-wrapper > div select {
+	width: calc(100% - 170px);
+	float: right;
+}
+.ocps-service-detal-bound-all .service-detail-wrapper table td {
+	border: 0;
+	padding: 10px 15px;
+}
+.ocps-service-detal-bound-all .service-detail-wrapper table tr {
+	border-bottom: 1px solid #e1e1e1;
+}
+.ocps-service-detal-bound-all .service-detail-wrapper table tr:first-child {
+	border-top: 1px solid #e1e1e1;
+}
+.ocps-service-detal-bound-all .service-detail-wrapper .col-left {
+	width: 15%;
+	min-width: 170px;
+}
+.ocps-service-detal-bound-all .service-detail-wrapper .button-holder {
+    text-align: center;
+}
+.ocps-service-detal-bound-all .service-detail-wrapper button:first-child {
+    margin-right: 15px;
+}

@@ -1,0 +1,62 @@
+/*---------- Override ----------*/
+body.opencps-theme.ux {
+  font-family: Arial; }
+
+body.opencps-theme.ux input,
+body.opencps-theme.ux button,
+body.opencps-theme.ux select,
+body.opencps-theme.ux textarea {
+  font-family: Arial; }
+
+.opencps-theme.ux .search-container-action {
+  border-radius: 5px; }
+
+.opencps-theme.ux .search-container-action a {
+  font-family: Arial; }
+
+.opencps-theme.ux .btn,
+.opencps-theme input[type="button"],
+.dialog-iframe-root-node .btn,
+.dialog-iframe-root-node input[type="button"] {
+  font-family: Arial; }
+
+.opencps-theme.ux .opencps-toolbar button {
+  border-radius: 5px; }
+
+.opencps-theme.ux .opencps-toolbar select,
+.opencps-theme.ux .opencps-toolbar .search-input.input-keyword input[type="text"] {
+  border-radius: 5px; }
+
+.opencps-theme.ux .opencps-toolbar .search-input.input-keyword button {
+  border-radius: 0 5px 5px 0; }
+
+.portlet-boundary_9_WAR_opencpsportlet_ .opencps-bound-wrapper > .row-fluid,
+.portlet-boundary_12_WAR_opencpsportlet_ .opencps-bound-wrapper > form > div {
+  margin-bottom: 10px; }
+
+.opencps-theme.ux ul.nav-tabs:before {
+  border-top: 1px solid #ebebeb; }
+
+.opencps-theme.ux ul.nav-tabs li.active a:after {
+  left: 40%;
+  bottom: -8px;
+  -webkit-transform: rotate(45deg) translateX(-50%);
+  transform: rotate(45deg) translateX(-50%); }
+
+.opencps-theme.ux ul.nav-tabs li:first-child a {
+  padding-left: 0; }
+
+.taglib-search-iterator-page-iterator-top {
+  position: absolute;
+  right: 0;
+  margin-bottom: 0;
+  top: 6px; }
+
+.opencps-theme.ux .btn {
+  white-space: nowrap;
+  margin-bottom: 10px;
+  width: 100%; }
+
+.opencps-theme.ux .btn:last-child {
+  margin-bottom: 0; }
+

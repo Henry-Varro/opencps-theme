@@ -1,0 +1,104 @@
+##set this to the groupID of the menu you wish to copy
+#set ($mainGroupId = $layout.getGroupId())               
+               
+           #if ($page_group.groupId != $mainGroupId) ## The main site's groupId
+                   #set ($layoutService = $serviceLocator.findService('com.liferay.portal.service.LayoutLocalService'))
+                   #set ($mainLayoutPlid = $layoutService.getDefaultPlid($mainGroupId, true)) ##true for private pages and false for public
+                   #set ($mainLayout = $layoutService.getLayout($mainLayoutPlid))
+                   #set ($mainLayouts = $layoutService.getLayouts($mainGroupId, true,0))
+       
+                   ##Need to loop through and only display the the non hidden menu items   
+                   #set($newMainLayouts = [])
+                   #foreach ($newLayout in $mainLayouts)
+                        #if($newLayout.isHidden() == false)
+                            $newMainLayouts.add($newLayout)
+                        #end
+                   #end
+                  
+                   #set ($requestVarsClass = $portal.getClass().forName('com.liferay.portal.theme.RequestVars'))
+                   #set ($requestVarsConstructor = $requestVarsClass.constructors)
+                   #set ($requestVarsConstructor = $requestVarsConstructor.get(0))
+                   #set ($requestVars = $requestVarsConstructor.newInstance($request, $theme_display, $mainLayout.ancestorPlid, $mainLayout.ancestorLayoutId))
+                   #set ($navItemClass = $portal.getClass().forName('com.liferay.portal.theme.NavItem'))
+
+                   ##set ($newNavItems = $navItemClass.fromLayouts($requestVars, $mainLayouts))
+                   #set ($newNavItems = $navItemClass.fromLayouts($requestVars, $newMainLayouts))
+                   #set ($nav_items= $newNavItems)
+          #end
+
+<nav class="navbar navbar-default">
+
+	<div class="container">
+          
+#*		<div class="navbar-header hidden-md hidden-lg hidden-sm hidden-xs">
+            <button type="button" class="navbar-toggle collapsed navbar-toggle-custom" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">
+              	Toggle navigation
+              </span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            #foreach ($nav_item in $nav_items)
+		    	#if ($nav_item.isSelected())
+					<a class="navbar-brand custom-navs-name" href="$nav_item.getURL()" $nav_item.getTarget()><span>$nav_item.icon() $nav_item.getName()</span></a>
+		        #end
+		    #end
+		</div>
+*#          
+        <div id="navbar" class="">
+			<ul class="nav navbar-nav">
+			#foreach ($nav_item in $nav_items)
+	            #if ($nav_item.isSelected())
+	                <li class="active">
+	            #else
+	                <li>
+	            #end
+	                <a href="$nav_item.getURL()" $nav_item.getTarget()><span>$nav_item.icon() $nav_item.getName()</span></a>
+	           </li>
+	        #end
+              
+            #if ($nav_item.hasChildren())
+            
+            	<li class="dropdown">
+                	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                	
+                	Dropdown <span class="caret"></span>
+                	
+                	</a>
+                	
+                	<ul class="dropdown-menu">
+	                	#foreach ($nav_child in $nav_item.getChildren())
+							#set ($nav_child_attr_selected="")
+							#set ($nav_child_css_class = "false")
+			
+							#if ($nav_child.isSelected())
+								#set ($nav_child_attr_selected="aria-selected='true'")
+								#set ($nav_child_css_class = "active")
+							#end
+							<li class="$nav_child_css_class" id="layout_$nav_child.getLayoutId()" $nav_child_attr_selected role="presentation">
+								<a aria-labelledby="layout_$nav_child.getLayoutId()" href="$nav_child.getURL()" $nav_child.getTarget() role="menuitem">$nav_child.getName()</a>
+							</li>
+						#end
+                	</ul>
+                	
+              	</li>
+			#end
+            
+            </ul>
+            #if ($is_signed_in)
+	            <span class="account-info">
+			    	<span class="account-name">
+			    		#if ($hasUserGroupRole)
+			        		<a href="/group/guest/thong-tin-tai-khoan-cb" rel="nofollow" title="$user_name" class="tooltiptext">$user_email_address</a>
+			        	#else
+			        		<a href="/group/guest/thong-tin-tai-khoan-cd-tc" rel="nofollow" title="$user_name" class="tooltiptext">$user_email_address</a>
+			        	#end
+					</span>
+					$theme.runtime("2_WAR_notificationsportlet")
+					<span class="logout"><a href="$sign_out_url" class="btn-dn">#language ("logout-key")</a></span>
+				</span>
+            #end
+		</div>
+	</div>
+</nav>

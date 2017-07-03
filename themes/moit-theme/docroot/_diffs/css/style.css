@@ -1,0 +1,578 @@
+/*--------------------
+		Header
+ --------------------*/
+ 
+ /*----- Home -----*/
+#banner {
+	position: relative;
+	background-color: #195db2;
+}
+#banner .header {
+	height: 80px;
+	background: url("../images/trongdong-head.png") center 0 no-repeat;
+	background-size: cover;
+}
+#banner .logo img {
+	max-width: 480px;
+	width: 100%;
+	height: auto;
+	margin-top: 5px;
+	display: block;
+}
+#banner .side-head {
+	position: relative;
+	width: 55%;
+	float: right;
+	height: 100%;
+}
+#banner .side-head .sub-menu {
+	position: absolute;
+	top: 50%;
+	right: 0;
+	padding: 0 5px;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+#banner .header ul li {
+    list-style: none;
+    position: relative;
+    float: left;
+    padding: 0 10px;
+}
+#banner .header ul li:before {
+	content: "";
+	position: absolute;
+	top: 35%;
+	height: 30%;
+	right: 0;
+	width: 1px;
+	background-color: white;
+}
+#banner .header ul li:last-child:before {
+	width: 0;
+}
+#banner .header .sub-menu a {
+	padding: 10px 0;
+	color: white;
+	font-size: 13px;
+	font-family: 'Roboto-Medium';
+	display: block;
+}
+
+/*----- Pages -----*/
+.page-theme {}
+
+
+
+/*--------------------
+		Menu
+--------------------*/
+ 
+/*----- Home -----*/
+.moit-theme #banner .navbar {
+	background: url("../images/bg_menu.jpg") 0 0 repeat;
+	position: relative;
+	border: 0;
+    border-radius: 0;
+    min-height: auto;
+    margin-bottom: 0;
+}
+.moit-theme #banner .navbar {
+	position: relative;
+	z-index: 10;
+}
+.moit-theme #banner .navbar .navbar-brand {
+	color: white;
+	position: relative;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    font-family: 'Roboto-Bold';
+}
+.moit-theme #banner .navbar .navbar-toggle .icon-bar {
+	background-color: white;
+}
+.moit-theme #banner .navbar > .container {
+	width: 1170px;
+}
+.moit-theme #banner #navbar ul {
+	margin: auto;
+	padding: 0;
+}
+.moit-theme #banner .navbar ul li {
+	list-style: none;
+	position: relative;
+	float: left;
+}
+.moit-theme #banner .navbar ul li:before {
+	content: "";
+	position: absolute;
+	top: 25%;
+	left: 0;
+	width: 1px;
+	height: 50%;
+	background-color: white;
+}
+.moit-theme #banner .navbar ul li:after {
+	content: "";
+	position: absolute;
+	top: 25%;
+	right: 0;
+	width: 1px;
+	height: 50%;
+	background-color: #c2c2c2;
+}
+.moit-theme #banner .navbar ul li:first-child:before, 
+.moit-theme #banner .navbar ul li:last-child:after {
+	width: 0;
+}
+.moit-theme #banner .navbar ul li:last-child {
+	border-right: 0;
+}
+.mBody .moit-theme #banner .navbar ul li a {
+	padding: 0 15px;
+	line-height: 38px;
+	color: #333;
+	display: block;
+}
+.mBody .moit-theme #banner .navbar ul li.active a, .mBody .moit-theme #banner .navbar ul li a:hover {
+	background: transparent none;
+	color: #195db2;
+	font-family: 'Roboto-Bold';
+	box-shadow: none;
+}
+/* .moit-theme .logout a:before {
+    content: "\f08b";
+    font-family: FontAwesome;
+    margin-right: 5px;
+}
+#banner ul > li.account-info > a:before {
+    content: "\f2be";
+    font-family: FontAwesome;
+    margin-right: 5px;
+}
+#banner ul .pull-right:before, #banner ul .pull-right:after {
+    width: 0 !important;
+} */
+.account-info {
+    float: right;
+}
+.account-info > span {
+    display: inline-block;
+    line-height: 38px;
+}
+.account-info .logout a {
+	padding: 0 20px;
+	display: block;
+}
+.account-info .logout a:before {
+	content: "\f08b";
+	font-family: FontAwesome;
+	margin-right: 5px;
+}
+#banner .account-info .account-name:before {
+    content: "\f2be";
+    font-family: FontAwesome;
+    margin-right: 5px;
+}
+.account-info > div {
+	display: inline-block;
+}
+.account-info .dockbar-user-notifications {
+	list-style: none;
+}
+.account-info .dockbar-user-notifications .dropdown-toggle .user-notifications-count {
+	background-color: transparent;
+    margin: 0px 0 0 20px;
+    line-height: normal;
+    border: 0;
+    padding: 0;
+}
+.account-info .dockbar-user-notifications .user-notifications-count:before {
+	content: "\f086";
+	font-family: FontAwesome;
+	margin-right: 5px;
+}
+.account-info .user-notifications-header {
+	color: #444;
+}
+.moit-theme #banner .account-info .mark-all-as-read {
+	margin: 0;
+}
+.moit-theme #banner .account-info .user-notifications {
+	overflow: hidden;
+	margin-bottom: 20px;
+	color: #444;
+}
+.moit-theme #banner .account-info .user-notification {
+	float: none;
+	margin: 0;
+    padding: 5px 10px;
+}
+.timestamp > .portlet-icon > span:first-child img {
+	display: none;
+}
+.timestamp > .portlet-icon > span:first-child:before {
+	content: "\f017";
+	font-family: FontAwesome;
+	font-size: 14px;
+	color: #5594e0;
+}
+
+/*----- Pages -----*/
+#banner .navbar-right {
+	float: right;
+}
+/* .moit-theme nav ul > li.selected > a, .moit-theme nav ul > li:hover > a {
+	background-color: #007db7;
+	color: white;
+	text-decoration: none;
+}
+.moit-theme .logout{
+    display: inline-block;
+}
+.moit-theme .logout a{
+      color: white;
+}
+.moit-theme .logout a:before {
+    content: "\f08b";
+    font-family: FontAwesome;
+    margin-right: 5px;
+}
+.page-theme #banner ul > li.account-info > a, 
+.home-theme #banner ul > li.account-info > a {
+	background: transparent url("../images/user.png") no-repeat scroll left center;
+	cursor: pointer;
+	padding-left: 30px;
+}
+
+.page-theme #banner > ul {
+	position: absolute;
+    top: 0;
+	background: transparent none;
+	width: 100%;
+}
+.page-theme #banner > ul li {
+	float: left;
+}
+.page-theme #banner > ul li a {
+	display: block;
+	color: white;
+	line-height: 40px;
+	padding: 0 15px;
+	font-family: 'Roboto-Medium';
+}
+.page-theme #banner > ul li a:after {
+	content: "";
+	font-family: FontAwesome;
+	margin-left: 5px;
+	font-size: 16px;
+}
+.page-theme #banner > ul li:nth-child(1) a:after {
+	content: "\f015";
+}
+.page-theme #banner > ul li:nth-child(2) a:after {
+	content: "\f15c";
+}
+.page-theme #banner > ul li:nth-child(3) a:after {
+	content: "\f0ee";
+}
+.page-theme #banner > ul li a[href="/group/guest"]:after {
+	content: "";
+} */
+
+
+
+/*--------------------
+		Content
+--------------------*/
+
+.moit-theme.container {
+	margin: 0;
+	width: 100%;
+	padding: 0;
+}
+.home-theme #content > .container {
+	width: auto;
+	margin: 0;
+	padding: 0;
+}
+.home-theme #content #column-1 {
+	background: url("../images/bg_homepage.jpg") right 0 bottom 0 no-repeat;
+	background-size: cover;
+	padding: 0;
+}
+.moit-theme .portlet-title img {
+	display: none;
+}
+.home-theme .moit-theme.container .Layout_BCT_Home > .row-fluid {
+	margin: 0;
+}
+.home-theme .moit-theme.container .Layout_BCT_Home > .row-fluid:last-child {
+	margin-bottom: 20px;
+}
+
+.opencps-theme.ux #wrapper {
+    padding: 30px 0;
+}
+
+/*----- Slide -----*/
+.mSlide {
+	background-color: rgba(0,0,0,0.5);
+	padding: 70px 0 60px;
+}
+.mSlide .title {
+	font-family: 'Roboto-Bold';
+	font-size: 31px;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);
+	color: white;
+	margin-bottom: 50px;
+    text-transform: uppercase;
+}
+.mSlide .owl-item p {
+	color: white;
+	font-size: 18px;
+	font-family: 'Roboto-Medium';
+}
+.mSlide #owl-demo .item {
+    margin: 0 30px;
+    display: block;
+}
+.mSlide #owl-demo .owl-item:first-child .item {
+	margin-left: 0;
+}
+.mSlide #owl-demo .owl-item:last-child .item {
+	margin-right: 0;
+}
+.mSlide #owl-demo .owl-item img {
+	margin-bottom: 25px;
+}
+
+/*----- Huong dan -----*/
+.home-theme #column-1 {
+	-wbekit-box-shadow: 0px 2px 10px #ccc;
+	box-shadow: 0px 2px 10px #ccc;
+}
+.home-theme #column-1 .dvc p {
+	font-size: 40px;
+	font-family: 'Roboto-Bold';
+	text-shadow: 2px 2px 5px #333;
+	text-transform: uppercase;
+	color: white;
+	margin: 75px 0 25px;
+}
+.home-theme #column-1 .dvc  a {
+	display: block;
+	max-width: 330px;
+	width: 100%;
+	height: auto;
+	margin: 0 0 75px 120px;
+}
+
+.home-theme #column-1 .portlet-boundary_85_ {
+	height: 120px;
+	background-color: rgba(255,255,255,0.9);
+}
+.home-theme #column-1 .sitemap-class {
+	width: 1170px;
+	margin: auto;
+}
+.home-theme #column-1 .sitemap-class li {
+	padding: 0 15px;
+	width: 25%;
+	float: left;
+}
+.home-theme #column-1 .sitemap-class li a {
+	display: block;
+	height: 85px;
+	width: 100%;
+	margin-top: 17px;
+	font-size: 20px;
+	font-family: 'Roboto-Medium';
+	color: #00558d;
+    padding: 15px 0 0 100px;
+    text-transform: uppercase;
+}
+.home-theme #column-1 .sitemap-class li:nth-child(1) a {
+	background: url("../images/step 1.png") 0 0 no-repeat;
+}
+.home-theme #column-1 .sitemap-class li:nth-child(2) a {
+	background: url("../images/step 2.png") 0 0 no-repeat;
+}
+.home-theme #column-1 .sitemap-class li:nth-child(3) a {
+	background: url("../images/step 3.png") 0 0 no-repeat;
+}
+.home-theme #column-1 .sitemap-class li:nth-child(4) a {
+	background: url("../images/step 4.png") 0 0 no-repeat;
+}
+.home-theme #column-1 .sitemap-class li a p {
+	font-size: 14px;
+	color: #555;
+	margin: 5px 0 0;
+	text-transform: none;
+}
+
+/*----- Sitemap -----*/
+.Layout_BCT_Home > div:nth-child(2) {
+	height: 90px;
+	-webkit-box-shadow: 0px 2px 10px #ccc;
+	box-shadow: 0px 2px 10px #ccc;
+}
+.home-theme #column-2 .sitemap-class li {
+	float: left;
+	font-family: 'Roboto-Medium';
+}
+.home-theme #column-2 .sitemap-class li a {
+	line-height: 90px;
+	display: block;
+	padding: 0 20px;
+}
+.home-theme #column-2 .sitemap-class li:hover a {
+	color: #195db2;
+}
+.home-theme #column-2 .sitemap-class li:first-child a {
+	font-size: 20px;
+	text-transform: uppercase;
+	color: #195db2;
+	padding-left: 0; 
+}
+.home-theme #column-2 .sitemap-class li a:before {
+	content: "";
+	font-family: FontAwesome;
+}
+.home-theme #column-2 .sitemap-class li:first-child a:before {
+	content: "\f02d";
+}
+.home-theme #column-2 .sitemap-class li:nth-child(2) a:before {
+	content: "\f044";
+}
+.home-theme #column-2 .sitemap-class li:nth-child(3) a:before {
+	content: "\f090";
+}
+.home-theme #column-2 .sitemap-class li:nth-child(4) a:before {
+	content: "\f0ee";
+}
+.home-theme #column-2 .sitemap-class li:nth-child(5) a:before {
+	content: "\f0f6";
+}
+.home-theme #column-2 .sitemap-class li:nth-child(6) a:before {
+	content: "\f013";
+}
+
+/*--- VBPL ---*/
+.home-theme .Layout_BCT_Home > div:last-child .portlet-title {
+    color: #195db2;
+    font-family: "Roboto-Bold";
+    font-size: 24px;
+    font-weight: normal;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    margin: 30px 0 10px;
+}
+.home-theme .Layout_BCT_Home > div:last-child .portlet-title:before {
+	content: "\f15c";
+	font-family: FontAwesome;
+	margin-right: 5px;
+}
+.home-theme .Layout_BCT_Home > div:last-child .portlet-content {
+	padding: 12px 0 10px;
+}
+.home-theme .Layout_BCT_Home > div:last-child p {
+	line-height: normal;
+}
+.home-theme .Layout_BCT_Home > div:last-child .bold {
+	font-family: 'Roboto-Bold';
+}
+
+
+
+/*--------------------
+		Footer
+--------------------*/
+footer {
+	color: white;
+	position: relative;
+	padding-bottom: 15px;
+	background: #195db2 url("../images/trongdong-footer.png") center top no-repeat;
+	background-size: cover;
+}
+footer span {
+	font-family:'Roboto-Bold';
+	text-transform: none !important;
+}
+footer .row-fluid:last-child p:not(.title) {
+	margin-bottom: 0;
+}
+footer .footer .row-fluid:first-child {
+	margin-top: 25px;
+}
+footer .row-fluid:first-child div:first-child p {
+	font-size: 12px;
+}
+footer .row-fluid:first-child div:first-child p:first-child {
+	font-size: 16px;
+	text-transform: uppercase;
+	font-family: 'Roboto-Bold';
+	margin-bottom: 20px;
+}
+footer .title {
+	font-size: 16px;
+	font-family: 'Roboto-Bold';
+	text-transform: uppercase;
+}
+footer ul li {
+	padding: 5px 0;
+}
+footer ul li:first-child {
+    padding-top: 0;
+}
+footer ul li:before {
+    content: "\f105";
+    font-family: FontAwesome;
+    margin-right: 5px;
+}
+footer .row-fluid:first-child > div:nth-child(3) {
+	margin-left: 10px;
+	width: 290px;
+}
+.moit-theme footer select {
+	border: 1px solid #ccc;
+    border-radius: 5px;
+    max-width: 260px;
+    width: 100%;
+    height: 34px;
+    background: white url(../images/custom/select_arrow_gray.png) right 10px center no-repeat;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    color: #444 !important;
+    padding: 0 10px;
+}
+
+
+
+
+/*--------------------
+		Override
+--------------------*/
+
+.opencps-theme #content section header span img {
+	display: none;
+}
+
+@media (max-width: 767px) {
+	
+	.Layout_BCT_Home > div .container, 
+	.home-theme .moit-theme footer .container {
+	    padding: 0 15px;
+	}
+	.moit-theme .Layout_BCT_Home .span4 {
+	    float: left;
+	    width: 33.333333%;
+	}
+	.home-theme .moit-theme footer .span3 {
+	    float: left;
+	    width: 23%;
+	    margin-left: 2%;
+	}
+	
+}

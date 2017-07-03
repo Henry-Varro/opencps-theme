@@ -1,0 +1,340 @@
+.c-container-tin-tuc {
+	box-sizing: border-box;
+}
+.portlet-title img {
+	display: none;
+}
+.layout363 #column-2 .portlet-topper .portlet-title {
+	margin: 0;
+}
+
+.layout363 > div {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+	padding-bottom: 10px;
+}
+.layout363 > div > #column-1 {
+	width: 19%;
+	margin: 10px 0 0;
+}
+.layout363 > div > #column-2 {
+	width: 60%;
+	margin: 10px 0 0 1%;
+	background-color: white;
+    border: 1px solid #836e43;
+}
+.layout363 > div > #column-3 {
+	width: 19%;
+	margin: 10px 0 0 1%;
+}
+
+.layout363 #column-2 .portlet-boundary, 
+.layout363 #column-2 .c-container-tin-tuc {
+	border: 0;
+}
+.layout363 .portlet-title {
+	display: block;
+	font-size: 14px;
+	line-height: normal;
+	margin: 0;
+	padding: 10px 0 10px 15px;
+	font-style: italic;
+	background-image: url("../images/BG_navi.jpg");
+	color: white;
+	background-size: auto 100%;
+}
+.layout363 .portlet-title:before {
+	content: "\f02d";
+	font-family: FontAwesome;
+	margin-right: 5px;
+}
+.layout363 .portlet-title span:not(.portlet-title-text), 
+.layout363 .portlet-title img, 
+#sign-in {
+    display: none;
+}
+.layout363 .portlet-title span, 
+.layout363 #column-3 .portlet-title span {
+	font-size: inherit;
+	max-width: none;
+	overflow: visible;
+    width: auto;
+}
+.layout363 #column-1 .portlet, 
+.layout363 #column-3 .portlet {
+	border: 1px solid #836e43 !important;
+}
+.layout363 ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.layout363 .portlet-boundary_85_ section .portlet-content {
+	padding-top: 5px;
+}
+.layout363 .portlet-boundary_85_ section ul li {
+	 background: url("../images/lien_ket_cham.png") no-repeat left 5px;
+	 padding-left: 15px;
+	 margin: 5px 0;
+}
+.layout363 .portlet-boundary_85_ section ul li a {
+    color: inherit;
+    display: block;
+}
+.layout363 .weblink-default-wrapper select {
+	width: 100%;
+	margin-bottom: 0;
+	font-size: 14px;
+}
+.portlet-boundary_2_WAR_portalcmsappportlet_ .portlet-body {
+	position: relative;
+}
+.portlet-boundary_2_WAR_portalcmsappportlet_ form, 
+.portlet-boundary_2_WAR_portalcmsappportlet_ .control-group {
+	margin-bottom: 0;
+}
+.layout363 .input-text-wrapper:first-of-type {
+	width: 100%;
+}
+.layout363 .input-text-wrapper input[type="text"] {
+	width: 100%;
+	box-sizing: border-box;
+   	height: 30px;
+    margin-bottom: 0;
+    font-size: 14px;
+}
+.layout363 .input-text-wrapper + .input-text-wrapper {
+	margin-bottom: 0;
+	position: absolute;
+	top: 5px;
+	right: 10px;
+}
+.layout363 .menu {
+	background-color: #836e43;
+}
+.layout363 .menu .active, 
+.layout363 .menu li:hover a {
+	background-color: #790b05 !important;
+}
+.layout363 .c-tab {
+	background-color: #fbb448;
+}
+.layout363 .c-tab .c-active, 
+.layout363 .c-tab li:hover a {
+	background-color: #c75228;
+}
+
+.layout363 .c-container {
+	margin: 15px 0 0;
+	border: 0;
+}
+.layout363 .c-container-tin-tuc .lfr-search-container {
+	margin: 0;
+}
+.layout363 .c-box {
+	margin: 0;
+	padding: 0;
+	text-align: justify;
+}
+.layout363 .c-box .icon {
+	max-width: 128px;
+	height: auto;
+    margin-bottom: 10px;
+}
+.layout363 .c-box .item-content {
+	width: -webkit-calc(100% - 128px);
+	width: calc(100% - 128px);
+	box-sizing: border-box;
+}
+.layout363 .c-box .item-content a {
+	text-decoration: none;
+}
+.layout363 .c-box .item-content h1 {
+	line-height: normal;
+	margin: 0 0 10px;
+}
+
+.divSearch {
+	margin: 0 0 -15px;
+}
+#content .divSearch > .row-fluid {
+	width: 100%;
+	margin: 0;
+}
+.divSearch > .row-fluid > div:first-child {
+	width: -webkit-calc(100% - 45px);
+	width: calc(100% - 45px);
+	float: left;
+}
+.divSearch > .row-fluid > div:first-child input {
+	box-sizing: border-box;
+	height: 32px;
+}
+.divSearch > .row-fluid > div:last-child {
+	margin-left: 0;
+	width: 45px;
+	float: left;
+}
+.divSearch button[type="submit"] {
+	width: 100%;
+	box-sizing: border-box;
+	margin: 0;
+    padding: 5px;
+}
+.divSearch button[type="submit"]:before {
+	content: "\f002";
+	font-family: FontAwesome;
+}
+.divSearch .content-float + .content-float {
+	border: 0 !important;
+	position: relative;
+	height: 20px;
+	clear: both;
+	width:  125px;
+	display: block;
+	right: 80px;
+}
+.divSearch .content-float + .content-float .btn {
+	background: none transparent;
+	border: 0;
+	box-shadow: none;
+	position: absolute;
+	color: #4d9bee !important;
+	padding: 5px 0;
+	margin: 0;
+	font-size: 14px;
+    text-align: left;
+}
+.divSearch #searchAdvance {
+	margin-top: 10px;
+	margin-bottom: -30px;
+	overflow: hidden;
+    padding-bottom: 25px;
+}
+.divSearch #searchAdvance input {
+	margin-bottom: 0;
+}
+.divSearch #searchAdvance select {
+	width: 100%;
+	font-size: 14px;
+}
+.small-divSearch .divSearch #searchAdvance > div {
+	width: 100%;
+	margin: 0;
+}
+
+
+/* Hien thi tin tuc */
+.layout363 .asset-bounddary .asset-abstract {
+	margin-bottom: 0;
+}
+.layout363 .asset-bounddary .asset-content {
+	margin: 0 5px 15px;
+	padding: 0 0 15px;
+	border-bottom: 1px solid #ccc;
+	overflow: hidden;
+}
+.layout363 .asset-bounddary .asset-content:last-child {
+	border-bottom: 0;
+}
+.layout363 .asset-bounddary .asset-content .asset-title {
+	margin: 0 0 10px;
+	line-height: normal;
+	border-bottom: 0;
+	font-size: 18px;
+}
+.layout363 .asset-bounddary .asset-content > div:first-child {
+	float: left;
+	margin-right: 10px;
+	width: 200px;
+}
+.layout363 .asset-bounddary .asset-content > div:first-child img {
+	width: 100%;
+}
+
+.journal-content-article {
+	text-align: justify;
+}
+.portlet-borderless-container .journal-content-article {
+	padding: 0 20px;
+}
+
+
+
+div.portlet-boundary_58_ {
+	background-color: transparent;
+}
+.portlet-boundary_58_ .portlet {
+	padding: 20px;
+	text-align: center;
+}
+.portlet-boundary_58_ .portlet .portlet-content, 
+.portlet-boundary_58_ .portlet form, 
+.portlet-boundary_58_ .portlet .portlet-content .button-holder {
+	padding: 0;
+	margin: 0;
+}
+.portlet-boundary_58_ .portlet .fieldset {
+	display: inline-block;
+}
+.portlet-boundary_58_ .portlet .input-text-wrapper {
+	margin-bottom: 0;
+	text-align: left;
+}
+.portlet-boundary_58_ .navigation {
+	display: none;
+}
+div.portlet-column-content.empty {
+	padding: 0;
+}
+
+
+
+@media (max-width: 920px) {
+	
+.layout363 > div > #column-1 {
+	width: 100%;
+	margin: 15px 0 0;
+	order: 2;
+	padding: 0 15px;
+}
+.layout363 > div > #column-2 {
+	width: 100%;
+	margin: 10px 15px 0;
+	order: 1;
+}
+.layout363 > div > #column-3 {
+	width: 100%;
+	margin: 0 0 10px;
+	order: 3;
+	padding: 0 15px;
+}
+.layout363 .c-box .icon, .layout363 .c-box .icon img {
+	width: 100%;
+	max-width: none;
+}
+.layout363 .c-box .item-content {
+	width: auto;
+}
+.divSearch {
+	margin-bottom: -20px;
+}
+.divSearch > .row-fluid > .span2 {
+	width: 100%;
+	margin-bottom: 15px;
+}
+.divSearch > .row-fluid > .span2 button {
+	width: auto;
+}
+.layout363 .divSearch #searchAdvance > div {
+	width: 100%;
+	margin: 0;
+}
+.layout363 .asset-bounddary .asset-content > div:first-child {
+	width: 100%;
+	margin: 0 0 10px;
+}
+	
+}

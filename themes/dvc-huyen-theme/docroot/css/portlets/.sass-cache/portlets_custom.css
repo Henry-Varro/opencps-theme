@@ -1,0 +1,286 @@
+/*---------- No-Indication ----------*/
+/* .txtitle { */
+/* 	font-size: 20px; */
+/* 	font-family: 'Roboto-Bold'; */
+/* 	color: #0090ff; */
+/* 	text-transform: uppercase; */
+/* 	line-height: 50px; */
+/* 	text-align: center; */
+/* } */
+/* .txtitle i:before { */
+/*     display: none; */
+/* } */
+/*---------- Menu Tabs ---------- */
+/* .opencps-theme.ux  ul.nav-tabs { */
+/* 	border-bottom: 2px solid #0174CD; */
+/* 	margin-bottom: 10px; */
+/* } */
+/* .opencps-theme.ux  ul.nav-tabs li { */
+/* 	margin-bottom: 0 */
+/* } */
+/* .opencps-theme.ux  ul.nav-tabs li a { */
+/* 	border-color: transparent; */
+/*     background-color: #05253E; */
+/*     margin-right: 5px; */
+/*     padding: 5px 10px; */
+/*     color: white; */
+/* } */
+/* .opencps-theme.ux  ul.nav-tabs li.active a,  */
+/* .opencps-theme.ux  ul.nav-tabs li.active a:focus,  */
+/* .opencps-theme.ux  ul.nav-tabs li.active a:hover,  */
+/* .opencps-theme.ux  ul.nav-tabs li:hover a { */
+/* 	border: 1px solid #0090ff; */
+/* 	position: relative; */
+/* 	background-color: #0090ff; */
+/*     color: white; */
+/* } */
+/*---------- PortletID 85 ---------- */
+/*--- Portlet --- */
+/* .opencps-theme .portlet-boundary_85_ .portlet { */
+/* 	background-color: #fff; */
+/* 	-webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.2); */
+/* 	box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.2); */
+/* 	border-radius: 4px; */
+/* 	margin-bottom: 30px; */
+/* } */
+/* Header */
+/* .opencps-theme .portlet-boundary_85_ .portlet header { */
+/* 	border-bottom: 1px solid #e1e1e1; */
+/* 	height: 50px; */
+/* 	padding-left: 25px; */
+/* } */
+/* .opencps-theme .portlet-boundary_85_ .portlet header h1 { */
+/* 	line-height: 50px; */
+/* 	font-size: 16px; */
+/* 	font-family: 'Roboto-Bold'; */
+/* 	text-transform: uppercase; */
+/* 	margin: 0; */
+/* } */
+/* .opencps-theme .portlet-boundary_85_ .portlet header h1:before { */
+/* 	content: "\f085"; */
+/* 	font-family: FontAwesome; */
+/* 	margin-right: 10px; */
+/* 	color: #0f97ff; */
+/* } */
+/* Content */
+/* .opencps-theme .portlet-boundary_85_ .portlet .portlet-content { */
+/* 	padding: 0; */
+/* } */
+/* .opencps-theme .portlet-boundary_85_ .portlet .portlet-body { */
+/* 	background-color: transparent; */
+/* } */
+/* .opencps-theme .portlet-boundary_85_ .portlet .portlet-body .sitemap-class { */
+/* 	margin: 0; */
+/* } */
+/* .opencps-theme .portlet-boundary_85_ .portlet .portlet-body .sitemap-class li { */
+/* 	padding: 10px 20px; */
+/* 	position: relative; */
+/* 	border-bottom: 1px solid #ddd; */
+/* } */
+/* .opencps-theme .portlet-boundary_85_ .portlet .portlet-body .sitemap-class li a { */
+/* 	padding-right: 10px; */
+/* } */
+/* .opencps-theme .portlet-boundary_85_ .portlet .portlet-body .sitemap-class li a.current{ */
+/* 	color: #0f97ff !important; */
+/* 	font-family: 'Roboto-Bold'; */
+/* } */
+/* .opencps-theme .portlet-boundary_85_ .portlet .portlet-body .sitemap-class li a.current:after { */
+/* 	content: "\f054"; */
+/* 	position: absolute; */
+/* 	right: 20px; */
+/* 	font-family: FontAwesome; */
+/* 	color: #0f97ff; */
+/* 	font-size: 12px; */
+/* 	top: 11px; */
+/* } */
+/*---------- Portlet 13 ---------- */
+/* .opencps-form-navigator-container { */
+/* 	background-color: white; */
+/* 	border: 1px solid #ebebeb; */
+/* 	border-radius: 5px; */
+/* 	/* -webkit-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.2); */
+/* 	box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.2); */
+/* } */
+/* .opencps-form-navigator-container .tabbable-content { */
+/* 	display: -webkit-flex; */
+/* 	display: flex; */
+/* } */
+/*--- Nav --- */
+/* .opencps-theme .opencps-form-navigator-container ul.form-navigator { */
+/* 	float: none; */
+/* 	background: transparent none; */
+/*     box-shadow: none; */
+/*     border: 0; */
+/*     border-right: 1px solid #ebebeb; */
+/*     width: 270px; */
+/*     padding: 25px 0; */
+/* } */
+/* .opencps-form-navigator-container .form-navigator-topper,  */
+/* .opencps-form-navigator-container .nav-header { */
+/* 	display: none; */
+/* } */
+/* .opencps-theme .opencps-form-navigator-container ul li a { */
+/* 	line-height: 40px; */
+/* font-weight: bold; */
+/* 	display: block; */
+/* 	padding: 0 30px; */
+/* 	margin:0; */
+/* } */
+/* .opencps-theme .opencps-form-navigator-container ul li span { */
+/* 	color: #FFF !important; */
+/* } */
+/* .opencps-theme .opencps-form-navigator-container ul li a:hover, */
+/* .opencps-theme .opencps-form-navigator-container ul li a:focus, */
+/* .opencps-theme .opencps-form-navigator-container ul li.active a,  */
+/* .opencps-theme .opencps-form-navigator-container ul li.active a:hover, */
+/* .opencps-theme .opencps-form-navigator-container ul li.active a:focus { */
+/* 	color: #FFF !important; */
+/* 	background-color: #0090ff; */
+/* 	font-weight: bold; */
+/* } */
+/* .opencps-theme .opencps-form-navigator-container ul li i { */
+/*     vertical-align: text-top; */
+/*     background-repeat: no-repeat; */
+/*     height: 16px; */
+/*     width: 19px; */
+/*     margin-right: 5px; */
+/* } */
+/* .opencps-theme .opencps-form-navigator-container ul > .search-container-action { */
+/* 	margin: 5px 15px; */
+/* 	width: 239px; */
+/* 	text-align: center; */
+/* } */
+/* .opencps-theme .opencps-form-navigator-container ul.form-navigator li i { */
+/* 	font-size: 17px; */
+/* } */
+/* .opencps-theme .opencps-form-navigator-container ul.form-navigator li .dossier_part:before,  */
+/* .opencps-theme .opencps-form-navigator-container ul.form-navigator li .dossier_content:before,  */
+/* .opencps-theme .opencps-form-navigator-container ul.form-navigator li .dossieroverview:before { */
+/* 	content: "\f0c5"; */
+/* 	color: #000; */
+/* } */
+/* .opencps-theme .opencps-form-navigator-container ul.form-navigator li .dossier_info:before,  */
+/* .opencps-theme .opencps-form-navigator-container ul.form-navigator li .dossierfile:before { */
+/* 	content: "\f129"; */
+/* 	color: #000; */
+/* } */
+/* .opencps-theme .opencps-form-navigator-container ul.form-navigator li .result:before { */
+/* 	content: "\f07b"; */
+/* 	color: #000; */
+/* } */
+/* .opencps-theme .opencps-form-navigator-container ul.form-navigator li .history:before,  */
+/* .opencps-theme .opencps-form-navigator-container ul.form-navigator li .dossierhistory:before { */
+/* 	content: "\f1da"; */
+/* 	color: #000; */
+/* } */
+/* .opencps-theme .opencps-form-navigator-container ul li.active .process { */
+/* 	background-image: url("../images/custom/xuly_white.png"); */
+/* } */
+/* .opencps-theme .opencps-form-navigator-container ul li .process { */
+/* 	background-image: url("../images/custom/xuly.png"); */
+/* } */
+/*---------- Taglib Header  ----------*/
+.mBody .taglib-header {
+  border-bottom: 0;
+  margin-bottom: 20px;
+  position: relative; }
+
+.mBody .taglib-header .header-title {
+  text-transform: uppercase;
+  font-size: 20px;
+  line-height: normal;
+  font-weight: 700;
+  text-align: center; }
+
+.mBody .taglib-header .header-back-to a {
+  padding: 0;
+  line-height: 26px;
+  font-size: inherit;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-weight: normal; }
+
+.mBody .taglib-header .header-back-to a:before {
+  content: "\f177";
+  font-family: FontAwesome; }
+
+.mBody .taglib-header .header-back-to .helper-hidden-accessible {
+  font-family: Arial, sans-serif;
+  position: relative !important; }
+
+.mBody .taglib-header .header-back-to .helper-hidden-accessible:hover {
+  color: #0090ff; }
+
+/*---------- Tree View ----------*/
+.openCPSTree {
+  padding: 5px 0 0; }
+
+.openCPSTree .icon-file:before {
+  content: "\f0f6"; }
+
+.openCPSTree .tree-hitarea.icon-minus:before {
+  content: "\f0d7";
+  color: #2EA4FF; }
+
+.openCPSTree .tree-hitarea.icon-plus:before {
+  content: "\f0da";
+  color: #2EA4FF; }
+
+.tree-node-content .tree-hitarea:before {
+  font-size: 16px; }
+
+.openCPSTree .icon-folder-open,
+.openCPSTree .icon-folder-close,
+.tree-view-content .tree-node-checkbox-container {
+  display: none; }
+
+.openCPSTree .tree-node-content {
+  padding: 5px 10px; }
+
+.openCPSTree > ul > li > .tree-node-content {
+  text-transform: uppercase;
+  font-weight: 700;
+  border-bottom: 1px solid #e1e1e1;
+  padding-bottom: 5px; }
+
+.openCPSTree > ul > li > .tree-node-content.tree-collapsed {
+  border-bottom: 0; }
+
+.openCPSTree .tree-container .tree-node {
+  border-bottom: 1px solid #e1e1e1;
+  position: relative; }
+
+.openCPSTree .tree-container .tree-node:last-child {
+  border-bottom: 0; }
+
+.openCPSTree .tree-container .tree-node .tree-node {
+  border-top: 1px solid #e1e1e1;
+  padding-left: 15px; }
+
+.openCPSTree .tree-node-content .tree-label {
+  margin: 0;
+  display: inline-block;
+  width: -webkit-calc(100% - 20px);
+  width: calc(100% - 20px);
+  text-decoration: none; }
+
+.openCPSTree .tree-node-content .tree-hitarea {
+  float: left; }
+
+.openCPSTree .tree-node-leaf .tree-label {
+  width: -webkit-calc(100% - 45px);
+  width: calc(100% - 45px); }
+
+.openCPSTree .tree-node-leaf ~ .badge {
+  position: absolute;
+  top: 5px;
+  right: 5px; }
+
+.openCPSTree .tree-container .current .tree-label {
+  font-weight: 700;
+  color: #0090ff; }
+
+.openCPSTree .tree-container li:hover .tree-label {
+  color: #0090ff; }
+

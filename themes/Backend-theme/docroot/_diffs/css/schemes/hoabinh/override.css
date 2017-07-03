@@ -1,0 +1,42 @@
+/*---------- Portlet 85 - Menu ----------*/
+.opencps-theme.ux .portlet-boundary_85_:before {
+    background: url("../../../images/schemes/hoabinh/bg_menu.png") 0 0 repeat;
+    background-size: auto 100%;
+}
+
+/*---------- Override ----------*/
+body.opencps-theme.ux {
+	font-family: Arial;
+}
+body.opencps-theme.ux input, 
+body.opencps-theme.ux button, 
+body.opencps-theme.ux select, 
+body.opencps-theme.ux textarea {
+	font-family: Arial;
+}
+.opencps-theme.ux .search-container-action {
+	border-radius: 5px;
+}
+.opencps-theme.ux .search-container-action a {
+	font-family: Arial;
+}
+.opencps-theme.ux .btn, 
+.opencps-theme input[type="button"], 
+.dialog-iframe-root-node .btn, 
+.dialog-iframe-root-node input[type="button"] {
+	font-family: Arial;
+}
+.opencps-theme.ux .opencps-toolbar button {
+    border-radius: 5px;
+}
+.opencps-theme.ux .opencps-toolbar select, 
+.opencps-theme.ux .opencps-toolbar .search-input.input-keyword input[type="text"] {
+	border-radius: 5px;
+}
+.opencps-theme.ux .opencps-toolbar .search-input.input-keyword button {
+	border-radius: 0 5px 5px 0;
+}
+.portlet-boundary_9_WAR_opencpsportlet_ .opencps-bound-wrapper > .row-fluid, 
+.portlet-boundary_12_WAR_opencpsportlet_ .opencps-bound-wrapper > form > div {
+	margin-bottom: 10px;
+}

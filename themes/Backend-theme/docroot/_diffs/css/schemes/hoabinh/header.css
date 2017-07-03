@@ -1,0 +1,58 @@
+.opencps-theme.page-theme header.mHeader_1 {
+	height: 79px;
+    border-bottom: 1px solid #0075c7;
+    position: relative;
+	background: url("../../../images/schemes/hoabinh/bg_header_1.jpg") center 0 no-repeat;
+	background-size: 100% 79px;
+}
+.opencps-theme.page-theme header.mHeader_1 .header {
+	/* background: url("../../../images/schemes/sonla/bg_header_1_2.png") right 0 no-repeat; */
+	width: 1170px;
+	height: 79px;
+	position: relative;
+}
+.opencps-theme.page-theme header.mHeader_1 .header .logo img {
+	height: auto;
+    margin-top: 0;
+}
+
+
+#banner .side-head {
+	position: relative;
+	width: 55%;
+	float: right;
+	height: 100%;
+}
+#banner .side-head .sub-menu {
+	position: absolute;
+	top: 50%;
+	right: 0;
+	padding: 0 5px;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+#banner .header ul li {
+    list-style: none;
+    position: relative;
+    float: left;
+    padding: 0 10px;
+}
+#banner .header ul li:before {
+	content: "";
+	position: absolute;
+	top: 35%;
+	height: 30%;
+	right: 0;
+	width: 1px;
+	background-color: white;
+}
+#banner .header ul li:last-child:before {
+	width: 0;
+}
+#banner .header .sub-menu a {
+	padding: 10px 0;
+	color: white;
+	font-size: 13px;
+	font-family: 'Roboto-Medium';
+	display: block;
+}

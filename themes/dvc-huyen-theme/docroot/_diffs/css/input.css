@@ -1,0 +1,29 @@
+.mBody select {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	line-height: 20px;
+	border: 1px solid #e1e1e1;
+	background: white url("../images/custom/nav_toolbar/select_arrow_gray.png") no-repeat scroll right 12px center;
+	height: 28px;
+	width: 100%;
+	border-radius: 2px;
+	padding: 0 10px;
+}
+
+.mBody input[type="text"] {
+	height: 28px;
+	width: 100%;
+	background-color: white;
+	border: 1px solid #e1e1e1;
+	border-radius: 2px;
+	padding: 0 10px;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.mBody textarea {
+	width: 100%;
+	max-width: 100%;
+	border: 1px solid #e1e1e1;
+	box-shadow: none;
+}

@@ -1,0 +1,38 @@
+/*----- Homepage -----*/
+#content {
+  position: relative; }
+
+.mBody .portlet-boundary_114_WAR_opencpsnotificationportlet_ > .opencps-searchcontainer-wrapper {
+  width: 1170px;
+  transform: translateX(-50%);
+  position: absolute;
+  left: 50%;
+  margin: 35px 0 50px; }
+
+/*----- Table -----*/
+.portlet-boundary_114_WAR_opencpsnotificationportlet_ th,
+.portlet-boundary_114_WAR_opencpsnotificationportlet_ td:last-child {
+  white-space: nowrap; }
+
+.portlet-boundary_114_WAR_opencpsnotificationportlet_ td:nth-child(1) {
+  width: 15%;
+  text-align: center; }
+
+.portlet-boundary_114_WAR_opencpsnotificationportlet_ td:nth-child(2) {
+  width: 15%;
+  text-align: center; }
+
+.mBody .portlet-boundary_114_WAR_opencpsnotificationportlet_ table td:nth-child(4) {
+  width: 15%;
+  text-align: center; }
+
+.mBody .portlet-boundary_114_WAR_opencpsnotificationportlet_ .taglib-header {
+  margin-bottom: 0; }
+
+.mBody .portlet-boundary_114_WAR_opencpsnotificationportlet_ .header-title {
+  display: none; }
+
+.mBody .portlet-boundary_114_WAR_opencpsnotificationportlet_ .taglib-header .header-back-to a {
+  top: 0px;
+  left: 15px; }
+

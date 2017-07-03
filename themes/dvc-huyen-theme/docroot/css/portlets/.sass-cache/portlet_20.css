@@ -1,0 +1,214 @@
+/*----- Status Left -----*/
+#paymentStatusTree .header {
+  text-transform: uppercase;
+  font-weight: 700;
+  border-bottom: 1px solid #e1e1e1;
+  padding: 5px 10px; }
+
+#paymentStatusTree .header:before {
+  content: "\f0b1";
+  display: inline-block;
+  font-family: FontAwesome;
+  margin-right: 5px;
+  font-weight: normal; }
+
+#paymentStatusTree li {
+  position: relative;
+  border-bottom: 1px solid #e1e1e1; }
+
+#paymentStatusTree li:last-child {
+  border-bottom: 0; }
+
+#paymentStatusTree li a {
+  display: block;
+  padding: 5px 10px 5px 25px; }
+
+#paymentStatusTree li a:before {
+  content: "\f0f6";
+  font-family: FontAwesome;
+  position: absolute;
+  top: 5px;
+  left: 10px;
+  font-size: 12px;
+  font-weight: normal; }
+
+#paymentStatusTree li:hover a,
+#paymentStatusTree li.current a {
+  color: #0090ff;
+  cursor: pointer; }
+
+#paymentStatusTree li.current a {
+  font-weight: 700; }
+
+#paymentStatusTree li span {
+  position: absolute;
+  top: 6px;
+  right: 10px;
+  padding: 2px 9px;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 14px;
+  color: white;
+  vertical-align: baseline;
+  white-space: nowrap;
+  background-color: #999;
+  border-radius: 9px; }
+
+/*----- List Payment request -----*/
+.portlet-boundary_20_WAR_opencpsportlet_ table th {
+  white-space: nowrap; }
+
+.portlet-boundary_20_WAR_opencpsportlet_ table td:last-child {
+  width: 1%; }
+
+.portlet-boundary_20_WAR_opencpsportlet_ table a,
+.portlet-boundary_20_WAR_opencpsportlet_ table a:hover {
+  color: #0090ff; }
+
+.portlet-boundary_20_WAR_opencpsportlet_ .button {
+  border: 1px solid #0090ff;
+  background-color: white;
+  color: #0090ff;
+  text-shadow: none;
+  padding: 4px 10px;
+  white-space: nowrap;
+  display: block;
+  border-radius: 2px; }
+
+.portlet-boundary_20_WAR_opencpsportlet_ .button:hover {
+  background-color: #0090ff;
+  color: white; }
+
+/* Bao nop chuyen khoan */
+.payment-ld .content,
+.payment-ld .overfolow .box50 {
+  background-color: white;
+  border-radius: 2px;
+  border: 1px solid #e1e1e1;
+  position: relative; }
+
+.payment-ld .baonop {
+  border: 1px solid #0090ff;
+  background-color: white;
+  color: #0090ff;
+  text-shadow: none;
+  padding: 8px 15px;
+  white-space: nowrap;
+  display: block;
+  border-radius: 2px;
+  font-family: Arial, sans-serif; }
+
+.payment-ld .baonop:hover {
+  background-color: #0090ff;
+  color: white; }
+
+.payment-ld .box100 {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap; }
+
+.payment-ld .box50 {
+  width: 50%;
+  padding: 20px 30px; }
+
+.payment-ld .box50.text-center {
+  border-left: 1px solid #e1e1e1; }
+
+.payment-ld .box50:not(.text-center) p,
+.payment-ld .box100 > div:not(.box50) p span:first-child {
+  font-weight: 700;
+  display: inline-block;
+  width: 140px;
+  vertical-align: top; }
+
+.payment-ld .box50:last-child:not(.text-center) p {
+  width: 170px; }
+
+.payment-ld .box50:first-child .over100 p:first-child {
+  width: 100%;
+  margin-bottom: 0; }
+
+.payment-ld .box50:first-child .over100 p span:last-child {
+  width: 70%;
+  float: left;
+  text-align: justify;
+  font-weight: normal; }
+
+.payment-ld .over100 p span:first-child {
+  float: left;
+  width: 140px; }
+
+.image_placeholder {
+  background: url("../../images/custom/image_placeholder.png");
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  position: relative;
+  margin: 5px 0 25px; }
+
+.payment-ld .bold,
+.payment-ld .overfolow .red {
+  font-size: 18px;
+  font-weight: 700; }
+
+.payment-ld .upercase {
+  text-transform: uppercase;
+  font-size: 16px; }
+
+.paymentUploadBTN {
+  background-color: #f5f5f5;
+  border: 1px solid #e1e1e1;
+  color: #444;
+  font-size: 12px;
+  text-transform: uppercase;
+  width: 160px;
+  padding: 5px 0px;
+  border-radius: 2px;
+  left: 50%;
+  margin-top: 10px;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  position: relative;
+  font-weight: 700; }
+
+.paymentUploadBTN input {
+  display: none; }
+
+.paymentUploadBTN .help-inline {
+  position: absolute;
+  top: 105%;
+  left: 50%;
+  font-size: 11px;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%); }
+
+.paymentUploadBTN .control-group,
+.paymentUploadBTN label {
+  margin-bottom: 0; }
+
+.mBody .payment-ld .paymentUploadBTN > .input-text-wrapper {
+  width: auto;
+  margin: 0; }
+
+/* Thong bao phi, le phi */
+.portlet-boundary_20_WAR_opencpsportlet_ .action-payment-detail {
+  text-align: center; }
+
+.portlet-boundary_20_WAR_opencpsportlet_ .action-payment-detail .button {
+  display: inline-block;
+  margin-top: 5px; }
+
+.portlet-boundary_20_WAR_opencpsportlet_ .action-payment-detail .button:nth-child(2) {
+  margin-left: 15px; }
+
+.payment-ld .content.overfolow {
+  border: 0; }
+
+.payment-ld .content.overfolow .box50:first-child {
+  border-radius: 2px 0 0 2px; }
+
+.payment-ld .content.overfolow .box50:last-child {
+  border-radius: 0 2px 2px 0;
+  border-left: 0; }
+

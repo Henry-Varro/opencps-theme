@@ -1,0 +1,324 @@
+/* .opencps-theme.ux .taglib-page-iterator .search-results, */
+.dialog-iframe-popup .taglib-page-iterator .search-results {
+	display: none;
+}
+
+.mBody .opencps-searchcontainer-wrapper {
+    background-color: #fff;
+    border: 1px solid #e1e1e1;
+    border-radius: 2px;
+    position: relative;
+}
+
+
+
+/*----- Head -----*/
+.mBody .opcs-serviceinfo-list-label {
+    position: absolute;
+    top: 22px;
+	left: 15px;
+}
+.mBody .opcs-serviceinfo-list-label .count {
+	margin-bottom: 0;
+}
+.mBody .lfr-search-container {
+	margin-top: 0;
+	padding-bottom: 15px;
+}
+.mBody .lfr-search-container > .searchcontainer:first-child, 
+.mBody .lfr-search-container > .searchcontainer:nth-child(2), 
+.mBody .opcs-serviceinfo-list-label + .alert-info {
+	margin-top: 60px;
+}
+.mBody .file_manage_title, 
+.mBody .file_manage_title_new {
+    text-transform: uppercase;
+	font-weight: 700;
+    font-size: 16px;
+    margin: 0;
+}
+.mBody .file_manage_title:before {
+	content: "\f0f6";
+	font-family: FontAwesome;
+	color: #0090ff;
+	margin-right: 5px;
+	font-weight: normal;
+}
+.mBody .file_manage_title_new:before {
+	content: "\f0f3";
+	font-family: FontAwesome;
+	color: #0090ff;
+	margin-right: 5px;
+}
+
+
+
+/*----- Content -----*/
+.mBody .opencps-searchcontainer-wrapper table {
+	border-width: 1px 0;
+	border-radius: 0;
+	margin: 0 -1px 20px;
+	width: -webkit-calc(100% + 2px);
+	width: calc(100% + 2px);
+    max-width: inheritin;
+}
+.mBody .opencps-searchcontainer-wrapper table th {
+	text-align: center;
+	vertical-align: middle;
+}
+.mBody .opencps-searchcontainer-wrapper table .last {
+	width: 1%;
+}
+.mBody .opencps-searchcontainer-wrapper table .bold, 
+.mBody .opencps-searchcontainer-wrapper table .bold-label {
+    font-weight: 700;
+}
+.mBody .opencps-searchcontainer-wrapper [class*="span"] {
+	min-height: 20px;
+	margin-bottom: 5px;
+}
+.mBody .opencps-searchcontainer-wrapper.mrb25 {
+	margin-bottom: 25px;
+}
+.mBody .opencps-searchcontainer-wrapper table div > a {
+	color: #0090ff;
+}
+.mBody .opencps-searchcontainer-wrapper table div > a:hover {
+	border-bottom: 1px solid #0090ff;
+}
+
+
+
+
+.opencps-searchcontainer-wrapper .des-sub-button {
+	white-space: nowrap;
+	padding: 4px 0;
+	margin-bottom: 10px;
+	min-width: 100px;
+}
+
+
+
+/* Search container style 2  */
+
+.opencps-theme.ux .opencps-searchcontainer-wrapper-width-header {
+    background-color: #fff;
+    border: 1px solid #e1e1e1;
+    /* border-radius: 8px; */
+    padding: 10px 0;
+}
+
+.opencps-theme.ux .opencps-searchcontainer-wrapper-width-header .searchcontainer-content table tr.opencps-searchcontainer-row th {
+	background: none #fff;
+	border: 0;
+	border-top: 1px solid #e1e1e1;
+	position: relative;
+	padding: 8px 6px;
+}
+
+.opencps-theme.ux .opencps-searchcontainer-wrapper-width-header .searchcontainer-content table tr.opencps-searchcontainer-row th:after {
+	content: "";
+	border-right: 1px solid #e1e1e1;
+	width: 1px;
+	height: calc(100% - 30px);
+	position: absolute;
+	right: 0;
+	top: 15px;
+}
+
+.opencps-theme.ux .opencps-searchcontainer-wrapper-width-header .searchcontainer-content table tr.opencps-searchcontainer-row th:last-child:after {
+	border-right: none;
+}
+
+
+.opencps-theme.ux .opencps-searchcontainer-wrapper-width-header .searchcontainer-content table tr.opencps-searchcontainer-row th .bold-label {
+	color: #333;
+    font-size: 13px;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.opencps-theme.ux .opencps-searchcontainer-wrapper-width-header .searchcontainer-content table tr.opencps-searchcontainer-row td {
+	background: none #fff;
+	border: 0;
+	border-top: 1px solid #e1e1e1;
+	position: relative;
+	padding: 8px 6px;
+}
+
+.opencps-theme.ux .opencps-searchcontainer-wrapper-width-header .searchcontainer-content table tr.opencps-searchcontainer-row td:after {
+	content: "";
+	border-right: 1px solid #e1e1e1;
+	width: 1px;
+	height: calc(100% - 30px);
+	position: absolute;
+	right: 0;
+	top: 15px;
+}
+
+.opencps-theme.ux .opencps-searchcontainer-wrapper-width-header .searchcontainer-content table tr.opencps-searchcontainer-row td:last-child:after {
+	border-right: none;
+}
+
+
+.opencps-theme.ux .opencps-searchcontainer-wrapper-width-header .searchcontainer-content table tr.opencps-searchcontainer-row td .bold-label {
+	color: #333;
+    font-size: 13px;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+ 
+.opencps.dossiermgt.dossier-part-row {
+	display: table-row;
+}
+
+.aui .table-bordered .dossier-part-control table td {
+	border: 0;
+}
+
+/*----- Specific for Searchcontainer -----*/
+
+/* Dich vu cong */
+#_10_WAR_opencpsportlet_serviceInfosSearchContainerSearchContainer table th {
+	white-space: nowrap;
+}
+#_10_WAR_opencpsportlet_serviceInfosSearchContainerSearchContainer table td:first-child, 
+#_10_WAR_opencpsportlet_serviceInfosSearchContainerSearchContainer table td:last-child {
+    text-align: center;
+}
+
+/* Quan ly ho so */
+#_13_WAR_opencpsportlet_dossierBeansSearchContainerSearchContainer table i, 
+#_13_WAR_opencpsportlet_dossierBeansSearchContainer_1SearchContainer table i {
+	font-size: 12px;
+}
+#_13_WAR_opencpsportlet_dossierBeansSearchContainerSearchContainer table td:nth-child(1), 
+#_13_WAR_opencpsportlet_dossierBeansSearchContainer_1SearchContainer table td:nth-child(1) {
+	width: 20px;
+	text-align: center;
+}
+#_13_WAR_opencpsportlet_dossierBeansSearchContainerSearchContainer table th, 
+#_13_WAR_opencpsportlet_dossierBeansSearchContainer_1SearchContainer table th, 
+#_13_WAR_opencpsportlet_dossierFileBeansSearchContainerSearchContainer tbale th {
+	white-space: nowrap;
+}
+#_13_WAR_opencpsportlet_dossierBeansSearchContainerSearchContainer table .dossier-list-col-date .row-fluid:not(:first-child), 
+#_13_WAR_opencpsportlet_dossierBeansSearchContainer_1SearchContainer table .dossier-list-col-date .row-fluid:not(:first-child) {
+	margin-top: 5px;
+}
+
+/* Danh sach giay to */
+#_13_WAR_opencpsportlet_dossierFileBeansSearchContainerSearchContainer table td:first-child {
+	width: 350px;
+}
+#_13_WAR_opencpsportlet_dossierFileBeansSearchContainerSearchContainer table td:nth-child(2) .bold-label {
+	width: 95px;
+}
+#_13_WAR_opencpsportlet_dossierFileBeansSearchContainerSearchContainer table td:nth-child(2) .bold-label + div {
+	width: -webkit-calc(100% - 95px);
+	width: calc(100% - 95px);
+	margin: 0;
+}
+
+#_13_WAR_opencpsportlet_dossiersSearchContainerSearchContainer table td:not(:nth-child(7)):not(:nth-child(8)) {
+	text-align: center;
+}
+
+/* Danh sach Portlet 16 */
+#_16_WAR_opencpsportlet_processOrderBeansSearchContainerSearchContainer table th:not(:nth-child(4)) {
+	white-space: nowrap;
+}
+#_16_WAR_opencpsportlet_processOrderBeansSearchContainerSearchContainer table td:not(:nth-child(4)) {
+	text-align: center;
+}
+
+
+
+/*----- Alerts -----*/
+.opencps-searchcontainer-wrapper > .alert {
+	margin: 15px;
+}
+
+
+
+/*----- SearchContainer Action -----*/
+.mBody .search-container-action {
+    margin: 0 0 5px;
+    position: relative;
+    width: 100%;
+    text-shadow: none;
+    border-radius: 2px;
+    font-family: Arial, sans-serif;
+}
+.mBody .search-container-action:last-of-type {
+	margin-bottom: 0;
+}
+.mBody .search-container-action a {
+    color: #2a2a2a;
+    display: block;
+    padding: 6px 10px;
+}
+.mBody .search-container-action a:focus .taglib-text, 
+.mBody .search-container-action a:hover .taglib-text {
+    text-decoration: none;
+}
+.mBody .search-container-action img {
+	display: none;
+}
+.mBody .search-container-action .taglib-text {
+    clip: auto !important;
+    position: relative !important;
+    white-space: nowrap;
+}
+.mBody .search-container-action a:hover {
+	color: white;
+}
+.mBody .fa.edit a, 
+.mBody .fa.view a, 
+.mBody .fa.add a, 
+.mBody .fa.forward a, 
+.mBody .fa.undo a {
+	border: 1px solid #0090ff;
+	background-color: white;
+}
+.mBody .fa.edit:hover a, 
+.mBody .fa.view:hover a, 
+.mBody .fa.add:hover a, 
+.mBody .fa.forward:hover a, 
+.mBody .fa.undo:hover a {
+	background-color: #0090ff;
+}
+.mBody .fa.delete a {
+	background-color: white;
+	border: 1px solid #e61f06;
+}
+.mBody .fa.delete:hover a {
+	background-color: #e61f06;
+}
+.mBody .fa .taglib-text:before {
+	content: "";
+	font-family: FontAwesome;
+	margin-right: 5px;
+	font-size: 12px;
+	width: 12px;
+	text-align: center;
+}
+.mBody .fa.undo .taglib-text:before {
+	content: "\f0e2";
+}
+.mBody .fa.edit .taglib-text:before {
+	content: "\f044";
+}
+.mBody .fa.view .taglib-text:before {
+	content: "\f06e";
+}
+.mBody .fa.add .taglib-text:before {
+	content: "\f055";
+}
+.mBody .fa.forward .taglib-text:before {
+	content: "\f1d8";
+}
+.mBody .fa.delete .taglib-text:before {
+	content: "\f014";
+}

@@ -1,0 +1,46 @@
+.portlet-boundary_115_WAR_opencpsnotificationportlet_ .opencps-searchcontainer-wrapper {
+  margin-top: 40px; }
+
+/*----- Table -----*/
+.manage-non-actionable {
+  margin-top: 60px;
+  padding-bottom: 20px; }
+
+.manage-non-actionable > div:first-child {
+  text-align: center;
+  background-color: #f1f1f1; }
+
+.mBody .manage-non-actionable .span3 {
+  margin: 0 !important;
+  width: 25%;
+  padding: 5px 10px;
+  border: 1px solid #e1e1e1;
+  border-width: 1px 0 0 1px; }
+
+.mBody .manage-non-actionable .span3:first-child {
+  border-left: 0; }
+
+.manage-main-user-notifications > div:last-child .span3 {
+  border-bottom: 1px solid #e1e1e1;
+  margin-bottom: 20px !important; }
+
+.manage-user-notification > div {
+  display: -webkit-box;
+  display: flex; }
+
+.manage-user-notification:hover .span3 {
+  background-color: #f6f6f6; }
+
+.manage-non-actionable .taglib-page-iterator > .search-results {
+  display: none; }
+
+.mBody .manage-non-actionable .search-results {
+  line-height: 30px; }
+
+.mBody .manage-non-actionable .lfr-pagination-buttons {
+  float: left;
+  margin-left: 25px; }
+
+.mBody .manage-non-actionable .lfr-pagination-config {
+  line-height: 30px; }
+

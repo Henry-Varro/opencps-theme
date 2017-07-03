@@ -1,0 +1,47 @@
+.page-search form {
+  position: relative; }
+
+.portlet-boundary_19_WAR_opencpsportlet_ .page-search form button {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  font-size: 0;
+  height: 34px;
+  width: 42px;
+  background-color: #0090ff;
+  color: white; }
+
+.page-search form button:before {
+  content: "\f002";
+  font-family: FontAwesome;
+  font-size: 16px; }
+
+.portlet-boundary_19_WAR_opencpsportlet_ .head h5 {
+  font-size: 16px;
+  margin: 25px 0 15px; }
+
+.portlet-boundary_19_WAR_opencpsportlet_ .content .span12 > .row-fluid:first-child {
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  text-align: center; }
+
+.portlet-boundary_19_WAR_opencpsportlet_ .content > .row-fluid:first-child .span12 > .row-fluid:not(:first-child) {
+  border: 1px solid #e1e1e1;
+  margin-top: -1px;
+  padding: 7px 15px; }
+
+.portlet-boundary_19_WAR_opencpsportlet_ .content .span12 > .row-fluid:not(:first-child) b {
+  width: 135px;
+  display: inline-block;
+  vertical-align: top; }
+
+.portlet-boundary_19_WAR_opencpsportlet_ .content b + span {
+  display: inline-block;
+  width: calc(100% - 140px); }
+
+.portlet-boundary_19_WAR_opencpsportlet_ .content > .row-fluid:last-child .span12 > .row-fluid:first-child {
+  margin-top: 25px; }
+
+.portlet-boundary_19_WAR_opencpsportlet_ .content > .row-fluid:last-child .searchcontainer {
+  margin-top: 0px; }
+

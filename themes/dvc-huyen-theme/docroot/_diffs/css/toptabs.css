@@ -1,0 +1,75 @@
+.mBody .portlet-boundary_13_WAR_opencpsportlet_ .opencps-toptabs,
+.mBody .portlet-boundary_16_WAR_opencpsportlet_ .opencps-toptabs, 
+.mBody .portlet-boundary_18_WAR_opencpsportlet_ .opencps-toptabs {
+	height: 44px;
+	margin-bottom: 25px;
+	margin-top: -25px;
+	position: relative;
+	border-bottom: 1px solid #e1e1e1;
+}
+.mBody .portlet-boundary_13_WAR_opencpsportlet_ .opencps-toptabs:before,
+.mBody .portlet-boundary_16_WAR_opencpsportlet_ .opencps-toptabs:before, 
+.mBody .portlet-boundary_18_WAR_opencpsportlet_ .opencps-toptabs:before {
+	content: "";
+	position: absolute;	
+	top: 0;
+	left: -400%;
+	width: 900%;
+	height: 100%;
+	border-bottom: 1px solid #e1e1e1;
+}
+.mBody .portlet-boundary_13_WAR_opencpsportlet_ .opencps-toptabs ul, 
+.mBody .portlet-boundary_16_WAR_opencpsportlet_ .opencps-toptabs ul, 
+.mBody .portlet-boundary_18_WAR_opencpsportlet_ .opencps-toptabs ul {
+	margin: 0;
+	border-bottom: 0;
+}
+.mBody .portlet-boundary_13_WAR_opencpsportlet_ .opencps-toptabs ul li a, 
+.mBody .portlet-boundary_16_WAR_opencpsportlet_ .opencps-toptabs ul li a, 
+.mBody .portlet-boundary_18_WAR_opencpsportlet_ .opencps-toptabs ul li a {
+	padding: 0 25px;
+	line-height: 42px;
+	display: block;
+	position: relative;
+	background: transparent none;
+	color: #021c31;
+}
+.mBody .portlet-boundary_13_WAR_opencpsportlet_ .opencps-toptabs ul li a:before, 
+.mBody .portlet-boundary_16_WAR_opencpsportlet_ .opencps-toptabs ul li a:before, 
+.mBody .portlet-boundary_18_WAR_opencpsportlet_ .opencps-toptabs ul li a:before {
+	content: "";
+	pointer-events: none;
+	position: absolute;
+	border: 1px solid #e1e1e1;
+	left: -webkit-calc(50% - 5px);
+	left: calc(50% - 5px);
+	border-width: 0 1px 1px 0;
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+	opacity: 0;
+	bottom: -6px;
+	width: 10px;
+	height: 10px;
+	background-color: white;
+}
+.mBody .portlet-boundary_13_WAR_opencpsportlet_ .nav-tabs .active a:before, 
+.mBody .portlet-boundary_16_WAR_opencpsportlet_ .nav-tabs .active a:before, 
+.mBody .portlet-boundary_18_WAR_opencpsportlet_ .nav-tabs .active a:before {
+	opacity: 1;
+}
+.mBody .portlet-boundary_13_WAR_opencpsportlet_ .nav-tabs .tab a:hover, 
+.mBody .portlet-boundary_16_WAR_opencpsportlet_ .nav-tabs .tab a:hover, 
+.mBody .portlet-boundary_18_WAR_opencpsportlet_ .nav-tabs .tab a:hover {
+	background-color: transparent;
+	border-color: transparent;
+}
+.mBody .portlet-boundary_13_WAR_opencpsportlet_ .nav-tabs .active a, 
+.mBody .portlet-boundary_13_WAR_opencpsportlet_ .nav-tabs .active a:hover, 
+.mBody .portlet-boundary_16_WAR_opencpsportlet_ .nav-tabs .active a, 
+.mBody .portlet-boundary_16_WAR_opencpsportlet_ .nav-tabs .active a:hover, 
+.mBody .portlet-boundary_18_WAR_opencpsportlet_ .nav-tabs .active a, 
+.mBody .portlet-boundary_18_WAR_opencpsportlet_ .nav-tabs .active a:hover {
+	background-color: rgba(255, 0, 0, 0);
+	font-weight: 700;
+	border-color: rgba(255, 0, 0, 0);
+}

@@ -1,0 +1,188 @@
+.opencps-accountinfo-wrapper {
+  background-color: white;
+  border-radius: 2px;
+  border: 1px solid #e1e1e1;
+  overflow: hidden;
+  padding-top: 5px; }
+
+.opencps-accountinfo-wrapper .header {
+  border-bottom: 1px solid #e1e1e1;
+  padding: 0 30px; }
+
+.opencps-accountinfo-wrapper .header p {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 60px;
+  margin-bottom: 0; }
+
+.opencps-accountinfo-wrapper .header p:before {
+  content: "\f2bd";
+  font-family: FontAwesome; }
+
+.opencps-accountinfo-wrapper .content {
+  display: -webkit-flex;
+  display: flex; }
+
+.opencps-accountinfo-wrapper .content .left {
+  padding: 30px 50px 20px 30px;
+  width: 50%; }
+
+.opencps-accountinfo-wrapper .content .right {
+  padding: 30px 30px 20px;
+  position: relative;
+  width: 50%; }
+
+.opencps-accountinfo-wrapper .content .right:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1px;
+  height: 100%;
+  background: #e1e1e1; }
+
+.opencps-accountinfo-wrapper .content .left > div,
+.opencps-accountinfo-wrapper .content .right > div {
+  position: relative;
+  margin-bottom: 5px; }
+
+.opencps-accountinfo-wrapper .content .span6 {
+  margin-bottom: 0;
+  position: relative;
+  font-weight: 700; }
+
+.mBody .opencps-accountinfo-wrapper .content a,
+.mBody .opencps-accountinfo-wrapper .content a:hover {
+  color: #0090ff; }
+
+.opencps-accountinfo-wrapper .content a.fix {
+  position: absolute;
+  right: 0;
+  padding-left: 20px;
+  background: url("../../images/custom/icon_edit_blue.png") 0 center no-repeat;
+  top: 0; }
+
+.opencps-accountinfo-wrapper .box_scroll {
+  height: auto;
+  max-height: 90px;
+  overflow: auto;
+  margin-bottom: 0;
+  font-weight: 700; }
+
+.opencps-accountinfo-wrapper .box_scroll span {
+  display: block;
+  margin-bottom: 5px; }
+
+.mBody .opencps-accountinfo-wrapper .content > div p {
+  font-weight: 700;
+  margin-bottom: 20px;
+  position: relative;
+  text-transform: uppercase; }
+
+/*----- Man hinh sua -----*/
+.portlet-boundary_6_WAR_opencpsportlet_ .tab-pane {
+  padding: 20px 25px; }
+
+.portlet-boundary_6_WAR_opencpsportlet_ .opencps-form-navigator-container ul li i {
+  vertical-align: baseline;
+  height: auto;
+  width: 15px;
+  margin-right: 5px;
+  font-size: 16px;
+  text-align: center; }
+
+.portlet-boundary_6_WAR_opencpsportlet_ .opencps-form-navigator-container ul li:not(.active) i {
+  color: #0af; }
+
+.opencps-form-navigator-container i.general_info:before {
+  content: "\f129"; }
+
+.opencps-form-navigator-container i.contact:before {
+  content: "\f2b9"; }
+
+.opencps-form-navigator-container i.password:before {
+  content: "\f023"; }
+
+.mBody .opencps-form-navigator-container .button-holder {
+  text-align: center; }
+
+/* .mBody .button-holder .btn-cancel, 
+#_13_WAR_opencpsportlet_cancel, 
+#_13_WAR_opencpsportlet_btnCancel, 
+#_16_WAR_opencpsportlet_cancel, 
+.mBody .button-holder button[typr="reset"] {
+	border: 1px solid #ccc;
+}
+.mBody .button-holder .btn-cancel:hover, 
+#_13_WAR_opencpsportlet_cancel:hover, 
+#_13_WAR_opencpsportlet_btnCancel:hover, 
+#_16_WAR_opencpsportlet_cancel:hover, 
+.mBody .button-holder button[typr="reset"]:hover {
+	background-color: #e6e6e6;
+	color: #333;
+} */
+.mBody .opencps-form-navigator-container input[type="password"] {
+  width: 100%;
+  height: 30px; }
+
+.mBody .opencps-form-navigator-container .button-holder .btn-cancel:before,
+.mBody .button-holder button[typr="reset"]:before {
+  content: "\f0e2";
+  font-family: FontAwesome; }
+
+.mBody .opencps-form-navigator-container .button-holder .btn-primary:before,
+.mBody .button-holder button[typr="submit"]:before {
+  content: "\f0c7";
+  font-family: FontAwesome; }
+
+.mBody .opencps-form-navigator-container .taglib-form-navigator .section-modified a {
+  line-height: normal;
+  padding: 10px 30px; }
+
+.mBody .taglib-form-navigator .section-modified .modified-notice {
+  margin-left: 20px;
+  display: block; }
+
+.mBody .opencps-form-navigator-container .fake_textarea {
+  height: 105px;
+  overflow: auto;
+  border: 1px solid #e1e1e1;
+  border-radius: 4px;
+  padding: 5px 10px; }
+
+/*--- Layout ---*/
+.opencps-form-navigator-container .tabbable-content {
+  display: -webkit-flex;
+  display: flex;
+  border: 1px solid #e1e1e1;
+  border-radius: 2px; }
+
+/* Nav */
+.mBody .opencps-form-navigator-container .form-navigator {
+  background: transparent none;
+  box-shadow: none;
+  border: 0;
+  border-right: 1px solid #e1e1e1;
+  width: 270px;
+  padding: 25px 0; }
+
+.opencps-form-navigator-container .form-navigator-topper,
+.opencps-form-navigator-container .nav-header {
+  display: none; }
+
+.mBody .opencps-form-navigator-container ul li a {
+  line-height: 40px;
+  font-weight: 700;
+  display: block;
+  padding: 0 25px;
+  margin: 0; }
+
+.mBody .opencps-form-navigator-container ul li a:hover {
+  background-color: transparent;
+  color: #0090ff; }
+
+/* Content */
+.mBody .opencps-form-navigator-container .form-navigator-content {
+  width: 900px; }
+

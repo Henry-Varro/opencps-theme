@@ -1,0 +1,58 @@
+footer {
+  color: white;
+  position: relative;
+  padding-bottom: 15px;
+  background: #195db2 url("../../../images/schemes/moit/trongdong-footer.png") center top no-repeat;
+  background-size: cover; }
+
+footer span {
+  font-family: 'Roboto-Bold';
+  text-transform: none !important; }
+
+footer .row-fluid:last-child p:not(.title) {
+  margin-bottom: 0; }
+
+footer .footer .row-fluid:first-child {
+  margin-top: 25px; }
+
+footer .row-fluid:first-child div:first-child p {
+  font-size: 12px; }
+
+footer .row-fluid:first-child div:first-child p:first-child {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-family: 'Roboto-Bold';
+  margin-bottom: 20px; }
+
+footer .title {
+  font-size: 16px;
+  font-family: 'Roboto-Bold';
+  text-transform: uppercase; }
+
+footer ul li {
+  padding: 5px 0; }
+
+footer ul li:first-child {
+  padding-top: 0; }
+
+footer ul li:before {
+  content: "\f105";
+  font-family: FontAwesome;
+  margin-right: 5px; }
+
+footer .row-fluid:first-child > div:nth-child(3) {
+  margin-left: 10px;
+  width: 290px; }
+
+.moit-theme footer select {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  max-width: 260px;
+  width: 100%;
+  height: 34px;
+  background: white url(../images/custom/select_arrow_gray.png) right 10px center no-repeat;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  color: #444 !important;
+  padding: 0 10px; }
+

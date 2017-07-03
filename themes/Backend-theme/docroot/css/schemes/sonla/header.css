@@ -1,0 +1,74 @@
+#banner {
+	background: white url("../../../images/schemes/sonla/bg-header.jpg") right 0 no-repeat;
+	padding: 10px 0;
+}
+
+#banner .logo {
+	text-transform: uppercase;
+	font-weight: 700;
+}
+#banner .logo > a {
+	display: block;
+}
+#banner img {
+	margin-right: 15px;
+	float: left;
+}
+#banner .logo .text-logo {
+	margin-top: 10px;
+	color: #021c31;
+	white-space: nowrap;
+}
+#banner .logo span {
+	font-size: 20px;
+	color: #790000;
+	display: block;
+	line-height: 28px;
+}
+
+#banner .sub-info {
+	margin-left: auto;
+}
+#banner .sub-info > a:first-of-type {
+    position: relative;
+    margin-right: 15px;
+    padding-right: 15px;
+    color: #ff7d23;
+}
+#banner .sub-info > a:first-of-type:before {
+    content: "";
+	background-color: #2a2a2a;
+	width: 1px;
+	height: 60%;
+	position: absolute;
+	top: 20%;
+	right: 0;
+}
+#banner .sub-info > a {
+	font-weight: 700;
+}
+#banner .sub-info a:hover {
+	color: #0788ec;
+}
+#banner .sub-info > ul {
+	display: -webkit-box;
+	display: flex;
+}
+#banner .sub-info > ul > div {
+	position: relative;
+	margin: 0 15px;
+}
+#banner .sub-info > ul > div:before {
+	content: "";
+	border: 1px solid #021c31;
+	border-width: 0 1px;
+	width: 100%;
+	height: 50%;
+	position: absolute;
+	top: 25%;
+}
+#banner .sub-info .logout a:before {
+	content: "\f08b";
+	font-family: FontAwesome;
+	margin-right: 5px;
+}

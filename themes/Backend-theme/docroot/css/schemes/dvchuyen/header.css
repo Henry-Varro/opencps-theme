@@ -1,0 +1,113 @@
+.opencps-theme.ux header.opencps-header-wrapper {
+    background: rgba(0, 0, 0, 0) url("../../../images/custom/bg_header.png") no-repeat;
+    background-size: cover;
+}
+
+/*----- Guest -----*/
+.opencps-theme.ux header.guest {
+    height: 123px;
+}
+.opencps-theme.ux header.guest .logo {
+	/* background: rgba(0, 0, 0, 0) url("../images/custom/logo.png") no-repeat scroll left center; */
+    height: 100px;
+    width: 425px;
+    margin-top: 12px;
+    display: inline-block;
+    position: relative;
+}
+.opencps-theme.ux header.guest .right-panel {
+    float: right;
+    margin-top: 36px;
+}
+.opencps-theme.ux header.guest .hotline {
+	background: rgba(0, 0, 0, 0) url("../../../images/custom/icon_hotline.png") no-repeat scroll 0 center;
+    color: white;
+    height: 37px;
+    padding-left: 55px;
+    font-weight: bold;
+    float: left;
+}
+.opencps-theme.ux header.guest .hotline > span {
+	color: #ff9933;
+    font-weight: bold;
+    font-size: 22px;
+}
+.opencps-theme.ux header.guest .signin {
+    background: rgba(0, 0, 0, 0) url("../../../images/custom/icon_signin.png") no-repeat scroll right center;
+    color: #fff;
+    font-weight: bold;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    text-indent: -20px;
+    text-transform: uppercase;
+    width: 150px;
+    margin: 3px 20px 0 65px;
+    display: inline-block;
+}
+.opencps-theme.ux header.guest .register {
+    background: rgba(0, 0, 0, 0) url("../../../images/custom/icon_register.png") no-repeat scroll center center;
+    color: #fff;
+    display: inline-block;
+    font-weight: bold;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    text-indent: -20px;
+    text-transform: uppercase;
+    width: 150px;
+}
+
+/*----- Member -----*/
+/* .opencps-theme.ux header.opencps-header-wrapper.member {
+    height: 70px;
+}
+.opencps-theme.ux header.opencps-header-wrapper.member .logo {
+	background: rgba(0, 0, 0, 0) url("../images/custom/logo.png") no-repeat scroll left center;
+    float: left;
+    height: 46px;
+    width: 184px;
+    margin-top: 12px;
+    background-size: contain;
+}
+.opencps-theme.ux header.opencps-header-wrapper.member .hotline {
+	background: rgba(0, 0, 0, 0) url("../images/custom/icon_hotline.png") no-repeat scroll 0 center/24px 24px;
+    color: #fff;
+    font-family: "Roboto-Medium";
+    font-size: 11px;
+    height: 34px;
+    line-height: 16px;
+    margin-left: 20px;
+    padding-left: 34px;
+}
+.opencps-theme.ux header.opencps-header-wrapper.member .hotline span {
+	font-size: 15px;
+	color: #ff8024;
+}
+.opencps-theme.ux header.opencps-header-wrapper.member .right-panel {
+    float: left;
+    margin-top: 22px;
+} */
+.logo .text-logo {
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    position: absolute;
+    top: 30px;
+    left: 105px;
+}
+.logo .text-logo span {
+    display: block;
+    color: #FFEE00;
+    line-height: 36px;
+}
+
+
+.opencps-theme.ux header.member .right-panel {
+	margin-top: 45px;
+	display: flex;
+    align-items: center;
+    width: 55%;
+    justify-content: space-between;
+}

@@ -1,0 +1,50 @@
+.mBody .lfr-pagination-config {
+	float: right;
+	margin-right: 30px;
+	line-height: 60px;
+}
+.taglib-page-iterator .search-results {
+	line-height: 60px;
+}
+.mBody .lfr-pagination-delta-selector .btn {
+	background: #fff;
+	color: #000;
+    border: 1px solid #e1e1e1;
+    margin-top: -3px;
+}
+.taglib-search-iterator-page-iterator-top > .taglib-page-iterator > .search-results, 
+.taglib-search-iterator-page-iterator-top > .taglib-page-iterator .pager, 
+.taglib-search-iterator-page-iterator-bottom .search-results, 
+.taglib-search-iterator-page-iterator-bottom .lfr-pagination-config {
+	display: none;
+}
+.taglib-search-iterator-page-iterator-top {
+	position: absolute;
+	right: 0;
+	margin-bottom: 0;
+}
+.mBody .pagination {
+    text-align: center;
+    margin: 0;
+}
+.taglib-page-iterator .lfr-pagination-buttons {
+	float: none;
+}
+.mBody .pager li > a, 
+.mBody .pager li > span {
+	border-radius: 0;
+}
+.mBody .pagination ul > li > a:hover, 
+.mBody .pagination ul > li > a:focus, 
+.mBody .pagination ul > .active > a, 
+.mBody .pagination ul > .active > span {
+    background-color: #0090ff;
+    color: white;
+    border-color: #0090ff;
+}
+/* .mBody .pagination ul > li:first-child > a {
+	border-radius: 4px 0 0 4px;
+}
+.mBody .pagination ul > li:last-child > a {
+	border-radius: 0 4px 4px 0;
+} */

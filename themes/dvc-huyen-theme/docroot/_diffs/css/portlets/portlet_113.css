@@ -1,0 +1,57 @@
+/*----- Icon -----*/
+.portlet-boundary_113_WAR_opencpsnotificationportlet_ .dockbar-user-notifications .user-notifications-count {
+    background-color: transparent;
+    margin: 0 15px;
+    line-height: normal;
+    border: 0;
+    padding: 0;
+    color: red;
+    -webkit-text-shadow: -1px -1px 0 #000,
+    			 1px -1px 0 #000,
+    			 -1px 1px 0 #000,
+    			 1px 1px 0 #000;
+    text-shadow: -1px -1px 0 #000,
+    			 1px -1px 0 #000,
+    			 -1px 1px 0 #000,
+    			 1px 1px 0 #000;
+}
+.portlet-boundary_113_WAR_opencpsnotificationportlet_ .user-notifications-count:before {
+	content: "\f086";
+	font-family: FontAwesome;
+	margin-right: 5px;
+	color: white;
+}
+.portlet-boundary_113_WAR_opencpsnotificationportlet_ .dockbar-user-notifications .user-notifications-count:hover:before {
+	color: #0090ff;
+}
+
+/*----- Popup -----*/
+.portlet-boundary_113_WAR_opencpsnotificationportlet_ .user-notifications-list {
+	padding: 0;
+}
+.portlet-boundary_113_WAR_opencpsnotificationportlet_ .user-notification-footer {
+	padding: 0 15px;
+}
+.portlet-boundary_113_WAR_opencpsnotificationportlet_ .user-notification-close {
+	margin-top: 5px;
+	display: inline-block;
+}
+.mBody #banner .portlet-boundary_113_WAR_opencpsnotificationportlet_ a {
+	-webkit-text-shadow: none;
+	text-shadow: none;
+	color: inherit;
+	font-weight: normal;
+}
+.mBody #banner .portlet-boundary_113_WAR_opencpsnotificationportlet_ .user-notification-close:hover {
+	color: #0090ff !important;
+}
+.mBody #banner .portlet-boundary_113_WAR_opencpsnotificationportlet_ a:hover {
+	color: #0090ff;
+}
+.portlet-boundary_113_WAR_opencpsnotificationportlet_ .dockbar-user-notifications .user-notifications-list .left-container {
+	margin-right: 0;
+}
+.portlet-boundary_113_WAR_opencpsnotificationportlet_ .body-container {
+	width: 210px;
+	display: inline-block;
+}

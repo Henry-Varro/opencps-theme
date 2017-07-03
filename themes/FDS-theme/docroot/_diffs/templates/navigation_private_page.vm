@@ -1,0 +1,72 @@
+##set this to the groupID of the menu you wish to copy
+#set ($mainGroupId = $layout.getGroupId())               
+               
+           #if ($page_group.groupId != $mainGroupId) ## The main site's groupId
+                   #set ($layoutService = $serviceLocator.findService('com.liferay.portal.service.LayoutLocalService'))
+                   #set ($mainLayoutPlid = $layoutService.getDefaultPlid($mainGroupId, true)) ##true for private pages and false for public
+                   #set ($mainLayout = $layoutService.getLayout($mainLayoutPlid))
+                   #set ($mainLayouts = $layoutService.getLayouts($mainGroupId, true,0))
+       
+                   ##Need to loop through and only display the the non hidden menu items   
+                   #set($newMainLayouts = [])
+                   #foreach ($newLayout in $mainLayouts)
+                        #if($newLayout.isHidden() == false)
+                            $newMainLayouts.add($newLayout)
+                        #end
+                   #end
+                  
+                   #set ($requestVarsClass = $portal.getClass().forName('com.liferay.portal.theme.RequestVars'))
+                   #set ($requestVarsConstructor = $requestVarsClass.constructors)
+                   #set ($requestVarsConstructor = $requestVarsConstructor.get(0))
+                   #set ($requestVars = $requestVarsConstructor.newInstance($request, $theme_display, $mainLayout.ancestorPlid, $mainLayout.ancestorLayoutId))
+                   #set ($navItemClass = $portal.getClass().forName('com.liferay.portal.theme.NavItem'))
+
+                   ##set ($newNavItems = $navItemClass.fromLayouts($requestVars, $mainLayouts))
+                   #set ($newNavItems = $navItemClass.fromLayouts($requestVars, $newMainLayouts))
+                   #set ($nav_items= $newNavItems)
+          #end
+
+<nav class="navbar navbar-default" data-spy="affix" data-offset-top="15">
+	<div class="container">          
+		<div class="navbar-header">
+            <button type="button" class="navbar-toggle nav-main collapsed navbar-toggle-custom" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="$site_default_url"><img src="$images_folder/logo.png"></a>
+		</div>          
+        <div id="navbar" class="collapse navbar-collapse">
+			<ul class="nav navbar-nav">
+				#foreach ($nav_item in $nav_items)
+					#if ($nav_item.isSelected() && $nav_item.hasChildren())
+					<li class="active dropdown">
+		            #elseif ($nav_item.isSelected())
+		            <li class="active">
+		            #elseif ($nav_item.hasChildren())
+		            <li class="dropdown">
+		            #else
+		            <li>
+		            #end
+		            
+	            	#if ($nav_item.hasChildren())
+  						<a href="$nav_item.getURL()" $nav_item.getTarget()>$nav_item.getName()</a>
+  						<i class="fa fa-angle-down dropdown-toggle" data-toggle="dropdown"></i>
+					#else
+		                <a href="$nav_item.getURL()" $nav_item.getTarget()><span>$nav_item.icon() $nav_item.getName()</span></a>
+		            #end
+		            
+		            #if ($nav_item.hasChildren())
+				      	<ul class="dropdown-menu">
+				      		#foreach ($nav_child in $nav_item.getChildren())
+				        		<li><a href="$nav_child.getURL()" $nav_child.getTarget()>$nav_child.getName()</a></li>
+				      		#end
+				      	</ul>
+				    #end
+				    
+			        </li>              
+		        #end
+            </ul>    
+		</div>
+	</div>
+</nav>

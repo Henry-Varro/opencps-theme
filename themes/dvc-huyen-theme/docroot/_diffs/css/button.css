@@ -1,0 +1,44 @@
+.mBody .btn, .mBody input[type="button"] {
+	color: #2a2a2a;
+	text-shadow: none;
+	font-weight: normal;
+	border: 1px solid #0090ff;
+	background: white none;
+	border-radius: 2px;
+}
+.mBody .btn:hover, .mBody .btn:focus, 
+.mBody input[type="button"]:hover, .mBody input[type="button"]:focus {
+	color: white;
+	background-color: #0090ff;
+}
+
+/*--- Icons Buttons ---*/
+.plus-icon:before {
+	content: "\f067";
+	font-family: FontAwesome;
+}
+.permission-icon:before {
+	content: "\f0e8";
+	font-family: FontAwesome;
+}
+.search-icon:before {
+	content: "\f002";
+	font-family: FontAwesome;
+}
+.save-icon:before {
+	content: "\f0c7";
+	font-family: FontAwesome;
+}
+.cancel-icon:before {
+	content: "\f05e";
+	font-family: FontAwesome;
+	margin-right: 5px;
+}
+.back-icon:before {
+	content: "\f0e2";
+	font-family: FontAwesome;
+}
+.send-icon:before {
+	content: "\f1d8";
+	font-family: FontAwesome;
+}

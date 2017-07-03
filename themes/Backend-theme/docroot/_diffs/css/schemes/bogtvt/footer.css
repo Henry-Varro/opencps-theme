@@ -1,0 +1,30 @@
+.page-theme footer {
+    background: url("../../../images/schemes/bogtvt/footer.jpg") 0 center repeat;
+    padding: 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-size: cover;
+    margin-top: 15px;
+}
+.page-theme footer .footer > div {
+    color: #d1d8dd;
+}
+.page-theme footer p:first-child {
+    font-family: 'Roboto-Medium';
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.page-theme footer .footer div>p {
+    line-height: normal;
+    margin: 9px 0;
+}
+.page-theme footer .footer p:last-child {
+    line-height: 36px;
+    margin-bottom: 0;
+}
+.page-theme footer p span {
+    font-family: 'Roboto-Medium';
+    font-size: 12px;
+    margin-left: 15px;
+}

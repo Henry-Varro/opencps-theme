@@ -1,0 +1,107 @@
+.mBody .opencps-register-wrapper {
+    display: table;
+    margin: 0 auto;
+    width: 790px;
+    border: 1px solid #e1e1e1;
+    border-radius: 2px;
+    background-color: white;
+}
+.mBody .register-content .accountmgt {
+    margin-bottom: 20px;
+    height: 80px !important;
+    border-bottom: 1px solid #e1e1e1;
+}
+.mBody .register-content .accountmgt .title-text label {
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 35px 0 0 35px;
+	font-size: 18px;
+}
+.mBody .register-content .accountmgt .register-options {
+	padding-top: 35px;
+}
+.mBody .register-content .accountmgt .login-redirect a {
+	color: #0090ff;
+	text-align: right;
+	padding: 35px 55px 0 0;
+	display: block;
+}
+.mBody .register-content .fieldset-legend {
+	padding-left: 35px;
+	border: 0;
+	line-height: normal;
+}
+.mBody .register-content .left {
+    padding: 0 10px 0 35px;
+}
+.mBody .register-content .right {
+	padding: 0 35px 0 10px;
+}
+.mBody .register-content .content-part {
+    width: 50%;
+    float: left;
+    margin-bottom: 15px;
+}
+/* .mBody .register-content .content-part label,  */
+.mBody .register-content input[type="file"] {
+    display: none;
+}
+.mBody .register-content .ocps-fake_textarea-bound label, 
+.mBody .register-content .input-checkbox-wrapper label, 
+.mBody .register-content .input-file label {
+	display: block;
+}
+.mBody .register-content .control-group input[type="text"], 
+.mBody .register-content .control-group select {
+	margin-bottom: 5px;
+}
+.mBody .opencps-register-wrapper .register-content > .row-fluid:last-child {
+	clear: both;
+	border-top: 1px solid #e1e1e1;
+}
+.mBody .opencps-register-wrapper .btn {
+    text-transform: uppercase;
+    padding: 10px 40px;
+    margin: 20px auto 30px;
+    width: auto;
+    display: block;
+}
+.mBody .opencps-register-wrapper .btn:before {
+	content: "\f044";
+	font-family: FontAwesome;
+}
+.mBody .opencps-register-wrapper .detail-terms-links {
+	color: #0090ff;
+}
+.mBody .register-content .ocps-fake_textarea-bound .fake_textarea {
+    height: 76px;
+    overflow: auto;
+    border: 1px solid #e1e1e1;
+    border-radius: 4px;
+    padding: 5px 10px;
+}
+.mBody .register-content .ocps-fake_textarea-bound > label {
+	font-weight: 700;
+}
+.mBody .register-content .fake_textarea .control-group:last-child {
+	margin-bottom: 0;
+}
+.mBody .content-part .lfr-input-date .control-group {
+	position: relative;
+}
+.mBody .content-part .lfr-input-date .control-group:before {
+	content:"\f073";
+	position: absolute;
+	font-family: FontAwesome;
+	right: 10px;
+	top:50%;
+	font-size: 16px;
+	color: #4b4b4b;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+	pointer-events: none;
+}
+.mBody .register-content .accountmgt ~ .row-fluid .input-file, 
+.mBody .register-content .accountmgt ~ .row-fluid .term-user {
+	padding-left: 35px;
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+#parse ($init)
+
+<html class="$root_css_class" dir="#language ("lang.dir")" lang="$w3c_language_id">
+
+<head>
+	<title>Cổng thông tin Văn hóa Việt Nam</title>
+
+	<meta content="initial-scale=1.0, width=device-width" name="viewport" />
+
+	$theme.include($top_head_include)
+</head>
+
+<body class="$css_class">
+
+<a href="#main-content" id="skip-to-content">#language ("skip-to-content")</a>
+
+$theme.include($body_top_include)
+
+#if ($is_signed_in)
+	#dockbar()
+#end
+
+<div class="container-fluid" id="wrapper">
+	<header id="banner" role="banner">
+		<div class="banner container" title="" href="">
+			<img src="$images_folder/tittle.png" alt="" class="logo">
+			<div class="pull-right">
+				<img id="logo-2" src="$images_folder/titlle2.png" alt="">
+				<ul>
+					<li><a href="#">Việt Nam</a></li>
+					<li><a href="#">English</a></li>
+				</ul>
+			</div>
+			<div class="login-area">
+				#if (!$is_signed_in)
+					<a href="/web/cong-thong-tin-van-hoa/dang-nhap">Đăng nhập</a>
+					<img id="logo-3" src="$images_folder/khoa.png">
+				#else
+					
+					#set ($myGroup = $theme_display.getScopeGroup())
+					#if($myGroup.hasPublicLayouts())
+					#set ($company_url = "/web"+$myGroup.getFriendlyURL())
+					#set ($sign_out_url = (($theme_display.getURLSignOut())+("?referer=")+$company_url))
+					#end
+					
+					<a href="$sign_out_url">Đăng xuất</a>
+					<i class="fa fa-sign-out pull-right" style="color:white;margin:8px;width:auto;"></i>
+				#end
+			</div>
+		</div>
+	</header>		
+		
+	#if ($has_navigation || $is_signed_in)
+		#parse ("$full_templates_path/navigation.vm")
+	#end
+
+	<div id="content">
+	
+		#if ($selectable)
+			$theme.include($content_include)
+		#else
+			$portletDisplay.recycle()
+
+			$portletDisplay.setTitle($the_title)
+
+			$theme.wrapPortlet("portlet.vm", $content_include)
+		#end
+	</div>
+
+	<footer id="footer" role="contentinfo"> 
+		<div id="space"></div>
+		<div class="footer-left">
+		
+			<p class="white">Bản quyền thuộc về Trung tâm Công nghệ Thông tin - Bộ Văn hóa, Thể thao và Du lịch ©</p>
+			<p class="brown">information Technology Center - Ministry of Culture, Sports and Tourism of Vietnam</p>
+			<p class="white">Người chịu trách nhiệm chính - Mai Linh - Giám đốc</p>
+			<p class="brown">Editor-in-chief: Director Mai Linh</p>
+			<p class="white">Địa chỉ: 55 Tô Hiến Thành, Hai Bà Trưng, Hà Nội; Tel:(84-4)39745845</p>
+		</div>
+	</footer>
+</div>
+
+$theme.include($body_bottom_include)
+
+$theme.include($bottom_include)
+
+</body>
+
+</html>

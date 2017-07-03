@@ -1,0 +1,48 @@
+.mBody footer {
+  background-color: #021c31;
+  color: white;
+  padding: 15px 0;
+  margin-top: 20px; }
+
+footer .center-hoz {
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap; }
+
+footer .site-name {
+  text-transform: uppercase; }
+
+footer .site-name span {
+  display: block;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 26px; }
+
+footer .contact {
+  margin-left: auto; }
+
+footer .contact p {
+  margin-bottom: 0; }
+
+footer .contact p i {
+  width: 14px;
+  margin-right: 5px;
+  text-align: center; }
+
+footer .address {
+  max-width: 300px;
+  display: -webkit-box;
+  display: flex;
+  margin-left: 55px; }
+
+footer .address i {
+  margin: 2px 5px 0 0; }
+
+footer .owner {
+  width: 100%;
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 3px solid #0a3a61; }
+
+footer .owner span {
+  display: block; }
+

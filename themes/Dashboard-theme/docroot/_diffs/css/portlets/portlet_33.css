@@ -1,0 +1,59 @@
+.portlet-boundary_33_WAR_opencpsportlet_ {
+	overflow: hidden;
+}
+.portlet-boundary_33_WAR_opencpsportlet_ .widget-header {
+	display: none;
+}
+.portlet-boundary_33_WAR_opencpsportlet_ .widget-header .key {
+	width: auto;
+    max-width: 65.81197%;
+}
+.portlet-boundary_33_WAR_opencpsportlet_ .widget-content {
+    width: 100%;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.portlet-boundary_33_WAR_opencpsportlet_ .widget-content li {
+    width: 15.833333%;
+    margin: 0 1% 0 0;
+    float: left;
+    background: white;
+	padding: 15px 10px;
+}
+.portlet-boundary_33_WAR_opencpsportlet_ .widget-content li:last-child {
+	margin-right: 0;
+}
+.mBody .portlet-boundary_33_WAR_opencpsportlet_ .widget-content li span {
+	display: -webkit-flex;
+	display: flex;
+    -webkit-align-items: center;
+	align-items: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	width: 100%;
+	padding: 0;
+}
+.mBody .portlet-boundary_33_WAR_opencpsportlet_ .widget-content li .number {
+	font: 34px 'Roboto-Bold';
+	margin: 0;
+}
+.mBody .portlet-boundary_33_WAR_opencpsportlet_ .widget-content li:nth-child(1) .number {
+	color: orange;
+}
+.mBody .portlet-boundary_33_WAR_opencpsportlet_ .widget-content li:nth-child(2) .number {
+	color: #0502FF;
+}
+.mBody .portlet-boundary_33_WAR_opencpsportlet_ .widget-content li:nth-child(3) .number {
+	color: #68BE43;
+}
+.mBody .portlet-boundary_33_WAR_opencpsportlet_ .widget-content li:nth-child(4) .number {
+	color: #F5EE24;
+}
+.mBody .portlet-boundary_33_WAR_opencpsportlet_ .widget-content li:nth-child(5) .number {
+	color: #31b0d5;
+}
+.mBody .portlet-boundary_33_WAR_opencpsportlet_ .widget-content li:nth-child(6) .number {
+	color: red;
+}

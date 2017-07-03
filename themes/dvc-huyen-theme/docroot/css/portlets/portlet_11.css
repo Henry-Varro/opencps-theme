@@ -1,0 +1,140 @@
+/*---------- Display Multi Tabs ----------*/
+
+/*----- Head -----*/
+.mBody .portlet-boundary_11_WAR_opencpsportlet_ .service-menu {
+	background: #fff;
+}
+.mBody .portlet-boundary_11_WAR_opencpsportlet_ .service-menu ul {
+	margin: 0;
+}
+.mBody .portlet-boundary_11_WAR_opencpsportlet_ .service-menu ul li {
+	padding: 0;
+	position: relative;
+}
+.mBody .portlet-boundary_11_WAR_opencpsportlet_ .service-menu .nav-tabs {
+	border-bottom: 5px solid #0090ff;
+	margin: 0;
+	padding: 0;
+}
+.mBody .portlet-boundary_11_WAR_opencpsportlet_ .service-menu .nav-tabs li {
+	padding: 0;
+	margin-bottom: -1px;
+}
+.mBody .portlet-boundary_11_WAR_opencpsportlet_ .service-menu .nav-tabs li a {
+	padding: 10px 11px;
+	margin: 0;
+	border: 0;
+	border-radius: 0;
+	background-color: transparent;
+	color: #000;
+	border-top: 0;
+	font-weight: bold;
+	height: auto;
+	display: block;
+	text-align: center;
+	vertical-align: middle;
+}
+.mBody .portlet-boundary_11_WAR_opencpsportlet_ .service-menu .nav-tabs li:last-child a {
+	padding-right: 12px;
+}
+.mBody .portlet-boundary_11_WAR_opencpsportlet_ .service-menu .nav-tabs li.active a,
+.mBody .portlet-boundary_11_WAR_opencpsportlet_ .service-menu .nav-tabs li.active a:hover {
+	background-color: #0090ff;
+	color: #FFF;
+}
+.mBody .portlet-boundary_11_WAR_opencpsportlet_ .service-menu .nav-tabs li a:hover {
+	color: #0090ff;
+}
+
+/*----- Content -----*/
+.mBody .portlet-boundary_11_WAR_opencpsportlet_ .service-menu .tab-content {
+	padding: 5px 0;
+	border: 1px solid #e1e1e1;
+}
+.mBody .portlet-boundary_11_WAR_opencpsportlet_ .service-menu .tab-content li i {
+	display: none;
+}
+.mBody .portlet-boundary_11_WAR_opencpsportlet_ .service-menu .tab-content li a {
+	padding: 5px 10px 5px 25px;
+	display: block;
+}
+.mBody .portlet-boundary_11_WAR_opencpsportlet_ .service-menu .tab-content li a:before {
+	content: "\f111";
+	font: 10px FontAwesome;
+	top: 10px;
+	position: absolute;
+	left: 10px;
+	color: #0090ff;
+}
+.mBody .portlet-boundary_11_WAR_opencpsportlet_ .service-menu .tab-content li a:hover {
+	color: #0090ff;
+}
+.mBody .portlet-boundary_11_WAR_opencpsportlet_ .service-menu .tab-content li.active a {
+	font-weight: 700;
+	color: #0090ff;
+}
+
+.opencps-theme .portlet-boundary_11_WAR_opencpsportlet_ .portlet-body .service-menu .tab-content ul li ul {
+	padding-left: 15px;
+}
+
+
+
+/*---------- Display One Tab ----------*/
+
+/*----- Head -----*/
+.portlet-boundary_11_WAR_opencpsportlet_ .portlet-title {
+	margin: 0;
+	font-size: 14px;
+    text-transform: uppercase;
+	line-height: normal;
+	border: 1px solid #e1e1e1;
+	padding: 12px 12px 4px;
+	border-radius: 2px 2px 0 0;
+}
+.portlet-boundary_11_WAR_opencpsportlet_ .portlet-title:before {
+    content: "\f19c";
+    display: inline-block;
+    font-family: FontAwesome;
+    margin-right: 5px;
+    font-weight: normal;
+    vertical-align: super;
+}
+
+/*----- Content -----*/
+.portlet-boundary_11_WAR_opencpsportlet_ .portlet-content {
+	padding: 0;
+}
+.portlet-boundary_11_WAR_opencpsportlet_ .govagency-menu {
+	border: 1px solid #e1e1e1;
+	border-radius: 0 0 2px 2px;
+	border-top: 0;
+}
+.portlet-boundary_11_WAR_opencpsportlet_ .govagency-menu i {
+	display: none;
+}
+.portlet-boundary_11_WAR_opencpsportlet_ .govagency-menu ul {
+    padding: 5px 0;
+}
+.portlet-boundary_11_WAR_opencpsportlet_ .govagency-menu li {
+	position: relative;
+}
+.portlet-boundary_11_WAR_opencpsportlet_ .govagency-menu a {
+	display: block;
+	padding: 5px 10px 5px 25px;
+}
+.portlet-boundary_11_WAR_opencpsportlet_ .govagency-menu a:before {
+	content: "\f111";
+    font: 10px FontAwesome;
+    top: 10px;
+    position: absolute;
+    left: 10px;
+    color: #0090ff;
+}
+.portlet-boundary_11_WAR_opencpsportlet_ .govagency-menu a:hover {
+	color: #0090ff;
+}
+.portlet-boundary_11_WAR_opencpsportlet_ .govagency-menu li.active a {
+	font-weight: 700;
+	color: #0090ff;
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<html class="$root_css_class" dir="#language ("lang.dir")" lang="$w3c_language_id">
+
+<head>
+	<title>$the_title - $company_name</title>
+
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	$theme.include($top_head_include)
+</head>
+
+<body class="$css_class mBody home-theme">
+
+<a href="#main-content" id="skip-to-content">#language ("skip-to-content")</a>
+
+$theme.include($body_top_include)
+
+#if ($is_signed_in && $permissionChecker.isOmniadmin())
+	#dockbar()
+#end
+
+<div class="container moit-theme">
+	<header id="banner" role="banner">
+		<div class="header container">
+			<a class="logo" href="$site_default_url" title="#language_format ("go-to-x", [$site_name])">
+				<img src="$images_folder/logo.png">
+			</a>
+			
+			<div class="side-head">
+				<div class="sub-menu">
+					#parse ("$full_templates_path/navigation_public_page.vm")
+				</div>
+			</div>
+		</div>
+		
+		#if ($has_navigation || $is_signed_in)
+			#parse ("$full_templates_path/navigation_private_page.vm")
+		#end
+	</header>
+
+	<div id="content">
+		<div class="container">
+			#if ($selectable)
+				$theme.include($content_include)
+			#else
+				$portletDisplay.recycle()
+	
+				$portletDisplay.setTitle($the_title)
+	
+				$theme.wrapPortlet("portlet.vm", $content_include)
+			#end
+		</div>
+	</div>
+
+	<footer id="footer" role="contentinfo">
+		<div class="footer container">
+			<div class="row-fluid">
+				<div class="span3">
+					<p>Bộ Công thương<br/><span>Cục Quản lý cạnh tranh</span></p>
+					<p style="color: #eaeaea">Cục Quản lý cạnh tranh là cơ quan do Chính phủ thành lập trong hệ thống tổ chức của Bộ Công Thương có tư cách pháp nhân, có con dấu và tài khoản riêng và trụ sở chính đặt tại Thành phố Hà Nội.</p>
+				</div>
+				<div class="span3">
+	                <p class="title">Danh mục</p>
+	                #parse ("$full_templates_path/navigation_footer_public_page.vm")
+	            </div>
+	            <div class="span3">
+	            	<p class="title">Thông tin liên hệ</p>
+	            	<p><span>Cục Quản lý cạnh tranh</span></p>
+	            	<p style="margin-bottom: 5px"><span>Địa chỉ:</span> Số 25, Ngô Quyền, Hoàn Kiếm, Hà Nội</p>
+	            	<p style="margin-bottom: 5px"><span>Điện thoại:</span> 04.22205002</p>
+	            	<p style="margin-bottom: 5px"><span>Fax:</span> 04.22205003</p>
+	            	<p><span>Email:</span> ccid@moit.gov.vn</p>
+	            </div>
+	            <div class="span3">
+	                <p class="title">Liên kiết website</p>
+	                <select>
+	                	<option>Chọn liên kết website</option>
+	                	<option>Bộ Công Thương</option>
+	                	<option>Bảo vệ người tiêu dùng</option>
+	                	<option>Thông tin bán hàng đa cấp</option>
+	                	<option>Hệ thông cảnh báo sớm các vụ kiện bán phá giá</option>
+	                </select>
+	            </div>
+	       	</div>
+	       	<div class="row-fluid">
+	       		<div class="span12">
+	       			<p>Bản quyền © thuộc về Cục Quản lý cạnh tranh</p>
+	       			<p>Phát triển trên OpenCPS bởi Công ty Cổ phần Phát triển nguồn mở và dịch vụ FDS</p>
+	       		</div>
+	       	</div>
+		</div>
+	</footer>
+</div>
+
+$theme.include($body_bottom_include)
+
+$theme.include($bottom_include)
+
+<script src="$javascript_folder/bootstrap.min.js"></script>
+<script src="$javascript_folder/owl.carousel.min.js"></script>
+
+</body>
+
+</html>

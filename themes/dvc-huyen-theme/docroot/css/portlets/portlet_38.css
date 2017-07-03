@@ -1,0 +1,157 @@
+.mBody .lucene-menu-wrapper {
+    border: 1px solid #ccc;
+    /* max-height: 500px;
+    overflow-x: hidden;  */
+}
+.mBody .lucene-menu-wrapper .lucene-menu-header {
+	background-color: #0074cd;
+	margin: 0 -1px 0;
+	padding: 8px 10px;
+	font-weight: 700;
+	display: block;
+	color: white;
+	border-top: 1px solid #e5e5e5;
+}
+.mBody .lucene-menu-wrapper .lucene-menu-heade-wrapper {
+	position: relative;
+}
+.mBody .lucene-menu-wrapper .lucene-menu-heade-wrapper i {
+	color: white;
+	left: auto;
+	right: 10px;
+	top: 9px;
+}
+.lucene-menu-wrapper .lucene-menu-heade-wrapper:first-of-type {
+    margin-top: -1px;
+}
+.mBody .lucene-menu-wrapper .expanded + .lucene-menu-heade-wrapper {
+	margin-bottom: -1px;
+}
+.lucene-menu-wrapper .lucene-menu-heade-wrapper + .lucene-menu-heade-wrapper {
+	border-top: 1px solid #ccc;
+}
+.lucene-menu-wrapper .lucene-menu-heade-wrapper:hover {
+	cursor: default;
+}
+.mBody .lucene-menu-wrapper i {
+	position: absolute;
+	top: 5px;
+    left: 5px;
+    z-index: 5;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.mBody .lucene-menu-wrapper .level-2 > i {
+	left: 25px;
+}
+.mBody .lucene-menu-wrapper .level-3 > i {
+	left: 45px;
+}
+.mBody .lucene-menu-wrapper .menu-item {
+	border-bottom: 1px solid #ccc;
+	position: relative;
+}
+.mBody .lucene-menu-wrapper .menu-item a {
+    display: block;
+    position: relative;
+	padding: 5px 40px 5px 10px;
+}
+.mBody .lucene-menu-wrapper .menu-item i + a {
+	padding-left: 20px;
+}
+.mBody .lucene-menu-wrapper .group-level-2 .level-2 > a {
+	padding-left: 40px;
+}
+.mBody .lucene-menu-wrapper .group-level-3 .level-3 > a {
+    padding-left: 60px;
+}
+.mBody .lucene-menu-wrapper .group-level-4 .level-4 > a {
+    padding-left: 80px;
+}
+.mBody .lucene-menu-wrapper .menu-item .expanded {
+	border-top: 1px solid #ccc;
+}
+.mBody .lucene-menu-wrapper .menu-item .menu-item:last-child {
+	border-bottom: 0;
+}
+.mBody .lucene-menu-wrapper .menu-item .item-value {
+    display: inline-block;
+    padding: 2px 9px;
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 14px;
+    color: #fff;
+    vertical-align: baseline;
+    white-space: nowrap;
+    background-color: #999;
+    border-radius: 9px;
+    position: absolute;
+    top: 5px;
+    right: 8px;
+}
+.mBody .lucene-menu-wrapper ul {
+	overflow: hidden;
+	-webkit-transition: all 0.5s linear;
+	transition: all 0.5s linear;
+}
+.mBody .lucene-menu-wrapper ul.closed {
+	max-height: 0;
+}
+.mBody .lucene-menu-wrapper ul.expanded {
+	max-height: 1000px;
+}
+.mBody .lucene-menu-wrapper .selected a {
+	font-weight: 700;
+	background-color: #e9e9e9;
+}
+
+.portlet-boundary_13_WAR_opencpsportlet_ .opencps-toptabs {
+	display: none;
+}
+
+/*----- Search Area -----*/
+div[class$="dklr_v10"] .header-name-2 {
+	font-weight: 700;
+    margin: 0 0 10px;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+div[class$="dklr_v10"] .input-text-wrapper label {
+	width: 110px;
+	float: left;
+	line-height: 28px;
+}
+div[class$="dklr_v10"] .input-text-wrapper label + input {
+    width: -webkit-calc(100% - 110px);
+    width: calc(100% - 110px);
+}
+div[class$="dklr_v10"] .dossier-status-label,
+div[class$="dklr_v10"] .dossier-status {
+	line-height: 28px;
+	margin-bottom: 0;
+	float: left;
+	margin-right: 15px;
+}
+div[class$="dklr_v10"] .dossier-status {
+	font-weight: 700;
+}
+div[class$="dklr_v10"] .button-holder {
+	margin: 5px 0 10px;
+}
+div[class$="dklr_v10"] .button-holder button {
+	padding: 3px 12px;
+}
+div[class$="dklr_v10"] .control-group {
+	margin-bottom: 0;
+}
+
+#dossierInfoPanelContent .accordion-inner > div:first-child .span8 {
+	font-weight: 700;
+}
